@@ -1,0 +1,5740 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Brasileirão Stats</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+:root {
+    --bg: #081018;
+    --bg-secondary: #0d1722;
+    --card: #14202c;
+    --card-hover: #182735;
+
+    --border: #26394b;
+
+    --text: #d8dee6;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+
+    --green: #35c77a;
+    --green-dark: #1f8f58;
+
+    --blue: #48a9e6;
+    --red: #ef6461;
+    --orange: #f0a54a;
+    --purple: #9b7ede;
+
+    --radius: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background:
+        linear-gradient(
+            180deg,
+            #0b131d 0%,
+            #081018 100%
+        );
+
+    color: var(--text);
+}
+
+button,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+    max-width: 1600px;
+    margin: auto;
+    padding: 28px;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 28px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.brand-icon {
+    width: 56px;
+    height: 56px;
+
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 28px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #2bbf70,
+            #137a46
+        );
+
+    box-shadow:
+        0 8px 30px rgba(35, 180, 103, .25);
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.brand p {
+    margin: 3px 0 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.header-info {
+    text-align: right;
+}
+
+.header-info strong {
+    display: block;
+    font-size: 14px;
+}
+
+.header-info span {
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 26px;
+
+    border-radius: var(--radius);
+
+    background:
+        linear-gradient(
+            110deg,
+            rgba(27, 77, 64, .75),
+            rgba(14, 30, 37, .95)
+        );
+
+    border: 1px solid rgba(43, 150, 104, .35);
+
+    margin-bottom: 24px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero p {
+    margin: 8px 0 0;
+    color: var(--text-secondary);
+}
+
+.hero-stats {
+    display: flex;
+    gap: 34px;
+}
+
+.hero-stat {
+    text-align: center;
+}
+
+.hero-stat-value {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.hero-stat-label {
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   CONTROLES
+========================================================= */
+
+.controls-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+.context-tabs,
+.nav-tabs {
+    display: flex;
+    gap: 8px;
+}
+
+.context-tabs button,
+.nav-tabs button {
+    border: 1px solid var(--border);
+    background: #101a25;
+    color: var(--text-secondary);
+
+    padding: 11px 20px;
+
+    border-radius: 10px;
+
+    transition: .2s;
+}
+
+.context-tabs button:hover,
+.nav-tabs button:hover {
+    background: #172432;
+}
+
+.context-tabs button.active,
+.nav-tabs button.active {
+    color: #062514;
+    background: var(--green);
+    border-color: var(--green);
+    font-weight: 700;
+}
+
+.nav-tabs {
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.nav-tabs button {
+    padding: 12px 20px;
+}
+
+.sort-select {
+    background: #101a25;
+    color: var(--text);
+
+    border: 1px solid var(--border);
+
+    padding: 12px 16px;
+
+    border-radius: 12px;
+}
+
+
+/* =========================================================
+   TABS
+========================================================= */
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+
+/* =========================================================
+   KPI CARDS
+========================================================= */
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(6, minmax(0, 1fr));
+
+    gap: 14px;
+
+    margin-bottom: 26px;
+}
+
+.kpi-card {
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 18px;
+}
+
+.kpi-label {
+    color: var(--text-secondary);
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .8px;
+}
+
+.kpi-value {
+    margin-top: 10px;
+
+    font-size: 26px;
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   SECTION
+========================================================= */
+
+.section-title {
+    margin: 26px 0 4px;
+
+    font-size: 22px;
+}
+
+.section-subtitle {
+    margin: 0 0 16px;
+    color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   RANKING GRID
+========================================================= */
+
+.ranking-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 18px;
+}
+
+.ranking-card {
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    overflow: hidden;
+}
+
+.ranking-header {
+    padding: 18px 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.ranking-header h3 {
+    margin: 0;
+}
+
+.ranking-context {
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+
+.ranking-list {
+    padding: 10px 18px 16px;
+}
+
+.ranking-item {
+    display: grid;
+
+    grid-template-columns:
+        32px 34px 1fr 60px;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 10px 0;
+}
+
+.rank-number {
+    color: var(--text-secondary);
+    font-size: 13px;
+    text-align: center;
+}
+
+.team-logo-small {
+    width: 30px;
+    height: 30px;
+
+    object-fit: contain;
+}
+
+.team-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ranking-value {
+    text-align: right;
+    font-weight: 700;
+}
+
+.progress-wrap {
+    margin-top: 6px;
+}
+
+.progress {
+    height: 5px;
+
+    background: #081018;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+}
+
+.progress > div {
+    height: 100%;
+    border-radius: 8px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #2ebd72,
+            #4ad58d
+        );
+}
+
+
+/* =========================================================
+   TABLES
+========================================================= */
+
+.table-card {
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #111c27;
+}
+
+th {
+    padding: 14px 16px;
+
+    text-align: left;
+
+    color: var(--text-secondary);
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .7px;
+}
+
+td {
+    padding: 14px 16px;
+
+    border-top: 1px solid var(--border);
+
+    font-size: 14px;
+}
+
+tr.team-row {
+    cursor: pointer;
+}
+
+tr.team-row:hover {
+    background: rgba(255,255,255,.025);
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.metric-positive {
+    color: var(--green);
+}
+
+.metric-negative {
+    color: var(--red);
+}
+
+.metric-blue {
+    color: var(--blue);
+}
+
+
+/* =========================================================
+   CHARTS
+========================================================= */
+
+.chart-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+.chart-card {
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    min-height: 380px;
+}
+
+.chart-card h3 {
+    margin: 0;
+}
+
+.chart-card p {
+    margin-top: 5px;
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.chart-container {
+    position: relative;
+    height: 290px;
+}
+
+
+/* =========================================================
+   EQUIPES
+========================================================= */
+
+.teams-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fill, minmax(220px, 1fr));
+
+    gap: 14px;
+}
+
+.team-card {
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 18px;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.team-card:hover {
+    transform: translateY(-2px);
+
+    background: var(--card-hover);
+
+    border-color: #3a566c;
+}
+
+.team-card-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.team-logo {
+    width: 44px;
+    height: 44px;
+
+    object-fit: contain;
+}
+
+.team-card h3 {
+    margin: 0;
+}
+
+.team-card small {
+    color: var(--text-secondary);
+}
+
+.team-card-stats {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 8px;
+
+    margin-top: 18px;
+}
+
+.team-mini-stat {
+    text-align: center;
+}
+
+.team-mini-stat strong {
+    display: block;
+    font-size: 16px;
+}
+
+.team-mini-stat span {
+    font-size: 10px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   COMPARAR PARTIDA
+========================================================= */
+
+.compare-selectors {
+    display: grid;
+
+    grid-template-columns:
+        1fr auto 1fr;
+
+    align-items: end;
+
+    gap: 18px;
+
+    margin-bottom: 24px;
+}
+
+.compare-select-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--text-secondary);
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+}
+
+.compare-select-group select {
+    width: 100%;
+
+    background: var(--card);
+
+    color: var(--text);
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    padding: 14px;
+}
+
+.vs {
+    font-size: 22px;
+    font-weight: 800;
+
+    color: var(--text-secondary);
+
+    padding-bottom: 10px;
+}
+
+.match-prediction {
+    background:
+        linear-gradient(
+            110deg,
+            rgba(22, 47, 59, .95),
+            rgba(13, 35, 31, .95)
+        );
+
+    border: 1px solid #234b50;
+
+    border-radius: 22px;
+
+    padding: 28px;
+
+    margin-bottom: 28px;
+}
+
+.prediction-teams {
+    display: grid;
+
+    grid-template-columns:
+        1fr 200px 1fr;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+.prediction-team-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.prediction-xg {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 8px 0;
+}
+
+.prediction-label {
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+.prediction-center {
+    text-align: center;
+}
+
+.prediction-center strong {
+    font-size: 24px;
+}
+
+.prediction-center span {
+    display: block;
+    color: var(--text-secondary);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.prediction-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 14px;
+
+    margin-top: 24px;
+}
+
+.prediction-card {
+    background: rgba(5, 14, 21, .6);
+
+    border: 1px solid #223746;
+
+    border-radius: 14px;
+
+    padding: 18px;
+
+    text-align: center;
+}
+
+.prediction-card-label {
+    color: var(--text-secondary);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.prediction-card-value {
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+.market-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 14px;
+}
+
+.market-card {
+    background:
+        linear-gradient(
+            145deg,
+            #102722,
+            #101b26
+        );
+
+    border: 1px solid #194b3b;
+
+    border-radius: 16px;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+.market-card strong {
+    display: block;
+    margin-top: 10px;
+
+    font-size: 28px;
+}
+
+.market-card span {
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   HISTÓRICO
+========================================================= */
+
+.history-trend-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 16px;
+
+    margin-bottom: 28px;
+}
+
+.trend-card {
+    background: var(--card);
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    padding: 20px;
+}
+
+.trend-label {
+    color: var(--text-secondary);
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+}
+
+.trend-status {
+    margin-top: 10px;
+
+    font-size: 24px;
+
+    font-weight: 800;
+}
+
+.trend-status.good {
+    color: var(--green);
+}
+
+.trend-status.bad {
+    color: var(--red);
+}
+
+.trend-status.neutral {
+    color: var(--orange);
+}
+
+.trend-description {
+    margin-top: 6px;
+    color: var(--text-secondary);
+}
+
+
+/* =========================================================
+   TEAM DETAIL MODAL
+========================================================= */
+
+.modal {
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0,0,0,.72);
+
+    z-index: 999;
+
+    padding: 30px;
+
+    overflow-y: auto;
+}
+
+.modal.open {
+    display: block;
+}
+
+.modal-content {
+    max-width: 1250px;
+
+    margin: 30px auto;
+
+    background: #0d1722;
+
+    border: 1px solid var(--border);
+
+    border-radius: 22px;
+
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 24px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.modal-team {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+.modal-team img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.modal-team h2 {
+    margin: 0;
+}
+
+.close-modal {
+    background: transparent;
+
+    color: var(--text-secondary);
+
+    border: none;
+
+    font-size: 28px;
+}
+
+.modal-body {
+    padding: 24px;
+}
+
+
+/* =========================================================
+   LOADING
+========================================================= */
+
+.loading {
+    padding: 100px 20px;
+    text-align: center;
+
+    color: var(--text-secondary);
+}
+
+.error {
+    margin: 40px auto;
+    max-width: 700px;
+
+    padding: 25px;
+
+    border-radius: 16px;
+
+    background: rgba(239,100,97,.1);
+
+    border: 1px solid rgba(239,100,97,.35);
+
+    color: #ffaaa7;
+}
+
+
+/* =========================================================
+   RESPONSIVO
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .kpi-grid {
+        grid-template-columns:
+            repeat(3, 1fr);
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ranking-grid,
+    .chart-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .market-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    .app {
+        padding: 16px;
+    }
+
+    .header {
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .header-info {
+        display: none;
+    }
+
+    .hero-stats {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .hero-stat-value {
+        font-size: 21px;
+    }
+
+    .controls-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .context-tabs {
+        width: 100%;
+    }
+
+    .context-tabs button {
+        flex: 1;
+    }
+
+    .kpi-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .prediction-teams {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .prediction-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .compare-selectors {
+        grid-template-columns: 1fr;
+    }
+
+    .vs {
+        text-align: center;
+        padding: 0;
+    }
+
+    .history-trend-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .market-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .modal {
+        padding: 10px;
+    }
+
+}
+
+/* Raio-X Técnico & H2H */
+.adv-pills {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+}
+
+.adv-pill {
+    padding: 10px 20px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.adv-pill:hover {
+    border-color: var(--green);
+    color: #fff;
+}
+
+.adv-pill.active {
+    background: var(--green);
+    color: #0b1118;
+    border-color: var(--green);
+}
+
+.th-sortable {
+    cursor: pointer;
+    user-select: none;
+    transition: color .2s ease;
+}
+
+.th-sortable:hover {
+    color: var(--green);
+}
+
+.compare-h2h-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.compare-h2h-item {
+    background: #0f1822;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+}
+
+.compare-h2h-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.compare-h2h-values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.compare-h2h-bar {
+    display: flex;
+    height: 6px;
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 10px;
+    background: rgba(255,255,255,0.06);
+}
+
+.compare-h2h-bar-home {
+    background: var(--green);
+    transition: width .3s ease;
+}
+
+.compare-h2h-bar-away {
+    background: var(--blue);
+    transition: width .3s ease;
+}
+
+
+.header-selectors {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-selectors .sort-select {
+    min-width: 130px;
+}
+
+@media (max-width: 700px) {
+    .header-selectors {
+        justify-content: flex-start;
+    }
+    .header-selectors .sort-select {
+        flex: 1;
+        min-width: 0;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                ⚽
+            </div>
+
+            <div>
+                <h1>Football Stats</h1>
+
+                <p>
+                    Gols, mercados e Expected Goals
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="header-info">
+
+            <strong id="leagueTitle">
+                Campeonato Brasileiro Série A 2026
+            </strong>
+
+            <span id="updatedAt">
+                Carregando dados...
+            </span>
+
+            <div class="header-selectors">
+                <select id="leagueSelector" class="sort-select" onchange="changeLeague(this.value)"></select>
+                <select id="seasonSelector" class="sort-select" onchange="changeSeason(this.value)"></select>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- APP -->
+
+    <main id="app">
+
+        <div class="loading">
+            Carregando estatísticas...
+        </div>
+
+    </main>
+
+</div>
+
+
+<!-- MODAL -->
+
+<div id="teamModal" class="modal">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <div id="modalTeamHeader"></div>
+
+            <button
+                class="close-modal"
+                onclick="closeTeamModal()"
+            >
+                ×
+            </button>
+
+        </div>
+
+        <div
+            id="modalTeamBody"
+            class="modal-body"
+        ></div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+/* ============================================================
+   CONFIGURAÇÃO
+============================================================ */
+
+const LEAGUES = {
+    alemanha: { name: "Alemanha", leagueId: 54, defaultSeason: "2026/27" },
+    alemanha2: { name: "Alemanha 2", leagueId: 146, defaultSeason: "2026/27" },
+    espanha: { name: "Espanha", leagueId: 87, defaultSeason: "2026/27" },
+    espanha2: { name: "Espanha 2", leagueId: 140, defaultSeason: "2026/27" },
+    franca: { name: "França", leagueId: 53, defaultSeason: "2026/27" },
+    franca2: { name: "França 2", leagueId: 110, defaultSeason: "2026/27" },
+    italia: { name: "Itália", leagueId: 55, defaultSeason: "2026/27" },
+    italia2: { name: "Itália 2", leagueId: 86, defaultSeason: "2026/27" },
+    inglaterra: { name: "Inglaterra", leagueId: 47, defaultSeason: "2026/27" },
+    inglaterra2: { name: "Inglaterra 2", leagueId: 48, defaultSeason: "2026/27" },
+    belgica: { name: "Bélgica", leagueId: 40, defaultSeason: "2026/27" },
+    holanda: { name: "Holanda", leagueId: 57, defaultSeason: "2026/27" },
+    portugal: { name: "Portugal", leagueId: 61, defaultSeason: "2026/27" },
+    turquia: { name: "Turquia", leagueId: 71, defaultSeason: "2026/27" },
+    grecia: { name: "Grécia", leagueId: 135, defaultSeason: "2026/27" },
+    escocia: { name: "Escócia", leagueId: 64, defaultSeason: "2026/27" },
+    dinamarca: { name: "Dinamarca", leagueId: 46, defaultSeason: "2026" },
+    noruega: { name: "Noruega", leagueId: 59, defaultSeason: "2026" },
+    suica: { name: "Suíça", leagueId: 69, defaultSeason: "2026/27" },
+    suecia: { name: "Suécia", leagueId: 67, defaultSeason: "2026" },
+    brasil: { name: "Campeonato Brasileiro Série A", leagueId: 268, defaultSeason: "2026" },
+    australia: { name: "Austrália", leagueId: 113, defaultSeason: "2026" }
+};
+
+const STORAGE_LEAGUE = "fotmob_stats_league";
+const STORAGE_SEASON = "fotmob_stats_season";
+
+let CURRENT_LEAGUE = localStorage.getItem(STORAGE_LEAGUE) || "brasil";
+if (!LEAGUES[CURRENT_LEAGUE]) CURRENT_LEAGUE = "brasil";
+let CURRENT_SEASON = localStorage.getItem(STORAGE_SEASON) || LEAGUES[CURRENT_LEAGUE].defaultSeason;
+
+let APP_DATA = null;
+let HISTORY_DATA = null;
+let APP_MANIFEST = null;
+
+let CURRENT_CONTEXT = "geral";
+
+let charts = {};
+
+
+/* ============================================================
+   LOGOS DOS TIMES
+
+   IDs conhecidos do FotMob quando disponíveis.
+   Caso algum não carregue, o sistema utiliza fallback.
+============================================================ */
+
+const TEAM_IDS = {
+    "Fluminense": 9863,
+    "Grêmio": 9769,
+    "Gremio": 9769,
+    "Botafogo": 8517,
+    "Botafogo RJ": 8517,
+    "Cruzeiro": 9781,
+    "São Paulo": 10277,
+    "Sao Paulo": 10277,
+    "Flamengo": 9770,
+    "Corinthians": 9808,
+    "Bahia": 7877,
+    "Mirassol": 163782,
+    "Vasco da Gama": 10276,
+    "Vasco": 10276,
+    "Atlético-MG": 10272,
+    "Atletico-MG": 10272,
+    "Atlético Mineiro": 10272,
+    "Palmeiras": 10283,
+    "Internacional": 8702,
+    "Athletico Paranaense": 10273,
+    "Athletico-PR": 10273,
+    "Coritiba": 9767,
+    "RB Bragantino": 109705,
+    "Red Bull Bragantino": 109705,
+    "Bragantino": 109705,
+    "Vitória": 7733,
+    "Vitoria": 7733,
+    "Remo": 1626,
+    "Chapecoense": 197693,
+    "Santos": 8514,
+    "Santos FC": 8514
+};
+
+
+function getNormalizedTeamId(team) {
+    if (!team) return null;
+
+    let name = team;
+    if (typeof team === "object") {
+        if (team.id) return team.id;
+        if (team.team_id) return team.team_id;
+        if (team.team?.id) return team.team.id;
+        name = team.team || team.name || "";
+    }
+
+    const clean = String(name).trim();
+    const norm = clean.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+    // Primeiro tenta o próprio objeto da liga atual.
+    for (const item of Object.values(APP_DATA?.teams || {})) {
+        const itemName = item?.team || item?.name || "";
+        const itemNorm = String(itemName).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        if (itemNorm === norm) {
+            if (item?.id) return item.id;
+            if (item?.team_id) return item.team_id;
+            if (item?.fotmob_id) return item.fotmob_id;
+        }
+    }
+
+    if (TEAM_IDS[clean]) return TEAM_IDS[clean];
+
+    for (const [key, id] of Object.entries(TEAM_IDS)) {
+        if (key.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() === norm) {
+            return id;
+        }
+    }
+    return null;
+}
+
+
+/* ============================================================
+   HELPERS
+============================================================ */
+
+function number(value, fallback = 0) {
+
+    const n = Number(value);
+
+    return Number.isFinite(n)
+        ? n
+        : fallback;
+}
+
+
+function formatNumber(value, decimals = 1) {
+
+    return number(value)
+        .toLocaleString(
+            "pt-BR",
+            {
+                minimumFractionDigits: decimals,
+                maximumFractionDigits: decimals
+            }
+        );
+}
+
+
+function formatPercent(value) {
+
+    return `${formatNumber(value, 1)}%`;
+}
+
+
+function getTeamLogo(team) {
+
+    const id = getNormalizedTeamId(team);
+    const label = (typeof team === "string" ? team : team?.team || "").substring(0, 2).toUpperCase() || "⚽";
+
+    if (id) {
+        return `
+            <img
+                src="https://images.fotmob.com/image_resources/logo/teamlogo/${id}.png"
+                class="team-logo-small"
+                alt="${team}"
+                loading="lazy"
+                onerror="this.style.display='none'"
+            >
+        `;
+    }
+
+    return `
+        <div
+            class="team-logo-small"
+            style="
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                background:#203040;
+                border-radius:50%;
+                font-size:10px;
+                font-weight:700;
+            "
+        >
+            ${label}
+        </div>
+    `;
+}
+
+
+function getTeamLogoLarge(team) {
+
+    const id = getNormalizedTeamId(team);
+    const label = (typeof team === "string" ? team : team?.team || "").substring(0, 2).toUpperCase() || "⚽";
+
+    if (id) {
+        return `
+            <img
+                src="https://images.fotmob.com/image_resources/logo/teamlogo/${id}.png"
+                class="team-logo"
+                alt="${team}"
+                loading="lazy"
+                onerror="this.style.display='none'"
+            >
+        `;
+    }
+
+    return `
+        <div
+            class="team-logo"
+            style="
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                background:#203040;
+                border-radius:50%;
+                font-size:18px;
+                font-weight:700;
+            "
+        >
+            ${label}
+        </div>
+    `;
+}
+
+
+function destroyChart(name) {
+
+    if (charts[name]) {
+
+        charts[name].destroy();
+
+        charts[name] = null;
+    }
+}
+
+
+function getContextLabel() {
+
+    const labels = {
+
+        geral: "Geral",
+
+        mandante: "Mandante",
+
+        visitante: "Visitante"
+    };
+
+    return labels[CURRENT_CONTEXT];
+}
+
+
+function getTeamsArray() {
+
+    return Object.values(
+        APP_DATA.teams || {}
+    );
+}
+
+
+function getTeam(name) {
+
+    return APP_DATA.teams?.[name] || null;
+}
+
+
+function getStats(team) {
+
+    return team?.[CURRENT_CONTEXT]
+        || team?.geral
+        || {};
+}
+
+
+/* ============================================================
+   INIT / CARREGAMENTO DINÂMICO
+============================================================ */
+
+function seasonToFilePart(season) {
+    return String(season || "temporada")
+        .trim()
+        .replace(/[\\/:*?"<>|]+/g, "-")
+        .replace(/\s+/g, "_")
+        .replace(/[^a-zA-Z0-9._-]/g, "");
+}
+
+function getDataUrls() {
+    const seasonPart = seasonToFilePart(CURRENT_SEASON);
+    return {
+        stats: `./data/app/${CURRENT_LEAGUE}_stats_${seasonPart}.json`,
+        history: `./data/app/${CURRENT_LEAGUE}_historico_${seasonPart}.json`
+    };
+}
+
+async function loadManifest() {
+    const response = await fetch(`./data/app/manifest.json?t=${Date.now()}`, { cache: "no-store" });
+
+    if (!response.ok) {
+        throw new Error("Não foi possível carregar data/app/manifest.json");
+    }
+
+    APP_MANIFEST = await response.json();
+
+    const manifestLeagues = APP_MANIFEST?.leagues || {};
+
+    // O manifesto passa a ser a fonte oficial de ligas/temporadas disponíveis.
+    for (const [slug, item] of Object.entries(manifestLeagues)) {
+        if (!LEAGUES[slug]) {
+            LEAGUES[slug] = {
+                name: item.name || slug,
+                leagueId: item.league_id,
+                defaultSeason: item.season || ""
+            };
+        } else if (item.season) {
+            LEAGUES[slug].defaultSeason = String(item.season);
+        }
+    }
+
+    const available = Object.keys(manifestLeagues);
+    if (available.length && !available.includes(CURRENT_LEAGUE)) {
+        CURRENT_LEAGUE = available.includes("brasil") ? "brasil" : available[0];
+    }
+
+    if (LEAGUES[CURRENT_LEAGUE]?.defaultSeason) {
+        CURRENT_SEASON = LEAGUES[CURRENT_LEAGUE].defaultSeason;
+    }
+
+    localStorage.setItem(STORAGE_LEAGUE, CURRENT_LEAGUE);
+    localStorage.setItem(STORAGE_SEASON, CURRENT_SEASON);
+}
+
+function getManifestEntry() {
+    return APP_MANIFEST?.leagues?.[CURRENT_LEAGUE] || null;
+}
+
+function populateSelectors() {
+    const leagueSelector = document.getElementById("leagueSelector");
+    const seasonSelector = document.getElementById("seasonSelector");
+    if (!leagueSelector || !seasonSelector) return;
+
+    const manifestLeagues = APP_MANIFEST?.leagues || {};
+    const entries = Object.entries(manifestLeagues).filter(([, item]) => item?.status === "ok" && item?.stats_file);
+
+    const source = entries.length
+        ? entries
+        : Object.entries(LEAGUES);
+
+    leagueSelector.innerHTML = source
+        .map(([slug, cfg]) => `<option value="${slug}">${cfg.name}</option>`)
+        .join("");
+
+    if ([...leagueSelector.options].some(o => o.value === CURRENT_LEAGUE)) {
+        leagueSelector.value = CURRENT_LEAGUE;
+    }
+
+    const entry = getManifestEntry();
+    const season = entry?.season || LEAGUES[CURRENT_LEAGUE]?.defaultSeason || CURRENT_SEASON;
+    CURRENT_SEASON = String(season);
+
+    seasonSelector.innerHTML = `<option value="${CURRENT_SEASON}">${CURRENT_SEASON}</option>`;
+    seasonSelector.value = CURRENT_SEASON;
+}
+
+async function loadLeagueData() {
+    const entry = getManifestEntry();
+    if (!entry?.stats_file) {
+        throw new Error(`Não há dados publicados para a liga "${CURRENT_LEAGUE}".`);
+    }
+
+    HISTORY_DATA = null;
+
+    const statsUrl = `./data/app/${entry.stats_file}`;
+    const historyUrl = entry.history_file ? `./data/app/${entry.history_file}` : null;
+
+    const [statsResponse, historyResponse] = await Promise.all([
+        fetch(`${statsUrl}?t=${Date.now()}`, { cache: "no-store" }),
+        historyUrl
+            ? fetch(`${historyUrl}?t=${Date.now()}`, { cache: "no-store" }).catch(() => null)
+            : Promise.resolve(null)
+    ]);
+
+    if (!statsResponse.ok) {
+        throw new Error(`Não foi possível carregar ${statsUrl}`);
+    }
+
+    APP_DATA = await statsResponse.json();
+
+    if (historyResponse?.ok) {
+        HISTORY_DATA = await historyResponse.json();
+    }
+
+    if (APP_DATA?.season !== undefined && APP_DATA?.season !== null) {
+        CURRENT_SEASON = String(APP_DATA.season);
+        localStorage.setItem(STORAGE_SEASON, CURRENT_SEASON);
+    }
+}
+
+async function init() {
+    try {
+        document.getElementById("app").innerHTML = `<div class="loading">Carregando catálogo de ligas...</div>`;
+        await loadManifest();
+        populateSelectors();
+        await loadLeagueData();
+        populateSelectors();
+        updateHeader();
+        renderApp();
+    } catch (error) {
+        console.error(error);
+        document.getElementById("app").innerHTML = `
+            <div class="error">
+                <h2>Não foi possível carregar os dados</h2>
+                <p>${error.message}</p>
+                <p>Verifique se o GitHub Actions já executou a atualização diária e se data/app/manifest.json está publicado.</p>
+            </div>`;
+    }
+}
+
+async function changeLeague(slug) {
+    if (!LEAGUES[slug]) return;
+    CURRENT_LEAGUE = slug;
+    CURRENT_SEASON = APP_MANIFEST?.leagues?.[slug]?.season || LEAGUES[slug].defaultSeason;
+    localStorage.setItem(STORAGE_LEAGUE, CURRENT_LEAGUE);
+    localStorage.setItem(STORAGE_SEASON, CURRENT_SEASON);
+    CURRENT_CONTEXT = "geral";
+    destroyAllCharts();
+    document.getElementById("app").innerHTML = `<div class="loading">Carregando ${LEAGUES[slug].name}...</div>`;
+    try {
+        await loadLeagueData();
+        populateSelectors();
+        updateHeader();
+        renderApp();
+    } catch (error) {
+        console.error(error);
+        document.getElementById("app").innerHTML = `<div class="error"><h2>Dados não encontrados</h2><p>${error.message}</p></div>`;
+    }
+}
+
+async function changeSeason(season) {
+    // O catálogo diário publica a temporada atualmente disponível no manifesto.
+    CURRENT_SEASON = season;
+    localStorage.setItem(STORAGE_SEASON, CURRENT_SEASON);
+    destroyAllCharts();
+    document.getElementById("app").innerHTML = `<div class="loading">Carregando ${LEAGUES[CURRENT_LEAGUE].name} ${season}...</div>`;
+    try {
+        await loadLeagueData();
+        populateSelectors();
+        updateHeader();
+        renderApp();
+    } catch (error) {
+        console.error(error);
+        document.getElementById("app").innerHTML = `<div class="error"><h2>Temporada não encontrada</h2><p>${error.message}</p></div>`;
+    }
+}
+
+function destroyAllCharts() {
+    Object.keys(charts).forEach(destroyChart);
+}
+
+
+/* ============================================================
+   HEADER
+============================================================ */
+
+function updateHeader() {
+
+    const league =
+        APP_DATA.league || {};
+
+    document
+        .getElementById("leagueTitle")
+        .textContent =
+            `${league.name || "Campeonato Brasileiro Série A"} ${APP_DATA.season || ""}`;
+
+
+    if (APP_DATA.updated_at) {
+
+        const date =
+            new Date(APP_DATA.updated_at);
+
+        document
+            .getElementById("updatedAt")
+            .textContent =
+                `Atualizado: ${date.toLocaleString("pt-BR")}`;
+    }
+}
+
+
+/* ============================================================
+   APP PRINCIPAL
+============================================================ */
+
+function renderApp() {
+
+    const app =
+        document.getElementById("app");
+
+
+    app.innerHTML = `
+
+        ${renderHero()}
+
+        <div class="controls-row">
+
+            <div class="context-tabs">
+
+                <button
+                    class="${CURRENT_CONTEXT === "geral" ? "active" : ""}"
+                    onclick="setContext('geral')"
+                >
+                    Geral
+                </button>
+
+                <button
+                    class="${CURRENT_CONTEXT === "mandante" ? "active" : ""}"
+                    onclick="setContext('mandante')"
+                >
+                    Mandante
+                </button>
+
+                <button
+                    class="${CURRENT_CONTEXT === "visitante" ? "active" : ""}"
+                    onclick="setContext('visitante')"
+                >
+                    Visitante
+                </button>
+
+            </div>
+
+
+            <select
+                class="sort-select"
+                onchange="changeRankingSort(this.value)"
+            >
+
+                <option value="default">
+                    Classificação
+                </option>
+
+                <option value="xg">
+                    xG
+                </option>
+
+                <option value="xga">
+                    xGA
+                </option>
+
+                <option value="over_25">
+                    Over 2.5
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="nav-tabs">
+
+            <button
+                class="active"
+                data-tab="overview"
+                onclick="openTab('overview')"
+            >
+                Visão Geral
+            </button>
+
+            <button
+                data-tab="goals"
+                onclick="openTab('goals')"
+            >
+                Gols & Mercados
+            </button>
+
+            <button
+                data-tab="xg"
+                onclick="openTab('xg')"
+            >
+                Expected Goals
+            </button>
+
+            <button
+                data-tab="teams"
+                onclick="openTab('teams')"
+            >
+                Equipes
+            </button>
+
+            <button
+                data-tab="advanced"
+                onclick="openTab('advanced')"
+            >
+                🎯 Raio-X Técnico
+            </button>
+
+            <button
+                data-tab="compare"
+                onclick="openTab('compare')"
+            >
+                ⚔ Comparar Partida
+            </button>
+
+            <button
+                data-tab="history"
+                onclick="openTab('history')"
+            >
+                📉 Histórico
+            </button>
+
+        </div>
+
+
+        <section
+            id="tab-overview"
+            class="tab active"
+        >
+            ${renderOverview()}
+        </section>
+
+
+        <section
+            id="tab-goals"
+            class="tab"
+        >
+            ${renderGoals()}
+        </section>
+
+
+        <section
+            id="tab-xg"
+            class="tab"
+        >
+            ${renderXG()}
+        </section>
+
+
+        <section
+            id="tab-teams"
+            class="tab"
+        >
+            ${renderTeams()}
+        </section>
+
+
+        <section
+            id="tab-advanced"
+            class="tab"
+        >
+            ${renderAdvancedStats()}
+        </section>
+
+
+        <section
+            id="tab-compare"
+            class="tab"
+        >
+            ${renderCompare()}
+        </section>
+
+
+        <section
+            id="tab-history"
+            class="tab"
+        >
+            ${renderHistory()}
+        </section>
+
+    `;
+
+
+    renderOverviewCharts();
+}
+
+
+/* ============================================================
+   HERO
+============================================================ */
+
+function renderHero() {
+
+    const league =
+        APP_DATA.league || {};
+
+    const stats =
+        league.stats || {};
+
+    return `
+
+        <section class="hero">
+
+            <div>
+
+                <h2>
+                    ${league.name || "Campeonato Brasileiro Série A"}
+                </h2>
+
+                <p>
+                    Dashboard avançado de estatísticas das equipes.
+                </p>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+                <div class="hero-stat">
+
+                    <div class="hero-stat-value">
+                        ${number(stats.games, 0)}
+                    </div>
+
+                    <div class="hero-stat-label">
+                        Jogos
+                    </div>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <div class="hero-stat-value">
+                        ${formatNumber(
+                            stats.avg_total_goals,
+                            2
+                        )}
+                    </div>
+
+                    <div class="hero-stat-label">
+                        Gols/Jogo
+                    </div>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <div class="hero-stat-value">
+                        ${formatPercent(stats.over_25)}
+                    </div>
+
+                    <div class="hero-stat-label">
+                        Over 2.5
+                    </div>
+
+                </div>
+
+
+                <div class="hero-stat">
+
+                    <div class="hero-stat-value">
+                        ${formatPercent(stats.btts)}
+                    </div>
+
+                    <div class="hero-stat-label">
+                        BTTS
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+    `;
+}
+
+
+/* ============================================================
+   VISÃO GERAL
+============================================================ */
+
+function renderOverview() {
+
+    const teams =
+        getTeamsArray();
+
+    const totalGames =
+        teams.reduce(
+            (sum, team) =>
+                sum + number(
+                    getStats(team).games
+                ),
+            0
+        );
+
+
+    const avgGoals =
+        averageMetric(
+            teams,
+            "avg_total_goals"
+        );
+
+
+    const over25 =
+        averageMetric(
+            teams,
+            "over_25"
+        );
+
+
+    const btts =
+        averageMetric(
+            teams,
+            "btts"
+        );
+
+
+    const zeroZero =
+        averageMetric(
+            teams,
+            "zero_zero"
+        );
+
+
+    return `
+
+        <div class="kpi-grid">
+
+            ${kpi(
+                "Contexto",
+                getContextLabel()
+            )}
+
+            ${kpi(
+                "Equipes",
+                teams.length
+            )}
+
+            ${kpi(
+                "Média Gols",
+                formatNumber(avgGoals, 2)
+            )}
+
+            ${kpi(
+                "Over 2.5",
+                formatPercent(over25)
+            )}
+
+            ${kpi(
+                "BTTS",
+                formatPercent(btts)
+            )}
+
+            ${kpi(
+                "0 x 0",
+                formatPercent(zeroZero)
+            )}
+
+        </div>
+
+
+        <h2 class="section-title">
+            Rankings Principais
+        </h2>
+
+        <p class="section-subtitle">
+            Clique em uma equipe para abrir sua análise detalhada.
+        </p>
+
+
+        <div class="ranking-grid">
+
+            ${renderRankingCard(
+                "Over 2.5 Gols",
+                "over_25",
+                true
+            )}
+
+            ${renderRankingCard(
+                "Ambas Marcam",
+                "btts",
+                true
+            )}
+
+            ${renderRankingCard(
+                "Média de Gols",
+                "avg_total_goals",
+                false
+            )}
+
+            ${renderRankingCard(
+                "Over 1.5 Gols",
+                "over_15",
+                true
+            )}
+
+        </div>
+
+
+        <h2 class="section-title">
+            Comparativo Visual
+        </h2>
+
+        <p class="section-subtitle">
+            Principais indicadores entre as equipes.
+        </p>
+
+
+        <div class="chart-grid">
+
+            <div class="chart-card">
+
+                <h3>
+                    Over 2.5
+                </h3>
+
+                <p>
+                    Percentual de jogos com 3 ou mais gols.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="chartOver25"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-card">
+
+                <h3>
+                    Expected Goals
+                </h3>
+
+                <p>
+                    Produção ofensiva média por jogo.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="chartXG"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+    `;
+}
+
+
+function kpi(label, value) {
+
+    return `
+
+        <div class="kpi-card">
+
+            <div class="kpi-label">
+                ${label}
+            </div>
+
+            <div class="kpi-value">
+                ${value}
+            </div>
+
+        </div>
+    `;
+}
+
+
+function averageMetric(teams, metric) {
+
+    if (!teams.length) return 0;
+
+    const total =
+        teams.reduce(
+            (sum, team) =>
+                sum + number(
+                    getStats(team)[metric]
+                ),
+            0
+        );
+
+    return total / teams.length;
+}
+
+
+function renderRankingCard(
+    title,
+    metric,
+    percentage
+) {
+
+    const teams =
+        getTeamsArray()
+        .map(team => ({
+            team,
+            value: number(
+                getStats(team)[metric]
+            )
+        }))
+        .sort(
+            (a, b) =>
+                b.value - a.value
+        )
+        .slice(0, 10);
+
+
+    const max =
+        Math.max(
+            ...teams.map(x => x.value),
+            1
+        );
+
+
+    return `
+
+        <div class="ranking-card">
+
+            <div class="ranking-header">
+
+                <h3>
+                    ${title}
+                </h3>
+
+                <span class="ranking-context">
+                    ${getContextLabel()}
+                </span>
+
+            </div>
+
+
+            <div class="ranking-list">
+
+                ${teams.map(
+                    (item, index) => `
+
+                        <div
+                            class="ranking-item"
+                            onclick="openTeamModal('${escapeQuote(item.team.team)}')"
+                        >
+
+                            <div class="rank-number">
+                                ${index + 1}
+                            </div>
+
+
+                            ${getTeamLogo(
+                                item.team.team
+                            )}
+
+
+                            <div>
+
+                                <div class="team-name">
+                                    ${item.team.team}
+                                </div>
+
+                                <div class="progress-wrap">
+
+                                    <div class="progress">
+
+                                        <div
+                                            style="
+                                                width:
+                                                ${(item.value / max) * 100}%
+                                            "
+                                        ></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="ranking-value">
+
+                                ${
+                                    percentage
+                                        ? formatPercent(item.value)
+                                        : formatNumber(item.value, 2)
+                                }
+
+                            </div>
+
+                        </div>
+
+                    `
+                ).join("")}
+
+            </div>
+
+        </div>
+    `;
+}
+
+
+/* ============================================================
+   GRÁFICOS VISÃO GERAL
+============================================================ */
+
+function renderOverviewCharts() {
+
+    if (!window.Chart) {
+        return;
+    }
+
+
+    const teams =
+        getTeamsArray();
+
+
+    const over25 =
+        [...teams]
+        .sort(
+            (a, b) =>
+                number(getStats(b).over_25) -
+                number(getStats(a).over_25)
+        )
+        .slice(0, 10);
+
+
+    destroyChart("over25");
+
+
+    charts.over25 =
+        new Chart(
+            document
+                .getElementById("chartOver25"),
+
+            {
+                type: "bar",
+
+                data: {
+
+                    labels:
+                        over25.map(
+                            t => t.team
+                        ),
+
+                    datasets: [{
+
+                        label: "Over 2.5 (%)",
+
+                        data:
+                            over25.map(
+                                t =>
+                                    number(
+                                        getStats(t).over_25
+                                    )
+                            ),
+
+                        backgroundColor:
+                            "rgba(53,199,122,.75)",
+
+                        borderRadius: 8
+                    }]
+                },
+
+                options:
+                    chartOptions("%")
+            }
+        );
+
+
+    const xgTeams =
+        [...teams]
+        .sort(
+            (a, b) =>
+                number(getStats(b).xg) -
+                number(getStats(a).xg)
+        )
+        .slice(0, 10);
+
+
+    destroyChart("xg");
+
+
+    charts.xg =
+        new Chart(
+            document
+                .getElementById("chartXG"),
+
+            {
+
+                type: "bar",
+
+                data: {
+
+                    labels:
+                        xgTeams.map(
+                            t => t.team
+                        ),
+
+                    datasets: [{
+
+                        label: "xG / jogo",
+
+                        data:
+                            xgTeams.map(
+                                t =>
+                                    number(
+                                        getStats(t).xg
+                                    )
+                            ),
+
+                        backgroundColor:
+                            "rgba(72,169,230,.75)",
+
+                        borderRadius: 8
+                    }]
+                },
+
+                options:
+                    chartOptions("")
+            }
+        );
+}
+
+
+function chartOptions(suffix = "") {
+
+    return {
+
+        responsive: true,
+
+        maintainAspectRatio: false,
+
+        plugins: {
+
+            legend: {
+                labels: {
+                    color: "#cbd5e1"
+                }
+            }
+
+        },
+
+        scales: {
+
+            x: {
+
+                ticks: {
+                    color: "#94a3b8"
+                },
+
+                grid: {
+                    display: false
+                }
+
+            },
+
+            y: {
+
+                beginAtZero: true,
+
+                ticks: {
+
+                    color: "#94a3b8",
+
+                    callback:
+                        value =>
+                            `${value}${suffix}`
+                },
+
+                grid: {
+                    color:
+                        "rgba(148,163,184,.08)"
+                }
+            }
+        }
+    };
+}
+
+
+/* ============================================================
+   GOLS & MERCADOS
+============================================================ */
+
+function renderGoals() {
+
+    const teams =
+        getTeamsArray()
+        .sort(
+            (a, b) =>
+                number(getStats(b).avg_total_goals) -
+                number(getStats(a).avg_total_goals)
+        );
+
+
+    return `
+
+        <h2 class="section-title">
+            Gols & Mercados
+        </h2>
+
+        <p class="section-subtitle">
+            Estatísticas de gols e principais mercados da temporada.
+        </p>
+
+
+        <div class="chart-grid">
+
+            <div class="chart-card">
+
+                <h3>
+                    Distribuição de Mercados
+                </h3>
+
+                <p>
+                    Média entre todas as equipes.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="chartMarkets"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-card">
+
+                <h3>
+                    Média de Gols
+                </h3>
+
+                <p>
+                    Ranking de gols por partida.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="chartGoals"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h2 class="section-title">
+            Ranking Completo
+        </h2>
+
+
+        <div class="table-card">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>#</th>
+                        <th>Equipe</th>
+                        <th>Jogos</th>
+                        <th>Média Gols</th>
+                        <th>Over 0.5</th>
+                        <th>Over 1.5</th>
+                        <th>Over 2.5</th>
+                        <th>Over 3.5</th>
+                        <th>BTTS</th>
+                        <th>0 x 0</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    ${teams.map(
+                        (team, index) => {
+
+                            const s =
+                                getStats(team);
+
+                            return `
+
+                                <tr
+                                    class="team-row"
+                                    onclick="openTeamModal('${escapeQuote(team.team)}')"
+                                >
+
+                                    <td>
+                                        ${index + 1}
+                                    </td>
+
+                                    <td>
+
+                                        <div class="team-cell">
+
+                                            ${getTeamLogo(
+                                                team.team
+                                            )}
+
+                                            ${team.team}
+
+                                        </div>
+
+                                    </td>
+
+                                    <td>
+                                        ${number(s.games)}
+                                    </td>
+
+                                    <td>
+                                        ${formatNumber(
+                                            s.avg_total_goals,
+                                            2
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${formatPercent(
+                                            s.over_05
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${formatPercent(
+                                            s.over_15
+                                        )}
+                                    </td>
+
+                                    <td
+                                        class="metric-positive"
+                                    >
+                                        ${formatPercent(
+                                            s.over_25
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${formatPercent(
+                                            s.over_35
+                                        )}
+                                    </td>
+
+                                    <td
+                                        class="metric-blue"
+                                    >
+                                        ${formatPercent(
+                                            s.btts
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${formatPercent(
+                                            s.zero_zero
+                                        )}
+                                    </td>
+
+                                </tr>
+
+                            `;
+                        }
+                    ).join("")}
+
+                </tbody>
+
+            </table>
+
+        </div>
+    `;
+}
+
+
+function renderGoalsCharts() {
+
+    if (!window.Chart) return;
+
+    const teams =
+        getTeamsArray();
+
+
+    const avgOver05 =
+        averageMetric(teams, "over_05");
+
+    const avgOver15 =
+        averageMetric(teams, "over_15");
+
+    const avgOver25 =
+        averageMetric(teams, "over_25");
+
+    const avgOver35 =
+        averageMetric(teams, "over_35");
+
+    const avgBTTS =
+        averageMetric(teams, "btts");
+
+
+    destroyChart("markets");
+
+
+    charts.markets =
+        new Chart(
+            document.getElementById("chartMarkets"),
+
+            {
+
+                type: "bar",
+
+                data: {
+
+                    labels: [
+                        "Over 0.5",
+                        "Over 1.5",
+                        "Over 2.5",
+                        "Over 3.5",
+                        "BTTS"
+                    ],
+
+                    datasets: [{
+
+                        label: "%",
+
+                        data: [
+                            avgOver05,
+                            avgOver15,
+                            avgOver25,
+                            avgOver35,
+                            avgBTTS
+                        ],
+
+                        backgroundColor: [
+                            "rgba(53,199,122,.8)",
+                            "rgba(72,169,230,.8)",
+                            "rgba(155,126,222,.8)",
+                            "rgba(240,165,74,.8)",
+                            "rgba(239,100,97,.8)"
+                        ],
+
+                        borderRadius: 8
+                    }]
+                },
+
+                options:
+                    chartOptions("%")
+            }
+        );
+
+
+    const ranking =
+        [...teams]
+        .sort(
+            (a, b) =>
+                number(getStats(b).avg_total_goals) -
+                number(getStats(a).avg_total_goals)
+        )
+        .slice(0, 10);
+
+
+    destroyChart("goals");
+
+
+    charts.goals =
+        new Chart(
+            document.getElementById("chartGoals"),
+
+            {
+
+                type: "bar",
+
+                data: {
+
+                    labels:
+                        ranking.map(t => t.team),
+
+                    datasets: [{
+
+                        label:
+                            "Média de gols",
+
+                        data:
+                            ranking.map(
+                                t =>
+                                    number(
+                                        getStats(t).avg_total_goals
+                                    )
+                            ),
+
+                        backgroundColor:
+                            "rgba(240,165,74,.8)",
+
+                        borderRadius: 8
+                    }]
+                },
+
+                options:
+                    chartOptions("")
+            }
+        );
+}
+
+
+/* ============================================================
+   EXPECTED GOALS
+============================================================ */
+
+function renderXG() {
+
+    const teams =
+        getTeamsArray()
+        .sort(
+            (a, b) =>
+                number(getStats(b).xg) -
+                number(getStats(a).xg)
+        );
+
+
+    return `
+
+        <h2 class="section-title">
+            Expected Goals
+        </h2>
+
+        <p class="section-subtitle">
+            xG, xGA e saldo de Expected Goals por partida.
+        </p>
+
+
+        <div class="chart-grid">
+
+            <div class="chart-card">
+
+                <h3>
+                    xG vs xGA
+                </h3>
+
+                <p>
+                    Comparação entre produção ofensiva e defensiva.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="chartXGComparison"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-card">
+
+                <h3>
+                    xG Difference
+                </h3>
+
+                <p>
+                    Saldo entre xG criado e xG concedido.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="chartXGD"
+                    ></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="table-card">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>#</th>
+                        <th>Equipe</th>
+                        <th>Jogos</th>
+                        <th>xG/Jogo</th>
+                        <th>xGA/Jogo</th>
+                        <th>xGD/Jogo</th>
+                        <th>Gols Marcados</th>
+                        <th>Gols Sofridos</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    ${teams.map(
+                        (team, index) => {
+
+                            const s =
+                                getStats(team);
+
+                            return `
+
+                                <tr
+                                    class="team-row"
+                                    onclick="openTeamModal('${escapeQuote(team.team)}')"
+                                >
+
+                                    <td>
+                                        ${index + 1}
+                                    </td>
+
+                                    <td>
+
+                                        <div class="team-cell">
+
+                                            ${getTeamLogo(team.team)}
+
+                                            ${team.team}
+
+                                        </div>
+
+                                    </td>
+
+                                    <td>
+                                        ${number(s.games)}
+                                    </td>
+
+                                    <td
+                                        class="metric-blue"
+                                    >
+                                        ${formatNumber(s.xg, 2)}
+                                    </td>
+
+                                    <td
+                                        class="metric-negative"
+                                    >
+                                        ${formatNumber(s.xga, 2)}
+                                    </td>
+
+                                    <td
+                                        class="${
+                                            number(s.xgd) >= 0
+                                                ? "metric-positive"
+                                                : "metric-negative"
+                                        }"
+                                    >
+                                        ${
+                                            number(s.xgd) > 0
+                                                ? "+"
+                                                : ""
+                                        }${formatNumber(s.xgd, 2)}
+                                    </td>
+
+                                    <td>
+                                        ${number(s.goals_for)}
+                                    </td>
+
+                                    <td>
+                                        ${number(s.goals_against)}
+                                    </td>
+
+                                </tr>
+
+                            `;
+                        }
+                    ).join("")}
+
+                </tbody>
+
+            </table>
+
+        </div>
+    `;
+}
+
+
+function renderXGCharts() {
+
+    if (!window.Chart) return;
+
+    const teams =
+        getTeamsArray()
+        .sort(
+            (a, b) =>
+                number(getStats(b).xg) -
+                number(getStats(a).xg)
+        )
+        .slice(0, 10);
+
+
+    destroyChart("xgComparison");
+
+
+    charts.xgComparison =
+        new Chart(
+            document.getElementById("chartXGComparison"),
+
+            {
+
+                type: "bar",
+
+                data: {
+
+                    labels:
+                        teams.map(t => t.team),
+
+                    datasets: [
+
+                        {
+
+                            label: "xG",
+
+                            data:
+                                teams.map(
+                                    t =>
+                                        number(
+                                            getStats(t).xg
+                                        )
+                                ),
+
+                            backgroundColor:
+                                "rgba(72,169,230,.8)",
+
+                            borderRadius: 6
+                        },
+
+                        {
+
+                            label: "xGA",
+
+                            data:
+                                teams.map(
+                                    t =>
+                                        number(
+                                            getStats(t).xga
+                                        )
+                                ),
+
+                            backgroundColor:
+                                "rgba(239,100,97,.75)",
+
+                            borderRadius: 6
+                        }
+
+                    ]
+                },
+
+                options:
+                    chartOptions("")
+            }
+        );
+
+
+    const xgd =
+        [...getTeamsArray()]
+        .sort(
+            (a, b) =>
+                number(getStats(b).xgd) -
+                number(getStats(a).xgd)
+        );
+
+
+    destroyChart("xgd");
+
+
+    charts.xgd =
+        new Chart(
+            document.getElementById("chartXGD"),
+
+            {
+
+                type: "bar",
+
+                data: {
+
+                    labels:
+                        xgd.map(t => t.team),
+
+                    datasets: [{
+
+                        label: "xGD",
+
+                        data:
+                            xgd.map(
+                                t =>
+                                    number(
+                                        getStats(t).xgd
+                                    )
+                            ),
+
+                        backgroundColor:
+                            xgd.map(
+                                t =>
+                                    number(
+                                        getStats(t).xgd
+                                    ) >= 0
+
+                                        ? "rgba(53,199,122,.8)"
+
+                                        : "rgba(239,100,97,.8)"
+                            ),
+
+                        borderRadius: 6
+                    }]
+                },
+
+                options:
+                    chartOptions("")
+            }
+        );
+}
+
+
+/* ============================================================
+   EQUIPES
+============================================================ */
+
+function renderTeams() {
+
+    const teams =
+        getTeamsArray()
+        .sort(
+            (a, b) =>
+                a.team.localeCompare(
+                    b.team,
+                    "pt-BR"
+                )
+        );
+
+
+    return `
+
+        <h2 class="section-title">
+            Equipes
+        </h2>
+
+        <p class="section-subtitle">
+            Clique em uma equipe para abrir sua análise detalhada.
+        </p>
+
+
+        <div class="teams-grid">
+
+            ${teams.map(
+                team => {
+
+                    const s =
+                        getStats(team);
+
+                    return `
+
+                        <div
+                            class="team-card"
+                            onclick="openTeamModal('${escapeQuote(team.team)}')"
+                        >
+
+                            <div class="team-card-top">
+
+                                ${getTeamLogoLarge(team.team)}
+
+                                <div>
+
+                                    <h3>
+                                        ${team.team}
+                                    </h3>
+
+                                    <small>
+                                        ${number(s.games)} jogos
+                                    </small>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="team-card-stats">
+
+                                <div class="team-mini-stat">
+
+                                    <strong>
+                                        ${formatNumber(s.xg, 2)}
+                                    </strong>
+
+                                    <span>xG</span>
+
+                                </div>
+
+
+                                <div class="team-mini-stat">
+
+                                    <strong>
+                                        ${formatNumber(s.xga, 2)}
+                                    </strong>
+
+                                    <span>xGA</span>
+
+                                </div>
+
+
+                                <div class="team-mini-stat">
+
+                                    <strong>
+                                        ${formatPercent(s.over_25)}
+                                    </strong>
+
+                                    <span>Over 2.5</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    `;
+                }
+            ).join("")}
+
+        </div>
+    `;
+}
+
+
+/* ============================================================
+   RAIO-X TÉCNICO / MÉTRICAS AVANÇADAS
+============================================================ */
+
+let CURRENT_ADV_CATEGORY = "shots";
+let ADV_SORT_COL = null;
+let ADV_SORT_DESC = true;
+
+function changeAdvCategory(cat) {
+    CURRENT_ADV_CATEGORY = cat;
+    ADV_SORT_COL = null;
+    const tabEl = document.getElementById("tab-advanced");
+    if (tabEl) {
+        tabEl.innerHTML = renderAdvancedStats();
+        setTimeout(renderAdvancedCharts, 50);
+    }
+}
+
+function sortAdvTable(colKey) {
+    if (ADV_SORT_COL === colKey) {
+        ADV_SORT_DESC = !ADV_SORT_DESC;
+    } else {
+        ADV_SORT_COL = colKey;
+        ADV_SORT_DESC = true;
+    }
+    const tabEl = document.getElementById("tab-advanced");
+    if (tabEl) {
+        tabEl.innerHTML = renderAdvancedStats();
+        setTimeout(renderAdvancedCharts, 50);
+    }
+}
+
+function renderAdvancedStats() {
+    const teams = getTeamsArray();
+    const cat = CURRENT_ADV_CATEGORY;
+
+    let defaultCol = "shots_on_target_avg";
+    if (cat === "creation") defaultCol = "possession_avg";
+    if (cat === "defense") defaultCol = "tackles_avg";
+    if (cat === "xg") defaultCol = "xg";
+
+    const sortCol = ADV_SORT_COL || defaultCol;
+    const isDesc = ADV_SORT_DESC;
+
+    const sortedTeams = [...teams].sort((a, b) => {
+        const valA = number(getStats(a)[sortCol]);
+        const valB = number(getStats(b)[sortCol]);
+        return isDesc ? valB - valA : valA - valB;
+    });
+
+    const topShotsOnTarget = [...teams].sort((a, b) => number(getStats(b).shots_on_target_avg) - number(getStats(a).shots_on_target_avg))[0];
+    const topPossession = [...teams].sort((a, b) => number(getStats(b).possession_avg) - number(getStats(a).possession_avg))[0];
+    const topCorners = [...teams].sort((a, b) => number(getStats(b).corners_avg) - number(getStats(a).corners_avg))[0];
+    const topTackles = [...teams].sort((a, b) => number(getStats(b).tackles_avg) - number(getStats(a).tackles_avg))[0];
+    const topXGOT = [...teams].sort((a, b) => number(getStats(b).xgot) - number(getStats(a).xgot))[0];
+    const topFewestShotsConc = [...teams].sort((a, b) => number(getStats(a).shots_conceded_avg) - number(getStats(b).shots_conceded_avg))[0];
+
+    const th = (label, col) => {
+        const isCurrent = sortCol === col;
+        const arrow = isCurrent ? (isDesc ? " ↓" : " ↑") : "";
+        const style = isCurrent ? "color:var(--green); font-weight:700;" : "";
+        return `<th class="th-sortable" style="${style}" onclick="sortAdvTable('${col}')" title="Clique para ordenar">${label}${arrow}</th>`;
+    };
+
+    let kpisHtml = "";
+    if (cat === "shots") {
+        kpisHtml = `
+            ${kpi("Mais Chutes no Gol", `${topShotsOnTarget.team} (${formatNumber(getStats(topShotsOnTarget).shots_on_target_avg, 2)}/j)`)}
+            ${kpi("Maior xGOT (Qualidade)", `${topXGOT.team} (${formatNumber(getStats(topXGOT).xgot, 2)}/j)`)}
+            ${kpi("Média Chutes/Jogo", formatNumber(averageMetric(teams, "shots_total_avg"), 2))}
+            ${kpi("Média Chutes no Gol", formatNumber(averageMetric(teams, "shots_on_target_avg"), 2))}
+        `;
+    } else if (cat === "creation") {
+        kpisHtml = `
+            ${kpi("Maior Posse de Bola", `${topPossession.team} (${formatNumber(getStats(topPossession).possession_avg, 1)}%)`)}
+            ${kpi("Mais Escanteios", `${topCorners.team} (${formatNumber(getStats(topCorners).corners_avg, 2)}/j)`)}
+            ${kpi("Média Posse da Liga", "50.0%")}
+            ${kpi("Média Escanteios/Jogo", formatNumber(averageMetric(teams, "corners_total_avg"), 2))}
+        `;
+    } else if (cat === "defense") {
+        kpisHtml = `
+            ${kpi("Mais Desarmes", `${topTackles.team} (${formatNumber(getStats(topTackles).tackles_avg, 2)}/j)`)}
+            ${kpi("Menos Chutes Cedidos", `${topFewestShotsConc.team} (${formatNumber(getStats(topFewestShotsConc).shots_conceded_avg, 2)}/j)`)}
+            ${kpi("Média Desarmes/Jogo", formatNumber(averageMetric(teams, "tackles_avg"), 2))}
+            ${kpi("Média Intercepções", formatNumber(averageMetric(teams, "interceptions_avg"), 2))}
+        `;
+    } else {
+        const topOpenPlay = [...teams].sort((a, b) => number(getStats(b).xg_open_play) - number(getStats(a).xg_open_play))[0];
+        const topSetPlay = [...teams].sort((a, b) => number(getStats(b).xg_set_play) - number(getStats(a).xg_set_play))[0];
+        kpisHtml = `
+            ${kpi("Top xG Jogada Normal", `${topOpenPlay.team} (${formatNumber(getStats(topOpenPlay).xg_open_play, 2)}/j)`)}
+            ${kpi("Top Bola Parada", `${topSetPlay.team} (${formatNumber(getStats(topSetPlay).xg_set_play, 2)}/j)`)}
+            ${kpi("Top xGOT (Alvo)", `${topXGOT.team} (${formatNumber(getStats(topXGOT).xgot, 2)}/j)`)}
+            ${kpi("Média xG/Jogo Liga", "2.59")}
+        `;
+    }
+
+    return `
+        <h2 class="section-title">
+            Raio-X Técnico: Métricas Avançadas
+        </h2>
+        <p class="section-subtitle">
+            Análise detalhada de finalizações, posse, criação, defesa e xG extraídos partida a partida da temporada 2026.
+        </p>
+
+        <div class="adv-pills">
+            <button class="adv-pill ${cat === 'shots' ? 'active' : ''}" onclick="changeAdvCategory('shots')">
+                🎯 Finalizações & Chutes
+            </button>
+            <button class="adv-pill ${cat === 'creation' ? 'active' : ''}" onclick="changeAdvCategory('creation')">
+                ⚽ Posse & Criação
+            </button>
+            <button class="adv-pill ${cat === 'defense' ? 'active' : ''}" onclick="changeAdvCategory('defense')">
+                🛡️ Defesa & Disciplina
+            </button>
+            <button class="adv-pill ${cat === 'xg' ? 'active' : ''}" onclick="changeAdvCategory('xg')">
+                📈 Gols Esperados (xG)
+            </button>
+        </div>
+
+        <div class="kpi-grid">
+            ${kpisHtml}
+        </div>
+
+        <div class="chart-grid">
+            <div class="chart-card">
+                <h3 id="advChart1Title">Destaques da Categoria</h3>
+                <p id="advChart1Subtitle">Top 10 equipes no fundamento</p>
+                <div class="chart-container">
+                    <canvas id="chartAdv1"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3 id="advChart2Title">Eficiência e Desempenho</h3>
+                <p id="advChart2Subtitle">Comparativo técnico</p>
+                <div class="chart-container">
+                    <canvas id="chartAdv2"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title" style="margin-top:30px;">
+            Tabela Comparativa Completa
+        </h2>
+        <p class="section-subtitle">
+            Clique em qualquer cabeçalho de coluna para ordenar ou clique na equipe para abrir sua ficha técnica.
+        </p>
+
+        <div class="table-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Equipe</th>
+                        ${th("Jogos", "games")}
+                        ${cat === 'shots' ? `
+                            ${th("Chutes/j", "shots_total_avg")}
+                            ${th("No Gol/j", "shots_on_target_avg")}
+                            ${th("Na Área/j", "shots_inside_box_avg")}
+                            ${th("Fora Área/j", "shots_outside_box_avg")}
+                            ${th("Fora Gol/j", "shots_off_target_avg")}
+                            ${th("Bloqueados", "shots_blocked_avg")}
+                            ${th("xGOT/j", "xgot")}
+                            ${th("Chutes Cedidos/j", "shots_conceded_avg")}
+                        ` : ''}
+                        ${cat === 'creation' ? `
+                            ${th("Posse %", "possession_avg")}
+                            ${th("Passes Certos/j", "passes_accurate_avg")}
+                            ${th("Precisão %", "passes_accuracy_pct_avg")}
+                            ${th("Campo Adv/j", "passes_opp_half_avg")}
+                            ${th("Toques Área/j", "touches_opp_box_avg")}
+                            ${th("Grandes Chances", "big_chances_avg")}
+                            ${th("Escanteios/j", "corners_avg")}
+                            ${th("Escanteios Jogo", "corners_total_avg")}
+                        ` : ''}
+                        ${cat === 'defense' ? `
+                            ${th("Desarmes/j", "tackles_avg")}
+                            ${th("Intercepções/j", "interceptions_avg")}
+                            ${th("Bloqueios/j", "blocks_avg")}
+                            ${th("Afastadas/j", "clearances_avg")}
+                            ${th("Defesas Goleiro", "keeper_saves_avg")}
+                            ${th("Chutes Cedidos", "shots_conceded_avg")}
+                            ${th("Faltas/j", "fouls_avg")}
+                            ${th("Amarelos/j", "yellow_cards_avg")}
+                        ` : ''}
+                        ${cat === 'xg' ? `
+                            ${th("xG/j", "xg")}
+                            ${th("xGA/j", "xga")}
+                            ${th("xGD/j", "xgd")}
+                            ${th("xG Aberto/j", "xg_open_play")}
+                            ${th("xG Bola Parada", "xg_set_play")}
+                            ${th("xG s/ Pênalti", "xg_non_penalty")}
+                            ${th("xGOT Feito", "xgot")}
+                            ${th("xGOT Cedido", "xgot_conceded")}
+                        ` : ''}
+                    </tr>
+                </thead>
+                <tbody>
+                    ${sortedTeams.map((team, idx) => {
+                        const s = getStats(team);
+                        return `
+                            <tr class="team-row" onclick="openTeamModal('${escapeQuote(team.team)}')">
+                                <td>${idx + 1}</td>
+                                <td>
+                                    <div class="team-cell">
+                                        ${getTeamLogo(team.team)}
+                                        ${team.team}
+                                    </div>
+                                </td>
+                                <td>${number(s.games)}</td>
+                                ${cat === 'shots' ? `
+                                    <td><strong>${formatNumber(s.shots_total_avg, 2)}</strong></td>
+                                    <td class="metric-positive"><strong>${formatNumber(s.shots_on_target_avg, 2)}</strong></td>
+                                    <td>${formatNumber(s.shots_inside_box_avg, 2)}</td>
+                                    <td>${formatNumber(s.shots_outside_box_avg, 2)}</td>
+                                    <td>${formatNumber(s.shots_off_target_avg, 2)}</td>
+                                    <td>${formatNumber(s.shots_blocked_avg, 2)}</td>
+                                    <td class="metric-blue"><strong>${formatNumber(s.xgot, 2)}</strong></td>
+                                    <td class="metric-negative">${formatNumber(s.shots_conceded_avg, 2)}</td>
+                                ` : ''}
+                                ${cat === 'creation' ? `
+                                    <td class="metric-positive"><strong>${formatNumber(s.possession_avg, 1)}%</strong></td>
+                                    <td>${formatNumber(s.passes_accurate_avg, 1)}</td>
+                                    <td>${formatNumber(s.passes_accuracy_pct_avg, 1)}%</td>
+                                    <td>${formatNumber(s.passes_opp_half_avg, 1)}</td>
+                                    <td class="metric-blue"><strong>${formatNumber(s.touches_opp_box_avg, 1)}</strong></td>
+                                    <td>${formatNumber(s.big_chances_avg, 2)}</td>
+                                    <td class="metric-positive"><strong>${formatNumber(s.corners_avg, 2)}</strong></td>
+                                    <td>${formatNumber(s.corners_total_avg, 2)}</td>
+                                ` : ''}
+                                ${cat === 'defense' ? `
+                                    <td class="metric-positive"><strong>${formatNumber(s.tackles_avg, 2)}</strong></td>
+                                    <td class="metric-blue"><strong>${formatNumber(s.interceptions_avg, 2)}</strong></td>
+                                    <td>${formatNumber(s.blocks_avg, 2)}</td>
+                                    <td>${formatNumber(s.clearances_avg, 1)}</td>
+                                    <td>${formatNumber(s.keeper_saves_avg, 2)}</td>
+                                    <td class="metric-negative"><strong>${formatNumber(s.shots_conceded_avg, 2)}</strong></td>
+                                    <td>${formatNumber(s.fouls_avg, 1)}</td>
+                                    <td>${formatNumber(s.yellow_cards_avg, 2)}</td>
+                                ` : ''}
+                                ${cat === 'xg' ? `
+                                    <td class="metric-positive"><strong>${formatNumber(s.xg, 2)}</strong></td>
+                                    <td class="metric-negative"><strong>${formatNumber(s.xga, 2)}</strong></td>
+                                    <td class="${number(s.xgd) >= 0 ? 'metric-positive' : 'metric-negative'}"><strong>${formatNumber(s.xgd, 2)}</strong></td>
+                                    <td>${formatNumber(s.xg_open_play, 2)}</td>
+                                    <td>${formatNumber(s.xg_set_play, 2)}</td>
+                                    <td>${formatNumber(s.xg_non_penalty, 2)}</td>
+                                    <td class="metric-blue"><strong>${formatNumber(s.xgot, 2)}</strong></td>
+                                    <td>${formatNumber(s.xgot_conceded, 2)}</td>
+                                ` : ''}
+                            </tr>
+                        `;
+                    }).join("")}
+                </tbody>
+            </table>
+        </div>
+    `;
+}
+
+function renderAdvancedCharts() {
+    if (!window.Chart) return;
+    const teams = getTeamsArray();
+    const cat = CURRENT_ADV_CATEGORY;
+
+    destroyChart("adv1");
+    destroyChart("adv2");
+
+    const canvas1 = document.getElementById("chartAdv1");
+    const canvas2 = document.getElementById("chartAdv2");
+    if (!canvas1 || !canvas2) return;
+
+    if (cat === "shots") {
+        document.getElementById("advChart1Title").innerText = "Finalizações no Gol vs Fora";
+        document.getElementById("advChart1Subtitle").innerText = "Top 10 equipes com mais chutes a gol por partida";
+
+        const top10 = [...teams].sort((a, b) => number(getStats(b).shots_on_target_avg) - number(getStats(a).shots_on_target_avg)).slice(0, 10);
+        charts.adv1 = new Chart(canvas1, {
+            type: "bar",
+            data: {
+                labels: top10.map(t => t.team),
+                datasets: [
+                    {
+                        label: "No Gol / Jogo",
+                        data: top10.map(t => number(getStats(t).shots_on_target_avg)),
+                        backgroundColor: "rgba(53,199,122,.85)",
+                        borderRadius: 6
+                    },
+                    {
+                        label: "Fora do Gol / Jogo",
+                        data: top10.map(t => number(getStats(t).shots_off_target_avg)),
+                        backgroundColor: "rgba(239,100,97,.7)",
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: chartOptions("")
+        });
+
+        document.getElementById("advChart2Title").innerText = "Qualidade de Chute: xGOT";
+        document.getElementById("advChart2Subtitle").innerText = "Gols esperados no alvo (após a finalização)";
+
+        const topXGOT = [...teams].sort((a, b) => number(getStats(b).xgot) - number(getStats(a).xgot)).slice(0, 10);
+        charts.adv2 = new Chart(canvas2, {
+            type: "bar",
+            data: {
+                labels: topXGOT.map(t => t.team),
+                datasets: [{
+                    label: "xGOT / Jogo",
+                    data: topXGOT.map(t => number(getStats(t).xgot)),
+                    backgroundColor: "rgba(72,169,230,.85)",
+                    borderRadius: 6
+                }]
+            },
+            options: chartOptions("")
+        });
+    } else if (cat === "creation") {
+        document.getElementById("advChart1Title").innerText = "Posse de Bola Média (%)";
+        document.getElementById("advChart1Subtitle").innerText = "Top 10 equipes com maior controle de posse";
+
+        const top10 = [...teams].sort((a, b) => number(getStats(b).possession_avg) - number(getStats(a).possession_avg)).slice(0, 10);
+        charts.adv1 = new Chart(canvas1, {
+            type: "bar",
+            data: {
+                labels: top10.map(t => t.team),
+                datasets: [{
+                    label: "Posse (%)",
+                    data: top10.map(t => number(getStats(t).possession_avg)),
+                    backgroundColor: "rgba(53,199,122,.85)",
+                    borderRadius: 6
+                }]
+            },
+            options: chartOptions("")
+        });
+
+        document.getElementById("advChart2Title").innerText = "Média de Escanteios por Jogo";
+        document.getElementById("advChart2Subtitle").innerText = "Escanteios a favor vs Total no jogo";
+
+        const topCorners = [...teams].sort((a, b) => number(getStats(b).corners_avg) - number(getStats(a).corners_avg)).slice(0, 10);
+        charts.adv2 = new Chart(canvas2, {
+            type: "bar",
+            data: {
+                labels: topCorners.map(t => t.team),
+                datasets: [
+                    {
+                        label: "A Favor / Jogo",
+                        data: topCorners.map(t => number(getStats(t).corners_avg)),
+                        backgroundColor: "rgba(240,165,74,.85)",
+                        borderRadius: 6
+                    },
+                    {
+                        label: "Total no Jogo (Ambos)",
+                        data: topCorners.map(t => number(getStats(t).corners_total_avg)),
+                        backgroundColor: "rgba(155,126,222,.7)",
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: chartOptions("")
+        });
+    } else if (cat === "defense") {
+        document.getElementById("advChart1Title").innerText = "Ações Defensivas (Desarmes & Intercepções)";
+        document.getElementById("advChart1Subtitle").innerText = "Top 10 equipes em volume de desarmes";
+
+        const top10 = [...teams].sort((a, b) => number(getStats(b).tackles_avg) - number(getStats(a).tackles_avg)).slice(0, 10);
+        charts.adv1 = new Chart(canvas1, {
+            type: "bar",
+            data: {
+                labels: top10.map(t => t.team),
+                datasets: [
+                    {
+                        label: "Desarmes / Jogo",
+                        data: top10.map(t => number(getStats(t).tackles_avg)),
+                        backgroundColor: "rgba(53,199,122,.85)",
+                        borderRadius: 6
+                    },
+                    {
+                        label: "Intercepções / Jogo",
+                        data: top10.map(t => number(getStats(t).interceptions_avg)),
+                        backgroundColor: "rgba(72,169,230,.8)",
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: chartOptions("")
+        });
+
+        document.getElementById("advChart2Title").innerText = "Menos Chutes Cedidos por Jogo";
+        document.getElementById("advChart2Subtitle").innerText = "Equipes que menos sofrem finalizações";
+
+        const topFewest = [...teams].sort((a, b) => number(getStats(a).shots_conceded_avg) - number(getStats(b).shots_conceded_avg)).slice(0, 10);
+        charts.adv2 = new Chart(canvas2, {
+            type: "bar",
+            data: {
+                labels: topFewest.map(t => t.team),
+                datasets: [{
+                    label: "Chutes Cedidos / Jogo",
+                    data: topFewest.map(t => number(getStats(t).shots_conceded_avg)),
+                    backgroundColor: "rgba(72,169,230,.85)",
+                    borderRadius: 6
+                }]
+            },
+            options: chartOptions("")
+        });
+    } else {
+        document.getElementById("advChart1Title").innerText = "xG: Jogada Normal vs Bola Parada";
+        document.getElementById("advChart1Subtitle").innerText = "Origem dos gols esperados das melhores equipes";
+
+        const top10 = [...teams].sort((a, b) => number(getStats(b).xg) - number(getStats(a).xg)).slice(0, 10);
+        charts.adv1 = new Chart(canvas1, {
+            type: "bar",
+            data: {
+                labels: top10.map(t => t.team),
+                datasets: [
+                    {
+                        label: "xG Jogada Normal",
+                        data: top10.map(t => number(getStats(t).xg_open_play)),
+                        backgroundColor: "rgba(53,199,122,.85)",
+                        borderRadius: 6
+                    },
+                    {
+                        label: "xG Bola Parada",
+                        data: top10.map(t => number(getStats(t).xg_set_play)),
+                        backgroundColor: "rgba(240,165,74,.85)",
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: chartOptions("")
+        });
+
+        document.getElementById("advChart2Title").innerText = "Qualidade da Finalização (xGOT vs xG)";
+        document.getElementById("advChart2Subtitle").innerText = "Gols esperados criados vs qualidade final no alvo";
+
+        charts.adv2 = new Chart(canvas2, {
+            type: "bar",
+            data: {
+                labels: top10.map(t => t.team),
+                datasets: [
+                    {
+                        label: "xG Criado",
+                        data: top10.map(t => number(getStats(t).xg)),
+                        backgroundColor: "rgba(155,126,222,.7)",
+                        borderRadius: 6
+                    },
+                    {
+                        label: "xGOT no Alvo",
+                        data: top10.map(t => number(getStats(t).xgot)),
+                        backgroundColor: "rgba(72,169,230,.85)",
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: chartOptions("")
+        });
+    }
+}
+
+
+/* ============================================================
+   COMPARAR PARTIDA
+============================================================ */
+
+function renderCompare() {
+
+    const teams =
+        getTeamsArray()
+        .sort(
+            (a, b) =>
+                a.team.localeCompare(b.team)
+        );
+
+
+    return `
+
+        <h2 class="section-title">
+            Comparar Partida
+        </h2>
+
+        <p class="section-subtitle">
+            Modelo estatístico baseado no cruzamento entre ataque e defesa.
+        </p>
+
+
+        <div class="compare-selectors">
+
+            <div class="compare-select-group">
+
+                <label>
+                    Mandante
+                </label>
+
+                <select
+                    id="homeTeamSelect"
+                    onchange="updateComparison()"
+                >
+
+                    ${teams.map(
+                        team => `
+                            <option value="${team.team}">
+                                ${team.team}
+                            </option>
+                        `
+                    ).join("")}
+
+                </select>
+
+            </div>
+
+
+            <div class="vs">
+                x
+            </div>
+
+
+            <div class="compare-select-group">
+
+                <label>
+                    Visitante
+                </label>
+
+                <select
+                    id="awayTeamSelect"
+                    onchange="updateComparison()"
+                >
+
+                    ${teams.map(
+                        (team, index) => `
+                            <option
+                                value="${team.team}"
+                                ${index === 1 ? "selected" : ""}
+                            >
+                                ${team.team}
+                            </option>
+                        `
+                    ).join("")}
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <div id="comparisonContent"></div>
+    `;
+}
+
+
+/* ============================================================
+   MODELO POISSON
+============================================================ */
+
+function poisson(k, lambda) {
+
+    let factorial = 1;
+
+    for (
+        let i = 2;
+        i <= k;
+        i++
+    ) {
+
+        factorial *= i;
+    }
+
+    return (
+        Math.pow(lambda, k) *
+        Math.exp(-lambda)
+    ) / factorial;
+}
+
+
+function calculateMatchPrediction(
+    home,
+    away
+) {
+
+    /*
+       Mandante:
+       ataque em casa
+
+       Visitante:
+       defesa fora
+    */
+
+    const homeAttack =
+        number(home.mandante?.xg);
+
+    const homeDefense =
+        number(home.mandante?.xga);
+
+
+    const awayAttack =
+        number(away.visitante?.xg);
+
+    const awayDefense =
+        number(away.visitante?.xga);
+
+
+    /*
+       Cruzamento ofensivo x defensivo
+    */
+
+    let lambdaHome =
+        (homeAttack + awayDefense) / 2;
+
+    let lambdaAway =
+        (awayAttack + homeDefense) / 2;
+
+
+    /*
+       Fallback caso não existam dados específicos
+    */
+
+    if (lambdaHome <= 0) {
+
+        lambdaHome =
+            (
+                number(home.geral.xg) +
+                number(away.geral.xga)
+            ) / 2;
+    }
+
+
+    if (lambdaAway <= 0) {
+
+        lambdaAway =
+            (
+                number(away.geral.xg) +
+                number(home.geral.xga)
+            ) / 2;
+    }
+
+
+    const totalExpected =
+        lambdaHome + lambdaAway;
+
+
+    let homeWin = 0;
+    let draw = 0;
+    let awayWin = 0;
+
+    let mostLikely = {
+        home: 0,
+        away: 0,
+        probability: 0
+    };
+
+
+    for (
+        let homeGoals = 0;
+        homeGoals <= 7;
+        homeGoals++
+    ) {
+
+        for (
+            let awayGoals = 0;
+            awayGoals <= 7;
+            awayGoals++
+        ) {
+
+            const probability =
+                poisson(
+                    homeGoals,
+                    lambdaHome
+                )
+                *
+                poisson(
+                    awayGoals,
+                    lambdaAway
+                );
+
+
+            if (
+                homeGoals > awayGoals
+            ) {
+
+                homeWin += probability;
+
+            }
+            else if (
+                homeGoals === awayGoals
+            ) {
+
+                draw += probability;
+
+            }
+            else {
+
+                awayWin += probability;
+            }
+
+
+            if (
+                probability >
+                mostLikely.probability
+            ) {
+
+                mostLikely = {
+
+                    home: homeGoals,
+
+                    away: awayGoals,
+
+                    probability
+                };
+            }
+        }
+    }
+
+
+    let over05 = 0;
+    let over15 = 0;
+    let over25 = 0;
+    let over35 = 0;
+    let under25 = 0;
+    let btts = 0;
+
+
+    for (
+        let h = 0;
+        h <= 7;
+        h++
+    ) {
+
+        for (
+            let a = 0;
+            a <= 7;
+            a++
+        ) {
+
+            const p =
+                poisson(h, lambdaHome)
+                *
+                poisson(a, lambdaAway);
+
+            const total = h + a;
+
+            if (total >= 1) over05 += p;
+            if (total >= 2) over15 += p;
+            if (total >= 3) over25 += p;
+            if (total >= 4) over35 += p;
+            if (total <= 2) under25 += p;
+
+            if (h > 0 && a > 0) {
+                btts += p;
+            }
+        }
+    }
+
+
+    return {
+
+        lambdaHome,
+        lambdaAway,
+
+        totalExpected,
+
+        homeWin:
+            homeWin * 100,
+
+        draw:
+            draw * 100,
+
+        awayWin:
+            awayWin * 100,
+
+        over05:
+            over05 * 100,
+
+        over15:
+            over15 * 100,
+
+        over25:
+            over25 * 100,
+
+        over35:
+            over35 * 100,
+
+        under25:
+            under25 * 100,
+
+        btts:
+            btts * 100,
+
+        mostLikely: {
+
+            ...mostLikely,
+
+            probability:
+                mostLikely.probability * 100
+        }
+    };
+}
+
+
+function updateComparison() {
+
+    const homeName =
+        document.getElementById(
+            "homeTeamSelect"
+        ).value;
+
+    const awayName =
+        document.getElementById(
+            "awayTeamSelect"
+        ).value;
+
+
+    const home =
+        getTeam(homeName);
+
+    const away =
+        getTeam(awayName);
+
+
+    if (!home || !away) return;
+
+
+    const prediction =
+        calculateMatchPrediction(
+            home,
+            away
+        );
+
+
+    document
+        .getElementById("comparisonContent")
+        .innerHTML = `
+
+            <div class="match-prediction">
+
+                <div class="prediction-teams">
+
+                    <div>
+
+                        <div class="prediction-team-name">
+                            ${homeName}
+                        </div>
+
+                        <div class="prediction-xg">
+                            ${formatNumber(
+                                prediction.lambdaHome,
+                                2
+                            )}
+                        </div>
+
+                        <div class="prediction-label">
+                            gols esperados
+                        </div>
+
+                    </div>
+
+
+                    <div class="prediction-center">
+
+                        <span>
+                            xG PROJETADO
+                        </span>
+
+                        <strong>
+                            ${prediction.mostLikely.home}
+                            x
+                            ${prediction.mostLikely.away}
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <div class="prediction-team-name">
+                            ${awayName}
+                        </div>
+
+                        <div class="prediction-xg">
+                            ${formatNumber(
+                                prediction.lambdaAway,
+                                2
+                            )}
+                        </div>
+
+                        <div class="prediction-label">
+                            gols esperados
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="prediction-grid">
+
+                    ${predictionCard(
+                        `Vitória ${homeName}`,
+                        formatPercent(prediction.homeWin)
+                    )}
+
+                    ${predictionCard(
+                        "Empate",
+                        formatPercent(prediction.draw)
+                    )}
+
+                    ${predictionCard(
+                        `Vitória ${awayName}`,
+                        formatPercent(prediction.awayWin)
+                    )}
+
+                </div>
+
+            </div>
+
+
+            <h2 class="section-title">
+                Mercados Projetados pelo Modelo
+            </h2>
+
+            <p class="section-subtitle">
+                Probabilidades calculadas a partir da distribuição de gols esperados.
+            </p>
+
+
+            <div class="market-grid">
+
+                ${marketCard(
+                    "OVER 0.5",
+                    prediction.over05
+                )}
+
+                ${marketCard(
+                    "OVER 1.5",
+                    prediction.over15
+                )}
+
+                ${marketCard(
+                    "OVER 2.5",
+                    prediction.over25
+                )}
+
+                ${marketCard(
+                    "OVER 3.5",
+                    prediction.over35
+                )}
+
+                ${marketCard(
+                    "UNDER 2.5",
+                    prediction.under25
+                )}
+
+                ${marketCard(
+                    "AMBAS MARCAM",
+                    prediction.btts
+                )}
+
+                ${marketCard(
+                    "PLACAR MAIS PROVÁVEL",
+                    `${prediction.mostLikely.home} x ${prediction.mostLikely.away}`,
+                    true
+                )}
+
+                ${marketCard(
+                    "TOTAL ESPERADO",
+                    formatNumber(
+                        prediction.totalExpected,
+                        2
+                    ),
+                    true
+                )}
+
+            </div>
+
+            <h2 class="section-title" style="margin-top:34px;">
+                Raio-X do Confronto: Estatísticas Médias
+            </h2>
+            <p class="section-subtitle">
+                Comparativo direto entre o desempenho de <strong>${homeName}</strong> (em casa) e <strong>${awayName}</strong> (fora).
+            </p>
+
+            <div class="compare-h2h-grid">
+                ${h2hBarCard("Posse de Bola Média", homeName, awayName, home.mandante.possession_avg, away.visitante.possession_avg, "%", 1)}
+                ${h2hBarCard("Finalizações no Gol / Jogo", homeName, awayName, home.mandante.shots_on_target_avg, away.visitante.shots_on_target_avg, "", 2)}
+                ${h2hBarCard("Chutes Dentro da Área / Jogo", homeName, awayName, home.mandante.shots_inside_box_avg, away.visitante.shots_inside_box_avg, "", 2)}
+                ${h2hBarCard("Qualidade no Alvo (xGOT)", homeName, awayName, home.mandante.xgot, away.visitante.xgot, "", 2)}
+                ${h2hBarCard("Escanteios a Favor / Jogo", homeName, awayName, home.mandante.corners_avg, away.visitante.corners_avg, "", 2, true)}
+                ${h2hBarCard("Toques na Área Adversária / Jogo", homeName, awayName, home.mandante.touches_opp_box_avg, away.visitante.touches_opp_box_avg, "", 1)}
+                ${h2hBarCard("Desarmes / Jogo", homeName, awayName, home.mandante.tackles_avg, away.visitante.tackles_avg, "", 2)}
+                ${h2hBarCard("Defesas do Goleiro / Jogo", homeName, awayName, home.mandante.keeper_saves_avg, away.visitante.keeper_saves_avg, "", 2)}
+            </div>
+        `;
+}
+
+function h2hBarCard(title, homeName, awayName, valHome, valAway, unit = "", decimals = 2, showTotal = false) {
+    const numH = number(valHome);
+    const numA = number(valAway);
+    const sum = numH + numA;
+    const pctH = sum > 0 ? Math.round((numH / sum) * 100) : 50;
+    const pctA = sum > 0 ? (100 - pctH) : 50;
+    const totalText = showTotal ? ` <span style="font-size:11px;color:var(--text-secondary);font-weight:400;">(Total: ${formatNumber(sum, decimals)})</span>` : "";
+
+    return `
+        <div class="compare-h2h-item">
+            <div class="compare-h2h-header">
+                <span>${title}${totalText}</span>
+            </div>
+            <div class="compare-h2h-values">
+                <span style="color:var(--green);">${formatNumber(numH, decimals)}${unit}</span>
+                <span style="color:var(--blue);">${formatNumber(numA, decimals)}${unit}</span>
+            </div>
+            <div class="compare-h2h-bar">
+                <div class="compare-h2h-bar-home" style="width:${pctH}%;"></div>
+                <div class="compare-h2h-bar-away" style="width:${pctA}%;"></div>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-secondary);margin-top:6px;">
+                <span>${homeName} (${pctH}%)</span>
+                <span>${awayName} (${pctA}%)</span>
+            </div>
+        </div>
+    `;
+}
+
+function predictionCard(label, value) {
+
+    return `
+
+        <div class="prediction-card">
+
+            <div class="prediction-card-label">
+                ${label}
+            </div>
+
+            <div class="prediction-card-value">
+                ${value}
+            </div>
+
+        </div>
+    `;
+}
+
+
+function marketCard(
+    label,
+    value,
+    raw = false
+) {
+
+    return `
+
+        <div class="market-card">
+
+            <span>
+                ${label}
+            </span>
+
+            <strong>
+                ${
+                    raw
+                        ? value
+                        : formatPercent(value)
+                }
+            </strong>
+
+        </div>
+    `;
+}
+
+
+/* ============================================================
+   HISTÓRICO
+============================================================ */
+
+function renderHistory() {
+
+    const teams =
+        getTeamsArray()
+        .sort(
+            (a, b) =>
+                a.team.localeCompare(b.team)
+        );
+
+
+    return `
+
+        <h2 class="section-title">
+            Histórico Temporal
+        </h2>
+
+        <p class="section-subtitle">
+            Evolução de xG por rodada e tendência recente das equipes.
+        </p>
+
+
+        <div class="compare-select-group"
+             style="
+                max-width:400px;
+                margin-bottom:25px;
+             "
+        >
+
+            <label>
+                Selecione a equipe
+            </label>
+
+            <select
+                id="historyTeamSelect"
+                onchange="updateHistory()"
+            >
+
+                ${teams.map(
+                    team => `
+                        <option value="${team.team}">
+                            ${team.team}
+                        </option>
+                    `
+                ).join("")}
+
+            </select>
+
+        </div>
+
+
+        <div id="historyContent">
+
+            ${
+                HISTORY_DATA
+                    ? ""
+                    : `
+                        <div class="error">
+                            O arquivo de histórico ainda não foi encontrado.
+                            Execute <code>npm run process</code>.
+                        </div>
+                    `
+            }
+
+        </div>
+    `;
+}
+
+
+function updateHistory() {
+
+    if (!HISTORY_DATA) return;
+
+
+    const teamName =
+        document.getElementById(
+            "historyTeamSelect"
+        ).value;
+
+
+    const teamHistory =
+        HISTORY_DATA.teams?.[teamName];
+
+
+    if (!teamHistory) {
+
+        document
+            .getElementById("historyContent")
+            .innerHTML = `
+                <div class="error">
+                    Histórico não encontrado para ${teamName}.
+                </div>
+            `;
+
+        return;
+    }
+
+
+    const trend =
+        teamHistory.tendencia || {};
+
+
+    const matches =
+        teamHistory.partidas || [];
+
+
+    document
+        .getElementById("historyContent")
+        .innerHTML = `
+
+            <div class="history-trend-grid">
+
+                ${trendCard(
+                    "ATAQUE",
+                    trend.ataque
+                )}
+
+                ${trendCard(
+                    "DEFESA",
+                    trend.defesa
+                )}
+
+                ${trendCard(
+                    "EQUILÍBRIO",
+                    trend.equilibrio
+                )}
+
+            </div>
+
+
+            <div class="chart-grid">
+
+                <div class="chart-card">
+
+                    <h3>
+                        Evolução de xG por rodada
+                    </h3>
+
+                    <p>
+                        Produção ofensiva, xG concedido e saldo de xG.
+                    </p>
+
+                    <div class="chart-container">
+
+                        <canvas
+                            id="historyXGChart"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+
+                <div class="chart-card">
+
+                    <h3>
+                        Tendência móvel dos últimos 5 jogos
+                    </h3>
+
+                    <p>
+                        Suaviza oscilações e evidencia o momento recente.
+                    </p>
+
+                    <div class="chart-container">
+
+                        <canvas
+                            id="historyRollingChart"
+                        ></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h2 class="section-title">
+                Partidas da Temporada
+            </h2>
+
+            <p class="section-subtitle">
+                Histórico individual de desempenho.
+            </p>
+
+
+            <div class="table-card">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Rod.</th>
+                            <th>Data</th>
+                            <th>Local</th>
+                            <th>Adversário</th>
+                            <th>Placar</th>
+                            <th>xG</th>
+                            <th>xGA</th>
+                            <th>xGD</th>
+                            <th>xG Móvel 5</th>
+                            <th>xGA Móvel 5</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        ${matches.map(
+                            match => `
+
+                                <tr>
+
+                                    <td>
+                                        ${match.rodada || "-"}
+                                    </td>
+
+                                    <td>
+                                        ${formatDate(
+                                            match.data
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${match.local || "-"}
+                                    </td>
+
+                                    <td>
+                                        ${match.adversario || "-"}
+                                    </td>
+
+                                    <td
+                                        class="metric-positive"
+                                    >
+                                        ${match.placar || "-"}
+                                    </td>
+
+                                    <td
+                                        class="metric-blue"
+                                    >
+                                        ${formatNumber(
+                                            match.xg,
+                                            2
+                                        )}
+                                    </td>
+
+                                    <td
+                                        class="metric-negative"
+                                    >
+                                        ${formatNumber(
+                                            match.xga,
+                                            2
+                                        )}
+                                    </td>
+
+                                    <td
+                                        class="${
+                                            number(match.xgd) >= 0
+                                                ? "metric-positive"
+                                                : "metric-negative"
+                                        }"
+                                    >
+                                        ${
+                                            number(match.xgd) > 0
+                                                ? "+"
+                                                : ""
+                                        }${formatNumber(
+                                            match.xgd,
+                                            2
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${formatNumber(
+                                            match.xg_movel_5,
+                                            2
+                                        )}
+                                    </td>
+
+                                    <td>
+                                        ${formatNumber(
+                                            match.xga_movel_5,
+                                            2
+                                        )}
+                                    </td>
+
+                                </tr>
+
+                            `
+                        ).join("")}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        `;
+
+
+    renderHistoryCharts(matches);
+}
+
+
+function trendCard(
+    title,
+    trend
+) {
+
+    const status =
+        trend?.status || "Sem dados";
+
+
+    let cssClass =
+        "neutral";
+
+
+    if (status === "Melhorando") {
+        cssClass = "good";
+    }
+
+    if (status === "Piorando") {
+        cssClass = "bad";
+    }
+
+
+    const variation =
+        number(trend?.variacao);
+
+
+    return `
+
+        <div class="trend-card">
+
+            <div class="trend-label">
+                ${title}
+            </div>
+
+            <div
+                class="trend-status ${cssClass}"
+            >
+                ${
+                    status === "Melhorando"
+                        ? "↑"
+                        : status === "Piorando"
+                            ? "↓"
+                            : "→"
+                }
+
+                ${status}
+
+            </div>
+
+            <div class="trend-description">
+
+                Últimos 5 vs temporada
+                (${formatNumber(
+                    Math.abs(variation),
+                    1
+                )}%)
+
+            </div>
+
+        </div>
+    `;
+}
+
+
+function renderHistoryCharts(matches) {
+
+    if (
+        !window.Chart ||
+        !matches.length
+    ) {
+        return;
+    }
+
+
+    const labels =
+        matches.map(
+            match =>
+                `R${match.rodada}`
+        );
+
+
+    destroyChart("historyXG");
+
+
+    charts.historyXG =
+        new Chart(
+            document.getElementById("historyXGChart"),
+
+            {
+
+                type: "line",
+
+                data: {
+
+                    labels,
+
+                    datasets: [
+
+                        {
+
+                            label: "xG",
+
+                            data:
+                                matches.map(
+                                    m =>
+                                        number(m.xg)
+                                ),
+
+                            borderColor:
+                                "#48a9e6",
+
+                            backgroundColor:
+                                "rgba(72,169,230,.15)",
+
+                            tension: .35,
+
+                            fill: false
+                        },
+
+                        {
+
+                            label: "xGA",
+
+                            data:
+                                matches.map(
+                                    m =>
+                                        number(m.xga)
+                                ),
+
+                            borderColor:
+                                "#ef6461",
+
+                            backgroundColor:
+                                "rgba(239,100,97,.12)",
+
+                            tension: .35,
+
+                            fill: false
+                        },
+
+                        {
+
+                            label: "xGD",
+
+                            data:
+                                matches.map(
+                                    m =>
+                                        number(m.xgd)
+                                ),
+
+                            borderColor:
+                                "#35c77a",
+
+                            tension: .35,
+
+                            fill: false
+                        }
+
+                    ]
+                },
+
+                options:
+                    chartOptions("")
+            }
+        );
+
+
+    destroyChart("historyRolling");
+
+
+    charts.historyRolling =
+        new Chart(
+            document.getElementById("historyRollingChart"),
+
+            {
+
+                type: "line",
+
+                data: {
+
+                    labels,
+
+                    datasets: [
+
+                        {
+
+                            label:
+                                "xG móvel 5",
+
+                            data:
+                                matches.map(
+                                    m =>
+                                        number(
+                                            m.xg_movel_5
+                                        )
+                                ),
+
+                            borderColor:
+                                "#35c77a",
+
+                            backgroundColor:
+                                "rgba(53,199,122,.15)",
+
+                            tension: .4,
+
+                            fill: false
+                        },
+
+                        {
+
+                            label:
+                                "xGA móvel 5",
+
+                            data:
+                                matches.map(
+                                    m =>
+                                        number(
+                                            m.xga_movel_5
+                                        )
+                                ),
+
+                            borderColor:
+                                "#f0a54a",
+
+                            tension: .4,
+
+                            fill: false
+                        }
+
+                    ]
+                },
+
+                options:
+                    chartOptions("")
+            }
+        );
+}
+
+
+/* ============================================================
+   MODAL DA EQUIPE
+============================================================ */
+
+function openTeamModal(teamName) {
+
+    const team =
+        getTeam(teamName);
+
+    if (!team) return;
+
+
+    const stats =
+        getStats(team);
+
+
+    document
+        .getElementById("modalTeamHeader")
+        .innerHTML = `
+
+            <div class="modal-team">
+
+                ${getTeamLogoLarge(teamName)}
+
+                <div>
+
+                    <h2>
+                        ${teamName}
+                    </h2>
+
+                    <span
+                        style="
+                            color:var(--text-secondary);
+                        "
+                    >
+                        ${getContextLabel()}
+                    </span>
+
+                </div>
+
+            </div>
+        `;
+
+
+    document
+        .getElementById("modalTeamBody")
+        .innerHTML = `
+
+            <div class="kpi-grid">
+
+                ${kpi(
+                    "Jogos",
+                    number(stats.games)
+                )}
+
+                ${kpi(
+                    "Vitórias",
+                    number(stats.wins)
+                )}
+
+                ${kpi(
+                    "Empates",
+                    number(stats.draws)
+                )}
+
+                ${kpi(
+                    "Derrotas",
+                    number(stats.losses)
+                )}
+
+                ${kpi(
+                    "Pontos",
+                    number(stats.points)
+                )}
+
+                ${kpi(
+                    "PPG",
+                    formatNumber(
+                        stats.points_per_game,
+                        2
+                    )
+                )}
+
+            </div>
+
+
+            <div class="chart-grid">
+
+                <div class="ranking-card">
+
+                    <div class="ranking-header">
+
+                        <h3>
+                            Gols & Mercados
+                        </h3>
+
+                    </div>
+
+                    <div
+                        style="
+                            padding:20px;
+                            display:grid;
+                            grid-template-columns:
+                                repeat(2,1fr);
+                            gap:14px;
+                        "
+                    >
+
+                        ${detailMetric(
+                            "Média de gols",
+                            stats.avg_total_goals
+                        )}
+
+                        ${detailMetric(
+                            "Gols marcados",
+                            stats.avg_goals_for
+                        )}
+
+                        ${detailMetric(
+                            "Gols sofridos",
+                            stats.avg_goals_against
+                        )}
+
+                        ${detailMetric(
+                            "Over 2.5",
+                            formatPercent(
+                                stats.over_25
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "BTTS",
+                            formatPercent(
+                                stats.btts
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "0 x 0",
+                            formatPercent(
+                                stats.zero_zero
+                            )
+                        )}
+
+                    </div>
+
+                </div>
+
+
+                <div class="ranking-card">
+
+                    <div class="ranking-header">
+
+                        <h3>
+                            Expected Goals (xG Detalhado)
+                        </h3>
+
+                    </div>
+
+                    <div
+                        style="
+                            padding:20px;
+                            display:grid;
+                            grid-template-columns:
+                                repeat(3,1fr);
+                            gap:14px;
+                        "
+                    >
+
+                        ${detailMetric(
+                            "xG",
+                            formatNumber(
+                                stats.xg,
+                                2
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "xGA",
+                            formatNumber(
+                                stats.xga,
+                                2
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "xGD",
+                            formatNumber(
+                                stats.xgd,
+                                2
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "xG Aberto",
+                            formatNumber(
+                                stats.xg_open_play,
+                                2
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Bola Parada",
+                            formatNumber(
+                                stats.xg_set_play,
+                                2
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "xGOT (Alvo)",
+                            formatNumber(
+                                stats.xgot,
+                                2
+                            )
+                        )}
+
+                    </div>
+
+                </div>
+
+
+                <div class="ranking-card">
+
+                    <div class="ranking-header">
+
+                        <h3>
+                            Finalizações (Chutes)
+                        </h3>
+
+                    </div>
+
+                    <div
+                        style="
+                            padding:20px;
+                            display:grid;
+                            grid-template-columns:
+                                repeat(3,1fr);
+                            gap:14px;
+                        "
+                    >
+
+                        ${detailMetric(
+                            "Chutes/j",
+                            formatNumber(
+                                stats.shots_total_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "No Gol/j",
+                            formatNumber(
+                                stats.shots_on_target_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Na Área/j",
+                            formatNumber(
+                                stats.shots_inside_box_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Fora Área",
+                            formatNumber(
+                                stats.shots_outside_box_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Bloqueados",
+                            formatNumber(
+                                stats.shots_blocked_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Cedidos/j",
+                            formatNumber(
+                                stats.shots_conceded_avg,
+                                1
+                            )
+                        )}
+
+                    </div>
+
+                </div>
+
+
+                <div class="ranking-card">
+
+                    <div class="ranking-header">
+
+                        <h3>
+                            Passes & Criação
+                        </h3>
+
+                    </div>
+
+                    <div
+                        style="
+                            padding:20px;
+                            display:grid;
+                            grid-template-columns:
+                                repeat(3,1fr);
+                            gap:14px;
+                        "
+                    >
+
+                        ${detailMetric(
+                            "Posse",
+                            formatNumber(
+                                stats.possession_avg,
+                                1
+                            ) + "%"
+                        )}
+
+                        ${detailMetric(
+                            "Precisão",
+                            formatNumber(
+                                stats.passes_accuracy_pct_avg,
+                                0
+                            ) + "%"
+                        )}
+
+                        ${detailMetric(
+                            "Passes Certos",
+                            formatNumber(
+                                stats.passes_accurate_avg,
+                                0
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Campo Adv.",
+                            formatNumber(
+                                stats.passes_opp_half_avg,
+                                0
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Toques Área",
+                            formatNumber(
+                                stats.touches_opp_box_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Escanteios",
+                            formatNumber(
+                                stats.corners_avg,
+                                1
+                            )
+                        )}
+
+                    </div>
+
+                </div>
+
+
+                <div class="ranking-card">
+
+                    <div class="ranking-header">
+
+                        <h3>
+                            Defesa & Disciplina
+                        </h3>
+
+                    </div>
+
+                    <div
+                        style="
+                            padding:20px;
+                            display:grid;
+                            grid-template-columns:
+                                repeat(3,1fr);
+                            gap:14px;
+                        "
+                    >
+
+                        ${detailMetric(
+                            "Desarmes/j",
+                            formatNumber(
+                                stats.tackles_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Intercepções",
+                            formatNumber(
+                                stats.interceptions_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Bloqueios",
+                            formatNumber(
+                                stats.blocks_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Afastadas",
+                            formatNumber(
+                                stats.clearances_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Defesas Gol",
+                            formatNumber(
+                                stats.keeper_saves_avg,
+                                1
+                            )
+                        )}
+
+                        ${detailMetric(
+                            "Faltas/j",
+                            formatNumber(
+                                stats.fouls_avg,
+                                1
+                            )
+                        )}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h2 class="section-title">
+                Comparativo por Contexto
+            </h2>
+
+
+            <div class="table-card">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Indicador</th>
+                            <th>Geral</th>
+                            <th>Mandante</th>
+                            <th>Visitante</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        ${contextComparisonRow(
+                            team,
+                            "Jogos",
+                            "games",
+                            false
+                        )}
+
+                        ${contextComparisonRow(
+                            team,
+                            "Média Gols",
+                            "avg_total_goals"
+                        )}
+
+                        ${contextComparisonRow(
+                            team,
+                            "Over 2.5",
+                            "over_25",
+                            true
+                        )}
+
+                        ${contextComparisonRow(
+                            team,
+                            "BTTS",
+                            "btts",
+                            true
+                        )}
+
+                        ${contextComparisonRow(
+                            team,
+                            "xG",
+                            "xg"
+                        )}
+
+                        ${contextComparisonRow(
+                            team,
+                            "xGA",
+                            "xga"
+                        )}
+
+                        ${contextComparisonRow(
+                            team,
+                            "xGD",
+                            "xgd"
+                        )}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        `;
+
+
+    document
+        .getElementById("teamModal")
+        .classList.add("open");
+}
+
+
+function detailMetric(
+    label,
+    value
+) {
+
+    return `
+
+        <div
+            style="
+                background:#101a25;
+                border:1px solid var(--border);
+                border-radius:12px;
+                padding:16px;
+                text-align:center;
+            "
+        >
+
+            <div
+                style="
+                    color:var(--text-secondary);
+                    font-size:11px;
+                    text-transform:uppercase;
+                "
+            >
+                ${label}
+            </div>
+
+            <strong
+                style="
+                    display:block;
+                    font-size:22px;
+                    margin-top:8px;
+                "
+            >
+                ${value}
+            </strong>
+
+        </div>
+    `;
+}
+
+
+function contextComparisonRow(
+    team,
+    label,
+    metric,
+    percentage = false
+) {
+
+    const geral =
+        team.geral?.[metric];
+
+    const mandante =
+        team.mandante?.[metric];
+
+    const visitante =
+        team.visitante?.[metric];
+
+
+    const formatter =
+        value =>
+            percentage
+                ? formatPercent(value)
+                : (
+                    metric === "games"
+                        ? number(value)
+                        : formatNumber(value, 2)
+                );
+
+
+    return `
+
+        <tr>
+
+            <td>
+                ${label}
+            </td>
+
+            <td>
+                ${formatter(geral)}
+            </td>
+
+            <td>
+                ${formatter(mandante)}
+            </td>
+
+            <td>
+                ${formatter(visitante)}
+            </td>
+
+        </tr>
+    `;
+}
+
+
+function closeTeamModal() {
+
+    document
+        .getElementById("teamModal")
+        .classList.remove("open");
+}
+
+
+/* ============================================================
+   NAVEGAÇÃO
+============================================================ */
+
+function openTab(tabName) {
+
+    document
+        .querySelectorAll(".tab")
+        .forEach(tab =>
+            tab.classList.remove("active")
+        );
+
+
+    document
+        .querySelectorAll(".nav-tabs button")
+        .forEach(button =>
+            button.classList.remove("active")
+        );
+
+
+    document
+        .getElementById(`tab-${tabName}`)
+        .classList.add("active");
+
+
+    document
+        .querySelector(
+            `.nav-tabs button[data-tab="${tabName}"]`
+        )
+        .classList.add("active");
+
+
+    setTimeout(() => {
+
+        if (tabName === "goals") {
+
+            renderGoalsCharts();
+        }
+
+        if (tabName === "xg") {
+
+            renderXGCharts();
+        }
+
+        if (tabName === "compare") {
+
+            updateComparison();
+        }
+
+        if (
+            tabName === "history" &&
+            HISTORY_DATA
+        ) {
+
+            updateHistory();
+        }
+
+        if (tabName === "advanced") {
+
+            renderAdvancedCharts();
+        }
+
+    }, 50);
+}
+
+
+/* ============================================================
+   CONTEXTO
+============================================================ */
+
+function setContext(context) {
+
+    CURRENT_CONTEXT = context;
+
+    renderApp();
+}
+
+
+function changeRankingSort() {
+
+    /*
+       Reservado para futuras classificações.
+       O contexto principal continua sendo
+       controlado pelas abas Geral/Mandante/Visitante.
+    */
+
+}
+
+
+/* ============================================================
+   UTILITÁRIOS FINAIS
+============================================================ */
+
+function escapeQuote(value) {
+
+    return String(value)
+        .replace(/'/g, "\\'");
+}
+
+
+function formatDate(value) {
+
+    if (!value) return "-";
+
+    const date =
+        new Date(value);
+
+    if (
+        Number.isNaN(date.getTime())
+    ) {
+        return value;
+    }
+
+    return date.toLocaleDateString(
+        "pt-BR"
+    );
+}
+
+
+/* ============================================================
+   EVENTOS
+============================================================ */
+
+document
+    .getElementById("teamModal")
+    .addEventListener(
+        "click",
+        event => {
+
+            if (
+                event.target.id === "teamModal"
+            ) {
+
+                closeTeamModal();
+            }
+        }
+    );
+
+
+document
+    .addEventListener(
+        "keydown",
+        event => {
+
+            if (
+                event.key === "Escape"
+            ) {
+
+                closeTeamModal();
+            }
+        }
+    );
+
+
+/* ============================================================
+   START
+============================================================ */
+
+init();
+
+</script>
+
+</body>
+</html>
