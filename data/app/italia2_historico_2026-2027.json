@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T12:10:58.591Z",
+  "updated_at": "2026-09-12T14:14:47.657Z",
   "teams": {
     "LR Vicenza": {
       "team": "LR Vicenza",
@@ -64,20 +64,40 @@
           "xg_movel_5": 1.55,
           "xga_movel_5": 1.56,
           "xgd_movel_5": -0.01
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T13:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Juve Stabia",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.16,
+          "xga_movel_5": 1.17,
+          "xgd_movel_5": -0.01
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.55,
-          "ultimos_5": 1.55
+          "temporada": 1.16,
+          "ultimos_5": 1.16
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.56,
-          "ultimos_5": 1.56
+          "temporada": 1.17,
+          "ultimos_5": 1.17
         },
         "equilibrio": {
           "status": "Estável",
@@ -87,9 +107,9 @@
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.55,
-        "xga_medio": 1.56,
+        "jogos": 4,
+        "xg_medio": 1.16,
+        "xga_medio": 1.17,
         "xgd_medio": -0.01
       }
     },
@@ -428,33 +448,53 @@
           "xg_movel_5": 0.67,
           "xga_movel_5": 1.16,
           "xgd_movel_5": -0.49
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T13:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Modena",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.5,
+          "xga_movel_5": 0.87,
+          "xgd_movel_5": -0.37
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.67,
-          "ultimos_5": 0.67
+          "temporada": 0.5,
+          "ultimos_5": 0.5
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.16,
-          "ultimos_5": 1.16
+          "temporada": 0.87,
+          "ultimos_5": 0.87
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.49,
-          "ultimos_5": -0.49
+          "temporada": -0.37,
+          "ultimos_5": -0.37
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 0.67,
-        "xga_medio": 1.16,
-        "xgd_medio": -0.49
+        "jogos": 4,
+        "xg_medio": 0.5,
+        "xga_medio": 0.87,
+        "xgd_medio": -0.37
       }
     },
     "Virtus Entella": {
@@ -943,33 +983,53 @@
           "xg_movel_5": 1.62,
           "xga_movel_5": 0.74,
           "xgd_movel_5": 0.88
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T13:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Südtirol",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.21,
+          "xga_movel_5": 0.56,
+          "xgd_movel_5": 0.66
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.62,
-          "ultimos_5": 1.62
+          "temporada": 1.21,
+          "ultimos_5": 1.21
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.74,
-          "ultimos_5": 0.74
+          "temporada": 0.56,
+          "ultimos_5": 0.56
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.88,
-          "ultimos_5": 0.88
+          "temporada": 0.66,
+          "ultimos_5": 0.66
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.62,
-        "xga_medio": 0.74,
-        "xgd_medio": 0.88
+        "jogos": 4,
+        "xg_medio": 1.21,
+        "xga_medio": 0.56,
+        "xgd_medio": 0.66
       }
     },
     "Empoli": {
@@ -1347,33 +1407,53 @@
           "xg_movel_5": 1.75,
           "xga_movel_5": 1.63,
           "xgd_movel_5": 0.12
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T13:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Padova",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.31,
+          "xga_movel_5": 1.22,
+          "xgd_movel_5": 0.09
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.75,
-          "ultimos_5": 1.75
+          "temporada": 1.31,
+          "ultimos_5": 1.31
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.63,
-          "ultimos_5": 1.63
+          "temporada": 1.22,
+          "ultimos_5": 1.22
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.12,
-          "ultimos_5": 0.12
+          "temporada": 0.09,
+          "ultimos_5": 0.09
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.75,
-        "xga_medio": 1.63,
-        "xgd_medio": 0.12
+        "jogos": 4,
+        "xg_medio": 1.31,
+        "xga_medio": 1.22,
+        "xgd_medio": 0.09
       }
     },
     "Pisa": {
@@ -1549,33 +1629,53 @@
           "xg_movel_5": 1.12,
           "xga_movel_5": 1.9,
           "xgd_movel_5": -0.78
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T13:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Ascoli",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.84,
+          "xga_movel_5": 1.43,
+          "xgd_movel_5": -0.59
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.12,
-          "ultimos_5": 1.12
+          "temporada": 0.84,
+          "ultimos_5": 0.84
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.9,
-          "ultimos_5": 1.9
+          "temporada": 1.43,
+          "ultimos_5": 1.43
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.78,
-          "ultimos_5": -0.78
+          "temporada": -0.59,
+          "ultimos_5": -0.59
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.12,
-        "xga_medio": 1.9,
-        "xgd_medio": -0.78
+        "jogos": 4,
+        "xg_medio": 0.84,
+        "xga_medio": 1.43,
+        "xgd_medio": -0.59
       }
     },
     "Cesena": {
@@ -1913,33 +2013,53 @@
           "xg_movel_5": 0.97,
           "xga_movel_5": 1.44,
           "xgd_movel_5": -0.47
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T13:00:00.000Z",
+          "local": "Fora",
+          "adversario": "LR Vicenza",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.73,
+          "xga_movel_5": 1.08,
+          "xgd_movel_5": -0.35
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.97,
-          "ultimos_5": 0.97
+          "temporada": 0.73,
+          "ultimos_5": 0.73
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.44,
-          "ultimos_5": 1.44
+          "temporada": 1.08,
+          "ultimos_5": 1.08
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.47,
-          "ultimos_5": -0.47
+          "temporada": -0.35,
+          "ultimos_5": -0.35
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 0.97,
-        "xga_medio": 1.44,
-        "xgd_medio": -0.47
+        "jogos": 4,
+        "xg_medio": 0.73,
+        "xga_medio": 1.08,
+        "xgd_medio": -0.35
       }
     }
   }

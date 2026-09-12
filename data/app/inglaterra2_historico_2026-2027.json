@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T12:12:01.115Z",
+  "updated_at": "2026-09-12T14:15:47.294Z",
   "teams": {
     "Wolverhampton Wanderers": {
       "team": "Wolverhampton Wanderers",
@@ -255,33 +255,53 @@
           "xg_movel_5": 0.96,
           "xga_movel_5": 1.42,
           "xgd_movel_5": -0.46
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Millwall",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.77,
+          "xga_movel_5": 1.13,
+          "xgd_movel_5": -0.36
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 2.1,
-          "temporada": 0.94,
-          "ultimos_5": 0.96
+          "variacao": -3.6,
+          "temporada": 0.8,
+          "ultimos_5": 0.77
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 6.1,
-          "temporada": 1.51,
-          "ultimos_5": 1.42
+          "variacao": 12.6,
+          "temporada": 1.29,
+          "ultimos_5": 1.13
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 19.5,
-          "temporada": -0.57,
-          "ultimos_5": -0.46
+          "variacao": 27.3,
+          "temporada": -0.49,
+          "ultimos_5": -0.36
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 0.94,
-        "xga_medio": 1.51,
-        "xgd_medio": -0.57
+        "jogos": 7,
+        "xg_medio": 0.8,
+        "xga_medio": 1.29,
+        "xgd_medio": -0.49
       }
     },
     "Bolton Wanderers": {
@@ -412,47 +432,47 @@
           "data": "2026-09-12T11:30:00.000Z",
           "local": "Casa",
           "adversario": "Cardiff City",
-          "gols_pro": 0,
+          "gols_pro": 1,
           "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.3,
-          "xga_movel_5": 1.68,
-          "xgd_movel_5": -0.38
+          "placar": "1 x 0",
+          "xg": 0.42,
+          "xga": 1.82,
+          "xgd": -1.4,
+          "posse": 41,
+          "chutes": 7,
+          "chutes_no_gol": 5,
+          "escanteios": 2,
+          "desarmes": 28,
+          "xg_movel_5": 1.39,
+          "xga_movel_5": 2.05,
+          "xgd_movel_5": -0.66
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 16.8,
-          "temporada": 1.11,
-          "ultimos_5": 1.3
+          "variacao": 18,
+          "temporada": 1.17,
+          "ultimos_5": 1.39
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -3.8,
-          "temporada": 1.62,
-          "ultimos_5": 1.68
+          "status": "Piorando",
+          "variacao": -8.8,
+          "temporada": 1.88,
+          "ultimos_5": 2.05
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 24.9,
-          "temporada": -0.51,
-          "ultimos_5": -0.38
+          "variacao": 6.6,
+          "temporada": -0.71,
+          "ultimos_5": -0.66
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 1.11,
-        "xga_medio": 1.62,
-        "xgd_medio": -0.51
+        "xg_medio": 1.17,
+        "xga_medio": 1.88,
+        "xgd_medio": -0.71
       }
     },
     "Preston North End": {
@@ -577,33 +597,53 @@
           "xg_movel_5": 1.7,
           "xga_movel_5": 1.33,
           "xgd_movel_5": 0.37
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Lincoln City",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.58,
+          "xga_movel_5": 1.01,
+          "xgd_movel_5": 0.57
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 6,
-          "temporada": 1.6,
-          "ultimos_5": 1.7
+          "variacao": 15.2,
+          "temporada": 1.37,
+          "ultimos_5": 1.58
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -2.9,
-          "temporada": 1.29,
-          "ultimos_5": 1.33
+          "status": "Melhorando",
+          "variacao": 8.5,
+          "temporada": 1.1,
+          "ultimos_5": 1.01
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 18.7,
-          "temporada": 0.31,
-          "ultimos_5": 0.37
+          "variacao": 113.4,
+          "temporada": 0.27,
+          "ultimos_5": 0.57
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.6,
-        "xga_medio": 1.29,
-        "xgd_medio": 0.31
+        "jogos": 7,
+        "xg_medio": 1.37,
+        "xga_medio": 1.1,
+        "xgd_medio": 0.27
       }
     },
     "Bristol City": {
@@ -708,33 +748,53 @@
           "xg_movel_5": 1.1,
           "xga_movel_5": 1.69,
           "xgd_movel_5": -0.59
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Southampton",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.99,
+          "xga_movel_5": 1.01,
+          "xgd_movel_5": -0.01
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.1,
-          "ultimos_5": 1.1
+          "status": "Melhorando",
+          "variacao": 8.6,
+          "temporada": 0.92,
+          "ultimos_5": 0.99
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.69,
-          "ultimos_5": 1.69
+          "status": "Melhorando",
+          "variacao": 28.3,
+          "temporada": 1.41,
+          "ultimos_5": 1.01
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.59,
-          "ultimos_5": -0.59
+          "status": "Melhorando",
+          "variacao": 97.2,
+          "temporada": -0.49,
+          "ultimos_5": -0.01
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.1,
-        "xga_medio": 1.69,
-        "xgd_medio": -0.59
+        "jogos": 6,
+        "xg_medio": 0.92,
+        "xga_medio": 1.41,
+        "xgd_medio": -0.49
       }
     },
     "Millwall": {
@@ -839,33 +899,53 @@
           "xg_movel_5": 2.07,
           "xga_movel_5": 1.44,
           "xgd_movel_5": 0.63
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Blackburn Rovers",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.39,
+          "xga_movel_5": 1.33,
+          "xgd_movel_5": 0.05
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.07,
-          "ultimos_5": 2.07
+          "status": "Piorando",
+          "variacao": -19.5,
+          "temporada": 1.72,
+          "ultimos_5": 1.39
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.44,
-          "ultimos_5": 1.44
+          "status": "Piorando",
+          "variacao": -11.3,
+          "temporada": 1.2,
+          "ultimos_5": 1.33
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.63,
-          "ultimos_5": 0.63
+          "status": "Piorando",
+          "variacao": -89.7,
+          "temporada": 0.53,
+          "ultimos_5": 0.05
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 2.07,
-        "xga_medio": 1.44,
-        "xgd_medio": 0.63
+        "jogos": 6,
+        "xg_medio": 1.72,
+        "xga_medio": 1.2,
+        "xgd_medio": 0.53
       }
     },
     "Charlton Athletic": {
@@ -990,33 +1070,53 @@
           "xg_movel_5": 0.57,
           "xga_movel_5": 1.6,
           "xgd_movel_5": -1.03
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Portsmouth",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.44,
+          "xga_movel_5": 1.03,
+          "xgd_movel_5": -0.59
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -10.6,
-          "temporada": 0.64,
-          "ultimos_5": 0.57
+          "variacao": -18.4,
+          "temporada": 0.54,
+          "ultimos_5": 0.44
         },
         "defesa": {
-          "status": "Piorando",
-          "variacao": -6.7,
-          "temporada": 1.5,
-          "ultimos_5": 1.6
+          "status": "Melhorando",
+          "variacao": 19.7,
+          "temporada": 1.29,
+          "ultimos_5": 1.03
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -19.3,
-          "temporada": -0.86,
-          "ultimos_5": -1.03
+          "status": "Melhorando",
+          "variacao": 20.7,
+          "temporada": -0.74,
+          "ultimos_5": -0.59
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 0.64,
-        "xga_medio": 1.5,
-        "xgd_medio": -0.86
+        "jogos": 7,
+        "xg_medio": 0.54,
+        "xga_medio": 1.29,
+        "xgd_medio": -0.74
       }
     },
     "Derby County": {
@@ -1148,46 +1248,46 @@
           "local": "Casa",
           "adversario": "Birmingham City",
           "gols_pro": 1,
-          "gols_contra": 0,
-          "placar": "1 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 0.53,
-          "xga_movel_5": 1.6,
-          "xgd_movel_5": -1.08
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.01,
+          "xga": 3.05,
+          "xgd": -2.04,
+          "posse": 59,
+          "chutes": 18,
+          "chutes_no_gol": 4,
+          "escanteios": 10,
+          "desarmes": 15,
+          "xg_movel_5": 0.73,
+          "xga_movel_5": 2.21,
+          "xgd_movel_5": -1.48
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -32.2,
-          "temporada": 0.78,
-          "ultimos_5": 0.53
+          "variacao": -20.9,
+          "temporada": 0.92,
+          "ultimos_5": 0.73
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0.2,
-          "temporada": 1.61,
-          "ultimos_5": 1.6
+          "status": "Piorando",
+          "variacao": -8.4,
+          "temporada": 2.04,
+          "ultimos_5": 2.21
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -29.6,
-          "temporada": -0.83,
-          "ultimos_5": -1.08
+          "variacao": -32.3,
+          "temporada": -1.12,
+          "ultimos_5": -1.48
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 0.78,
-        "xga_medio": 1.61,
-        "xgd_medio": -0.83
+        "xg_medio": 0.92,
+        "xga_medio": 2.04,
+        "xgd_medio": -1.12
       }
     },
     "Middlesbrough": {
@@ -1292,33 +1392,53 @@
           "xg_movel_5": 1.94,
           "xga_movel_5": 0.9,
           "xgd_movel_5": 1.04
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Norwich City",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.5,
+          "xga_movel_5": 0.79,
+          "xgd_movel_5": 0.71
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.94,
-          "ultimos_5": 1.94
+          "status": "Piorando",
+          "variacao": -7.6,
+          "temporada": 1.62,
+          "ultimos_5": 1.5
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.9,
-          "ultimos_5": 0.9
+          "variacao": -4.8,
+          "temporada": 0.75,
+          "ultimos_5": 0.79
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.04,
-          "ultimos_5": 1.04
+          "status": "Piorando",
+          "variacao": -18.3,
+          "temporada": 0.87,
+          "ultimos_5": 0.71
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.94,
-        "xga_medio": 0.9,
-        "xgd_medio": 1.04
+        "jogos": 6,
+        "xg_medio": 1.62,
+        "xga_medio": 0.75,
+        "xgd_medio": 0.87
       }
     },
     "Lincoln City": {
@@ -1423,33 +1543,53 @@
           "xg_movel_5": 1.52,
           "xga_movel_5": 1.25,
           "xgd_movel_5": 0.27
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Preston North End",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.41,
+          "xga_movel_5": 0.8,
+          "xgd_movel_5": 0.6
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.52,
-          "ultimos_5": 1.52
+          "status": "Melhorando",
+          "variacao": 11,
+          "temporada": 1.27,
+          "ultimos_5": 1.41
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.25,
-          "ultimos_5": 1.25
+          "status": "Melhorando",
+          "variacao": 22.9,
+          "temporada": 1.04,
+          "ultimos_5": 0.8
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.27,
-          "ultimos_5": 0.27
+          "status": "Melhorando",
+          "variacao": 166.5,
+          "temporada": 0.23,
+          "ultimos_5": 0.6
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.52,
-        "xga_medio": 1.25,
-        "xgd_medio": 0.27
+        "jogos": 6,
+        "xg_medio": 1.27,
+        "xga_medio": 1.04,
+        "xgd_medio": 0.23
       }
     },
     "Norwich City": {
@@ -1574,33 +1714,53 @@
           "xg_movel_5": 1.76,
           "xga_movel_5": 1.41,
           "xgd_movel_5": 0.35
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Middlesbrough",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.56,
+          "xga_movel_5": 0.88,
+          "xgd_movel_5": 0.68
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -10.2,
-          "temporada": 1.96,
-          "ultimos_5": 1.76
+          "variacao": -7.3,
+          "temporada": 1.68,
+          "ultimos_5": 1.56
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 4.9,
-          "temporada": 1.49,
-          "ultimos_5": 1.41
+          "status": "Melhorando",
+          "variacao": 31.3,
+          "temporada": 1.27,
+          "ultimos_5": 0.88
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -26.7,
-          "temporada": 0.48,
-          "ultimos_5": 0.35
+          "status": "Melhorando",
+          "variacao": 67.5,
+          "temporada": 0.41,
+          "ultimos_5": 0.68
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.96,
-        "xga_medio": 1.49,
-        "xgd_medio": 0.48
+        "jogos": 7,
+        "xg_medio": 1.68,
+        "xga_medio": 1.27,
+        "xgd_medio": 0.41
       }
     },
     "West Bromwich Albion": {
@@ -1731,47 +1891,47 @@
           "data": "2026-09-12T11:30:00.000Z",
           "local": "Casa",
           "adversario": "Queens Park Rangers",
-          "gols_pro": 0,
+          "gols_pro": 1,
           "gols_contra": 1,
-          "placar": "0 x 1",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 0.69,
-          "xga_movel_5": 1.09,
-          "xgd_movel_5": -0.41
+          "placar": "1 x 1",
+          "xg": 1.29,
+          "xga": 0.77,
+          "xgd": 0.52,
+          "posse": 63,
+          "chutes": 12,
+          "chutes_no_gol": 5,
+          "escanteios": 5,
+          "desarmes": 20,
+          "xg_movel_5": 0.95,
+          "xga_movel_5": 1.25,
+          "xgd_movel_5": -0.3
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -30.4,
-          "temporada": 0.99,
-          "ultimos_5": 0.69
+          "variacao": -19.3,
+          "temporada": 1.17,
+          "ultimos_5": 0.95
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 20.3,
-          "temporada": 1.37,
-          "ultimos_5": 1.09
+          "variacao": 15.8,
+          "temporada": 1.48,
+          "ultimos_5": 1.25
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -5.7,
-          "temporada": -0.38,
-          "ultimos_5": -0.41
+          "status": "Estável",
+          "variacao": 2.6,
+          "temporada": -0.31,
+          "ultimos_5": -0.3
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 0.99,
-        "xga_medio": 1.37,
-        "xgd_medio": -0.38
+        "xg_medio": 1.17,
+        "xga_medio": 1.48,
+        "xgd_medio": -0.31
       }
     },
     "Portsmouth": {
@@ -1876,33 +2036,53 @@
           "xg_movel_5": 1.53,
           "xga_movel_5": 1.4,
           "xgd_movel_5": 0.14
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Charlton Athletic",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.1,
+          "xga_movel_5": 0.98,
+          "xgd_movel_5": 0.12
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.53,
-          "ultimos_5": 1.53
+          "status": "Piorando",
+          "variacao": -14,
+          "temporada": 1.28,
+          "ultimos_5": 1.1
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.4,
-          "ultimos_5": 1.4
+          "status": "Melhorando",
+          "variacao": 15.6,
+          "temporada": 1.16,
+          "ultimos_5": 0.98
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.14,
-          "ultimos_5": 0.14
+          "variacao": 2.4,
+          "temporada": 0.11,
+          "ultimos_5": 0.12
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.53,
-        "xga_medio": 1.4,
-        "xgd_medio": 0.14
+        "jogos": 6,
+        "xg_medio": 1.28,
+        "xga_medio": 1.16,
+        "xgd_medio": 0.11
       }
     },
     "Queens Park Rangers": {
@@ -2034,46 +2214,46 @@
           "local": "Fora",
           "adversario": "West Bromwich Albion",
           "gols_pro": 1,
-          "gols_contra": 0,
-          "placar": "1 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.24,
-          "xga_movel_5": 0.9,
-          "xgd_movel_5": 0.34
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 0.77,
+          "xga": 1.29,
+          "xgd": -0.52,
+          "posse": 37,
+          "chutes": 4,
+          "chutes_no_gol": 3,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 1.4,
+          "xga_movel_5": 1.16,
+          "xgd_movel_5": 0.24
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -13.9,
-          "temporada": 1.44,
-          "ultimos_5": 1.24
+          "variacao": -10.1,
+          "temporada": 1.55,
+          "ultimos_5": 1.4
         },
         "defesa": {
-          "status": "Melhorando",
-          "variacao": 8.2,
-          "temporada": 0.98,
-          "ultimos_5": 0.9
+          "status": "Estável",
+          "variacao": 0.5,
+          "temporada": 1.16,
+          "ultimos_5": 1.16
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -25.9,
-          "temporada": 0.46,
-          "ultimos_5": 0.34
+          "variacao": -38.5,
+          "temporada": 0.39,
+          "ultimos_5": 0.24
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 1.44,
-        "xga_medio": 0.98,
-        "xgd_medio": 0.46
+        "xg_medio": 1.55,
+        "xga_medio": 1.16,
+        "xgd_medio": 0.39
       }
     },
     "Stoke City": {
@@ -2198,33 +2378,53 @@
           "xg_movel_5": 1.12,
           "xga_movel_5": 2.13,
           "xgd_movel_5": -1.01
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Watford",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.93,
+          "xga_movel_5": 1.66,
+          "xgd_movel_5": -0.73
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Melhorando",
-          "variacao": 7.5,
-          "temporada": 1.04,
-          "ultimos_5": 1.12
+          "status": "Estável",
+          "variacao": 4.6,
+          "temporada": 0.89,
+          "ultimos_5": 0.93
         },
         "defesa": {
-          "status": "Piorando",
-          "variacao": -13.4,
-          "temporada": 1.88,
-          "ultimos_5": 2.13
+          "status": "Estável",
+          "variacao": -3.4,
+          "temporada": 1.61,
+          "ultimos_5": 1.66
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -20.7,
-          "temporada": -0.83,
-          "ultimos_5": -1.01
+          "status": "Estável",
+          "variacao": -2,
+          "temporada": -0.72,
+          "ultimos_5": -0.73
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.04,
-        "xga_medio": 1.88,
-        "xgd_medio": -0.83
+        "jogos": 7,
+        "xg_medio": 0.89,
+        "xga_medio": 1.61,
+        "xgd_medio": -0.72
       }
     },
     "Swansea City": {
@@ -2349,33 +2549,53 @@
           "xg_movel_5": 1.65,
           "xga_movel_5": 1.03,
           "xgd_movel_5": 0.62
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Burnley",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.53,
+          "xga_movel_5": 0.74,
+          "xgd_movel_5": 0.8
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 11.6,
-          "temporada": 1.48,
-          "ultimos_5": 1.65
+          "variacao": 21.2,
+          "temporada": 1.27,
+          "ultimos_5": 1.53
         },
         "defesa": {
-          "status": "Piorando",
-          "variacao": -6.6,
-          "temporada": 0.97,
-          "ultimos_5": 1.03
+          "status": "Melhorando",
+          "variacao": 10.9,
+          "temporada": 0.83,
+          "ultimos_5": 0.74
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 21.2,
-          "temporada": 0.51,
-          "ultimos_5": 0.62
+          "variacao": 82.1,
+          "temporada": 0.44,
+          "ultimos_5": 0.8
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.48,
-        "xga_medio": 0.97,
-        "xgd_medio": 0.51
+        "jogos": 7,
+        "xg_medio": 1.27,
+        "xga_medio": 0.83,
+        "xgd_medio": 0.44
       }
     },
     "Sheffield United": {
@@ -2657,47 +2877,47 @@
           "data": "2026-09-12T11:30:00.000Z",
           "local": "Fora",
           "adversario": "Derby County",
-          "gols_pro": 0,
+          "gols_pro": 2,
           "gols_contra": 1,
-          "placar": "0 x 1",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.22,
-          "xga_movel_5": 1.17,
-          "xgd_movel_5": 0.04
+          "placar": "2 x 1",
+          "xg": 3.05,
+          "xga": 1.01,
+          "xgd": 2.04,
+          "posse": 41,
+          "chutes": 18,
+          "chutes_no_gol": 9,
+          "escanteios": 4,
+          "desarmes": 15,
+          "xg_movel_5": 1.83,
+          "xga_movel_5": 1.38,
+          "xgd_movel_5": 0.45
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 2,
-          "temporada": 1.19,
-          "ultimos_5": 1.22
+          "status": "Melhorando",
+          "variacao": 12.1,
+          "temporada": 1.63,
+          "ultimos_5": 1.83
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -7.1,
-          "temporada": 1.1,
-          "ultimos_5": 1.17
+          "variacao": -11,
+          "temporada": 1.24,
+          "ultimos_5": 1.38
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -55.4,
-          "temporada": 0.1,
-          "ultimos_5": 0.04
+          "status": "Melhorando",
+          "variacao": 15.9,
+          "temporada": 0.39,
+          "ultimos_5": 0.45
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 1.19,
-        "xga_medio": 1.1,
-        "xgd_medio": 0.1
+        "xg_medio": 1.63,
+        "xga_medio": 1.24,
+        "xgd_medio": 0.39
       }
     },
     "Watford": {
@@ -2822,33 +3042,53 @@
           "xg_movel_5": 1.17,
           "xga_movel_5": 1.83,
           "xgd_movel_5": -0.66
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Stoke City",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.04,
+          "xga_movel_5": 1.44,
+          "xgd_movel_5": -0.41
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 5.4,
-          "temporada": 1.11,
-          "ultimos_5": 1.17
+          "variacao": 9.2,
+          "temporada": 0.95,
+          "ultimos_5": 1.04
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -1.1,
-          "temporada": 1.81,
-          "ultimos_5": 1.83
+          "status": "Melhorando",
+          "variacao": 6.8,
+          "temporada": 1.55,
+          "ultimos_5": 1.44
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 5.7,
-          "temporada": -0.7,
-          "ultimos_5": -0.66
+          "variacao": 32.2,
+          "temporada": -0.6,
+          "ultimos_5": -0.41
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.11,
-        "xga_medio": 1.81,
-        "xgd_medio": -0.7
+        "jogos": 7,
+        "xg_medio": 0.95,
+        "xga_medio": 1.55,
+        "xgd_medio": -0.6
       }
     },
     "Southampton": {
@@ -2973,33 +3213,53 @@
           "xg_movel_5": 1.81,
           "xga_movel_5": 1.4,
           "xgd_movel_5": 0.42
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Bristol City",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.35,
+          "xga_movel_5": 1.21,
+          "xgd_movel_5": 0.14
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 1,
-          "temporada": 1.8,
-          "ultimos_5": 1.81
+          "status": "Piorando",
+          "variacao": -12.3,
+          "temporada": 1.54,
+          "ultimos_5": 1.35
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -7.5,
-          "temporada": 1.3,
-          "ultimos_5": 1.4
+          "variacao": -8.7,
+          "temporada": 1.11,
+          "ultimos_5": 1.21
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -16.1,
-          "temporada": 0.5,
-          "ultimos_5": 0.42
+          "variacao": -67.2,
+          "temporada": 0.43,
+          "ultimos_5": 0.14
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.8,
-        "xga_medio": 1.3,
-        "xgd_medio": 0.5
+        "jogos": 7,
+        "xg_medio": 1.54,
+        "xga_medio": 1.11,
+        "xgd_medio": 0.43
       }
     },
     "Burnley": {
@@ -3124,33 +3384,53 @@
           "xg_movel_5": 1,
           "xga_movel_5": 1.46,
           "xgd_movel_5": -0.46
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-12T14:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Swansea City",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.76,
+          "xga_movel_5": 1.14,
+          "xgd_movel_5": -0.37
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -15.5,
-          "temporada": 1.18,
-          "ultimos_5": 1
+          "variacao": -24.7,
+          "temporada": 1.01,
+          "ultimos_5": 0.76
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -1.5,
-          "temporada": 1.44,
-          "ultimos_5": 1.46
+          "status": "Melhorando",
+          "variacao": 7.9,
+          "temporada": 1.24,
+          "ultimos_5": 1.14
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -79.6,
-          "temporada": -0.26,
-          "ultimos_5": -0.46
+          "variacao": -68.9,
+          "temporada": -0.22,
+          "ultimos_5": -0.37
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.18,
-        "xga_medio": 1.44,
-        "xgd_medio": -0.26
+        "jogos": 7,
+        "xg_medio": 1.01,
+        "xga_medio": 1.24,
+        "xgd_medio": -0.22
       }
     },
     "West Ham United": {
@@ -3453,46 +3733,46 @@
           "local": "Fora",
           "adversario": "Bolton Wanderers",
           "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.57,
-          "xga_movel_5": 1.44,
-          "xgd_movel_5": 0.13
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 1.82,
+          "xga": 0.42,
+          "xgd": 1.4,
+          "posse": 59,
+          "chutes": 17,
+          "chutes_no_gol": 10,
+          "escanteios": 10,
+          "desarmes": 12,
+          "xg_movel_5": 1.93,
+          "xga_movel_5": 1.53,
+          "xgd_movel_5": 0.41
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0.6,
-          "temporada": 1.56,
-          "ultimos_5": 1.57
+          "status": "Melhorando",
+          "variacao": 6.2,
+          "temporada": 1.82,
+          "ultimos_5": 1.93
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 3.1,
-          "temporada": 1.49,
-          "ultimos_5": 1.44
+          "variacao": 1.5,
+          "temporada": 1.55,
+          "ultimos_5": 1.53
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 80,
-          "temporada": 0.07,
-          "ultimos_5": 0.13
+          "variacao": 50.4,
+          "temporada": 0.27,
+          "ultimos_5": 0.41
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 1.56,
-        "xga_medio": 1.49,
-        "xgd_medio": 0.07
+        "xg_medio": 1.82,
+        "xga_medio": 1.55,
+        "xgd_medio": 0.27
       }
     },
     "Wrexham": {

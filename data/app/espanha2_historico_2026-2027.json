@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T12:09:24.409Z",
+  "updated_at": "2026-09-12T14:13:21.944Z",
   "teams": {
     "Real Sociedad B": {
       "team": "Real Sociedad B",
@@ -90,47 +90,47 @@
           "data": "2026-09-12T12:00:00.000Z",
           "local": "Fora",
           "adversario": "FC Andorra",
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 0.88,
-          "xga_movel_5": 1.12,
-          "xgd_movel_5": -0.24
+          "gols_pro": 3,
+          "gols_contra": 1,
+          "placar": "3 x 1",
+          "xg": 1.95,
+          "xga": 1.56,
+          "xgd": 0.39,
+          "posse": 26,
+          "chutes": 15,
+          "chutes_no_gol": 5,
+          "escanteios": 2,
+          "desarmes": 12,
+          "xg_movel_5": 1.27,
+          "xga_movel_5": 1.43,
+          "xgd_movel_5": -0.16
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.88,
-          "ultimos_5": 0.88
+          "temporada": 1.27,
+          "ultimos_5": 1.27
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.12,
-          "ultimos_5": 1.12
+          "temporada": 1.43,
+          "ultimos_5": 1.43
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.24,
-          "ultimos_5": -0.24
+          "temporada": -0.16,
+          "ultimos_5": -0.16
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 0.88,
-        "xga_medio": 1.12,
-        "xgd_medio": -0.24
+        "xg_medio": 1.27,
+        "xga_medio": 1.43,
+        "xgd_medio": -0.16
       }
     },
     "Castellón": {
@@ -332,47 +332,47 @@
           "data": "2026-09-12T12:00:00.000Z",
           "local": "Casa",
           "adversario": "Real Sociedad B",
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.71,
-          "xga_movel_5": 0.98,
-          "xgd_movel_5": 0.73
+          "gols_pro": 1,
+          "gols_contra": 3,
+          "placar": "1 x 3",
+          "xg": 1.56,
+          "xga": 1.95,
+          "xgd": -0.39,
+          "posse": 74,
+          "chutes": 23,
+          "chutes_no_gol": 7,
+          "escanteios": 7,
+          "desarmes": 10,
+          "xg_movel_5": 2.02,
+          "xga_movel_5": 1.37,
+          "xgd_movel_5": 0.65
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.71,
-          "ultimos_5": 1.71
+          "temporada": 2.02,
+          "ultimos_5": 2.02
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.98,
-          "ultimos_5": 0.98
+          "temporada": 1.37,
+          "ultimos_5": 1.37
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.73,
-          "ultimos_5": 0.73
+          "temporada": 0.65,
+          "ultimos_5": 0.65
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.71,
-        "xga_medio": 0.98,
-        "xgd_medio": 0.73
+        "xg_medio": 2.02,
+        "xga_medio": 1.37,
+        "xgd_medio": 0.65
       }
     },
     "AD Ceuta FC": {
