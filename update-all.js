@@ -31,8 +31,9 @@ const LEAGUES = {
     noruega:     { id: 59,  name: "Noruega" },
     suica:       { id: 69,  name: "Suíça" },
     suecia:      { id: 67,  name: "Suécia" },
-    brasil:      { id: 268, name: "Campeonato Brasileiro Série A" },
-    australia:   { id: 113, name: "Austrália" }
+    brasil:      { id: 268, name: "Brasil - Série A" },
+    australia:   { id: 113, name: "Austrália" },
+    china:       { id: 120, name: "China"}
 };
 
 function ensureDir(dir) {
