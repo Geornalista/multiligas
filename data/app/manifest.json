@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-09-12T00:18:38.478Z",
+  "leagues": {
+    "alemanha": {
+      "key": "alemanha",
+      "name": "Alemanha",
+      "league_id": 54,
+      "season": "2026/2027",
+      "stats_file": "alemanha_stats_2026-2027.json",
+      "history_file": "alemanha_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:09:26.658Z",
+      "status": "ok"
+    },
+    "alemanha2": {
+      "key": "alemanha2",
+      "name": "Alemanha 2",
+      "league_id": 146,
+      "season": "2026/2027",
+      "stats_file": "alemanha2_stats_2026-2027.json",
+      "history_file": "alemanha2_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:09:45.521Z",
+      "status": "ok"
+    },
+    "espanha": {
+      "key": "espanha",
+      "name": "Espanha",
+      "league_id": 87,
+      "season": "2026/2027",
+      "stats_file": "espanha_stats_2026-2027.json",
+      "history_file": "espanha_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:10:02.627Z",
+      "status": "ok"
+    },
+    "espanha2": {
+      "key": "espanha2",
+      "name": "Espanha 2",
+      "league_id": 140,
+      "season": "2026/2027",
+      "stats_file": "espanha2_stats_2026-2027.json",
+      "history_file": "espanha2_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:10:22.742Z",
+      "status": "ok"
+    },
+    "franca": {
+      "key": "franca",
+      "name": "França",
+      "league_id": 53,
+      "season": "2026/2027",
+      "stats_file": "franca_stats_2026-2027.json",
+      "history_file": "franca_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:10:34.684Z",
+      "status": "ok"
+    },
+    "franca2": {
+      "key": "franca2",
+      "name": "França 2",
+      "league_id": 110,
+      "season": "2026/2027",
+      "stats_file": "franca2_stats_2026-2027.json",
+      "history_file": "franca2_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:10:57.375Z",
+      "status": "ok"
+    },
+    "italia": {
+      "key": "italia",
+      "name": "Itália",
+      "league_id": 55,
+      "season": "2026/2027",
+      "stats_file": "italia_stats_2026-2027.json",
+      "history_file": "italia_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:11:10.559Z",
+      "status": "ok"
+    },
+    "italia2": {
+      "key": "italia2",
+      "name": "Itália 2",
+      "league_id": 86,
+      "season": "2026/2027",
+      "stats_file": "italia2_stats_2026-2027.json",
+      "history_file": "italia2_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:11:26.057Z",
+      "status": "ok"
+    },
+    "inglaterra": {
+      "key": "inglaterra",
+      "name": "Inglaterra",
+      "league_id": 47,
+      "season": "2026/2027",
+      "stats_file": "inglaterra_stats_2026-2027.json",
+      "history_file": "inglaterra_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:11:38.090Z",
+      "status": "ok"
+    },
+    "inglaterra2": {
+      "key": "inglaterra2",
+      "name": "Inglaterra 2",
+      "league_id": 48,
+      "season": "2026/2027",
+      "stats_file": "inglaterra2_stats_2026-2027.json",
+      "history_file": "inglaterra2_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:12:08.396Z",
+      "status": "ok"
+    },
+    "belgica": {
+      "key": "belgica",
+      "name": "Bélgica",
+      "league_id": 40,
+      "season": "2026/2027",
+      "stats_file": "belgica_stats_2026-2027.json",
+      "history_file": "belgica_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:12:27.313Z",
+      "status": "ok"
+    },
+    "holanda": {
+      "key": "holanda",
+      "name": "Holanda",
+      "league_id": 57,
+      "season": "2026/2027",
+      "stats_file": "holanda_stats_2026-2027.json",
+      "history_file": "holanda_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:12:46.943Z",
+      "status": "ok"
+    },
+    "portugal": {
+      "key": "portugal",
+      "name": "Portugal",
+      "league_id": 61,
+      "season": "2026/2027",
+      "stats_file": "portugal_stats_2026-2027.json",
+      "history_file": "portugal_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:13:06.605Z",
+      "status": "ok"
+    },
+    "turquia": {
+      "key": "turquia",
+      "name": "Turquia",
+      "league_id": 71,
+      "season": "2026/2027",
+      "stats_file": "turquia_stats_2026-2027.json",
+      "history_file": "turquia_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:13:22.750Z",
+      "status": "ok"
+    },
+    "grecia": {
+      "key": "grecia",
+      "name": "Grécia",
+      "league_id": 135,
+      "season": "2026/2027",
+      "stats_file": "grecia_stats_2026-2027.json",
+      "history_file": "grecia_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:13:33.206Z",
+      "status": "ok"
+    },
+    "escocia": {
+      "key": "escocia",
+      "name": "Escócia",
+      "league_id": 64,
+      "season": "2026/2027",
+      "stats_file": "escocia_stats_2026-2027.json",
+      "history_file": "escocia_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:13:49.166Z",
+      "status": "ok"
+    },
+    "dinamarca": {
+      "key": "dinamarca",
+      "name": "Dinamarca",
+      "league_id": 46,
+      "season": "2026/2027",
+      "stats_file": "dinamarca_stats_2026-2027.json",
+      "history_file": "dinamarca_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:14:10.534Z",
+      "status": "ok"
+    },
+    "noruega": {
+      "key": "noruega",
+      "name": "Noruega",
+      "league_id": 59,
+      "season": "2026",
+      "stats_file": "noruega_stats_2026.json",
+      "history_file": "noruega_historico_2026.json",
+      "updated_at": "2026-09-12T00:15:17.746Z",
+      "status": "ok"
+    },
+    "suica": {
+      "key": "suica",
+      "name": "Suíça",
+      "league_id": 69,
+      "season": "2026/2027",
+      "stats_file": "suica_stats_2026-2027.json",
+      "history_file": "suica_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:15:37.158Z",
+      "status": "ok"
+    },
+    "suecia": {
+      "key": "suecia",
+      "name": "Suécia",
+      "league_id": 67,
+      "season": "2026",
+      "stats_file": "suecia_stats_2026.json",
+      "history_file": "suecia_historico_2026.json",
+      "updated_at": "2026-09-12T00:16:45.241Z",
+      "status": "ok"
+    },
+    "brasil": {
+      "key": "brasil",
+      "name": "Campeonato Brasileiro Série A",
+      "league_id": 268,
+      "season": "2026",
+      "stats_file": "brasil_stats_2026.json",
+      "history_file": "brasil_historico_2026.json",
+      "updated_at": "2026-09-12T00:18:37.528Z",
+      "status": "ok"
+    },
+    "australia": {
+      "key": "australia",
+      "name": "Austrália",
+      "league_id": 113,
+      "season": "2026/2027",
+      "stats_file": "australia_stats_2026-2027.json",
+      "history_file": "australia_historico_2026-2027.json",
+      "updated_at": "2026-09-12T00:18:38.478Z",
+      "status": "ok"
+    }
+  },
+  "failures": []
+}
