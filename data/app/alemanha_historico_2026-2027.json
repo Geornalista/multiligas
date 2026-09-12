@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T00:09:26.653Z",
+  "updated_at": "2026-09-12T12:07:56.318Z",
   "teams": {
     "Bayern München": {
       "team": "Bayern München",
@@ -763,44 +763,44 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 2.03,
-          "xga": 2.45,
-          "xgd": -0.42,
+          "xg": 1.95,
+          "xga": 2.52,
+          "xgd": -0.57,
           "posse": 66,
           "chutes": 20,
           "chutes_no_gol": 8,
           "escanteios": 4,
-          "desarmes": 12,
-          "xg_movel_5": 1.42,
-          "xga_movel_5": 2.34,
-          "xgd_movel_5": -0.92
+          "desarmes": 13,
+          "xg_movel_5": 1.39,
+          "xga_movel_5": 2.37,
+          "xgd_movel_5": -0.97
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.42,
-          "ultimos_5": 1.42
+          "temporada": 1.39,
+          "ultimos_5": 1.39
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.34,
-          "ultimos_5": 2.34
+          "temporada": 2.37,
+          "ultimos_5": 2.37
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.92,
-          "ultimos_5": -0.92
+          "temporada": -0.97,
+          "ultimos_5": -0.97
         }
       },
       "resumo": {
         "jogos": 3,
-        "xg_medio": 1.42,
-        "xga_medio": 2.34,
-        "xgd_medio": -0.92
+        "xg_medio": 1.39,
+        "xga_medio": 2.37,
+        "xgd_medio": -0.97
       }
     },
     "Eintracht Frankfurt": {
@@ -1280,44 +1280,44 @@
           "gols_pro": 3,
           "gols_contra": 1,
           "placar": "3 x 1",
-          "xg": 2.45,
-          "xga": 2.03,
-          "xgd": 0.42,
+          "xg": 2.52,
+          "xga": 1.95,
+          "xgd": 0.57,
           "posse": 34,
           "chutes": 19,
           "chutes_no_gol": 10,
           "escanteios": 5,
-          "desarmes": 18,
-          "xg_movel_5": 1.59,
-          "xga_movel_5": 2.56,
-          "xgd_movel_5": -0.98
+          "desarmes": 19,
+          "xg_movel_5": 1.61,
+          "xga_movel_5": 2.54,
+          "xgd_movel_5": -0.93
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.59,
-          "ultimos_5": 1.59
+          "temporada": 1.61,
+          "ultimos_5": 1.61
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.56,
-          "ultimos_5": 2.56
+          "temporada": 2.54,
+          "ultimos_5": 2.54
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.98,
-          "ultimos_5": -0.98
+          "temporada": -0.93,
+          "ultimos_5": -0.93
         }
       },
       "resumo": {
         "jogos": 3,
-        "xg_medio": 1.59,
-        "xga_medio": 2.56,
-        "xgd_medio": -0.98
+        "xg_medio": 1.61,
+        "xga_medio": 2.54,
+        "xgd_medio": -0.93
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T00:10:02.622Z",
+  "updated_at": "2026-09-12T12:08:53.472Z",
   "teams": {
     "Deportivo Alavés": {
       "team": "Deportivo Alavés",
@@ -84,33 +84,53 @@
           "xg_movel_5": 1.47,
           "xga_movel_5": 1.01,
           "xgd_movel_5": 0.46
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-12T12:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Racing Santander",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.17,
+          "xga_movel_5": 0.81,
+          "xgd_movel_5": 0.36
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.47,
-          "ultimos_5": 1.47
+          "temporada": 1.17,
+          "ultimos_5": 1.17
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.01,
-          "ultimos_5": 1.01
+          "temporada": 0.81,
+          "ultimos_5": 0.81
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.46,
-          "ultimos_5": 0.46
+          "temporada": 0.36,
+          "ultimos_5": 0.36
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.47,
-        "xga_medio": 1.01,
-        "xgd_medio": 0.46
+        "jogos": 5,
+        "xg_medio": 1.17,
+        "xga_medio": 0.81,
+        "xgd_medio": 0.36
       }
     },
     "Getafe": {
@@ -548,33 +568,53 @@
           "xg_movel_5": 1.35,
           "xga_movel_5": 1.14,
           "xgd_movel_5": 0.21
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-12T12:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Deportivo Alavés",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.08,
+          "xga_movel_5": 0.91,
+          "xgd_movel_5": 0.17
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.35,
-          "ultimos_5": 1.35
+          "temporada": 1.08,
+          "ultimos_5": 1.08
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.14,
-          "ultimos_5": 1.14
+          "temporada": 0.91,
+          "ultimos_5": 0.91
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.21,
-          "ultimos_5": 0.21
+          "temporada": 0.17,
+          "ultimos_5": 0.17
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.35,
-        "xga_medio": 1.14,
-        "xgd_medio": 0.21
+        "jogos": 5,
+        "xg_medio": 1.08,
+        "xga_medio": 0.91,
+        "xgd_medio": 0.17
       }
     },
     "Villarreal": {

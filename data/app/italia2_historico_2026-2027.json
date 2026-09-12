@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T00:11:26.052Z",
+  "updated_at": "2026-09-12T12:10:58.591Z",
   "teams": {
     "LR Vicenza": {
       "team": "LR Vicenza",
@@ -841,44 +841,44 @@
           "gols_pro": 3,
           "gols_contra": 1,
           "placar": "3 x 1",
-          "xg": 1.13,
-          "xga": 1.44,
-          "xgd": -0.31,
+          "xg": 1.1,
+          "xga": 1.75,
+          "xgd": -0.65,
           "posse": 42,
           "chutes": 13,
           "chutes_no_gol": 6,
           "escanteios": 4,
           "desarmes": 11,
-          "xg_movel_5": 1.19,
-          "xga_movel_5": 1.55,
-          "xgd_movel_5": -0.36
+          "xg_movel_5": 1.18,
+          "xga_movel_5": 1.63,
+          "xgd_movel_5": -0.45
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.19,
-          "ultimos_5": 1.19
+          "temporada": 1.18,
+          "ultimos_5": 1.18
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.55,
-          "ultimos_5": 1.55
+          "temporada": 1.63,
+          "ultimos_5": 1.63
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.36,
-          "ultimos_5": -0.36
+          "temporada": -0.45,
+          "ultimos_5": -0.45
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.19,
-        "xga_medio": 1.55,
-        "xgd_medio": -0.36
+        "xg_medio": 1.18,
+        "xga_medio": 1.63,
+        "xgd_medio": -0.45
       }
     },
     "Modena": {
@@ -1245,44 +1245,44 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 1.44,
-          "xga": 1.13,
-          "xgd": 0.31,
+          "xg": 1.75,
+          "xga": 1.1,
+          "xgd": 0.65,
           "posse": 58,
           "chutes": 11,
           "chutes_no_gol": 3,
           "escanteios": 9,
           "desarmes": 9,
-          "xg_movel_5": 2.25,
-          "xga_movel_5": 0.85,
-          "xgd_movel_5": 1.41
+          "xg_movel_5": 2.33,
+          "xga_movel_5": 0.84,
+          "xgd_movel_5": 1.49
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.25,
-          "ultimos_5": 2.25
+          "temporada": 2.33,
+          "ultimos_5": 2.33
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.85,
-          "ultimos_5": 0.85
+          "temporada": 0.84,
+          "ultimos_5": 0.84
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.41,
-          "ultimos_5": 1.41
+          "temporada": 1.49,
+          "ultimos_5": 1.49
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 2.25,
-        "xga_medio": 0.85,
-        "xgd_medio": 1.41
+        "xg_medio": 2.33,
+        "xga_medio": 0.84,
+        "xgd_medio": 1.49
       }
     },
     "Ascoli": {

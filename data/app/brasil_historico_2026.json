@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "updated_at": "2026-09-12T00:18:37.522Z",
+  "updated_at": "2026-09-12T12:07:45.471Z",
   "teams": {
     "Atlético-MG": {
       "team": "Atlético-MG",
@@ -1612,47 +1612,47 @@
           "data": "2026-09-12T00:00:00.000Z",
           "local": "Casa",
           "adversario": "Athletico Paranaense",
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 0.98,
-          "xga_movel_5": 1.4,
-          "xgd_movel_5": -0.42
+          "gols_pro": 3,
+          "gols_contra": 3,
+          "placar": "3 x 3",
+          "xg": 1.66,
+          "xga": 1.83,
+          "xgd": -0.17,
+          "posse": 61,
+          "chutes": 22,
+          "chutes_no_gol": 7,
+          "escanteios": 8,
+          "desarmes": 12,
+          "xg_movel_5": 1.31,
+          "xga_movel_5": 1.76,
+          "xgd_movel_5": -0.45
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": -4.5,
-          "temporada": 1.03,
-          "ultimos_5": 0.98
+          "status": "Melhorando",
+          "variacao": 20.6,
+          "temporada": 1.09,
+          "ultimos_5": 1.31
         },
         "defesa": {
-          "status": "Melhorando",
-          "variacao": 6,
-          "temporada": 1.49,
-          "ultimos_5": 1.4
+          "status": "Piorando",
+          "variacao": -13.5,
+          "temporada": 1.55,
+          "ultimos_5": 1.76
         },
         "equilibrio": {
-          "status": "Melhorando",
-          "variacao": 9.1,
-          "temporada": -0.46,
-          "ultimos_5": -0.42
+          "status": "Estável",
+          "variacao": 3.1,
+          "temporada": -0.47,
+          "ultimos_5": -0.45
         }
       },
       "resumo": {
         "jogos": 27,
-        "xg_medio": 1.03,
-        "xga_medio": 1.49,
-        "xgd_medio": -0.46
+        "xg_medio": 1.09,
+        "xga_medio": 1.55,
+        "xgd_medio": -0.47
       }
     },
     "RB Bragantino": {
@@ -3265,46 +3265,46 @@
           "data": "2026-09-12T00:00:00.000Z",
           "local": "Fora",
           "adversario": "Coritiba",
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.33,
-          "xga_movel_5": 1.54,
-          "xgd_movel_5": -0.21
+          "gols_pro": 3,
+          "gols_contra": 3,
+          "placar": "3 x 3",
+          "xg": 1.83,
+          "xga": 1.66,
+          "xgd": 0.17,
+          "posse": 39,
+          "chutes": 14,
+          "chutes_no_gol": 5,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 1.7,
+          "xga_movel_5": 1.87,
+          "xgd_movel_5": -0.18
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": -2,
-          "temporada": 1.36,
-          "ultimos_5": 1.33
+          "status": "Melhorando",
+          "variacao": 19,
+          "temporada": 1.43,
+          "ultimos_5": 1.7
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -37.6,
-          "temporada": 1.12,
-          "ultimos_5": 1.54
+          "variacao": -58.6,
+          "temporada": 1.18,
+          "ultimos_5": 1.87
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -189.3,
+          "variacao": -173,
           "temporada": 0.24,
-          "ultimos_5": -0.21
+          "ultimos_5": -0.18
         }
       },
       "resumo": {
         "jogos": 27,
-        "xg_medio": 1.36,
-        "xga_medio": 1.12,
+        "xg_medio": 1.43,
+        "xga_medio": 1.18,
         "xgd_medio": 0.24
       }
     },

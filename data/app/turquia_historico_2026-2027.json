@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T00:13:22.745Z",
+  "updated_at": "2026-09-12T12:14:01.090Z",
   "teams": {
     "Galatasaray": {
       "team": "Galatasaray",
@@ -1536,25 +1536,25 @@
           "gols_pro": 0,
           "gols_contra": 3,
           "placar": "0 x 3",
-          "xg": 0.41,
-          "xga": 2.27,
-          "xgd": -1.86,
-          "posse": 26,
+          "xg": 0.5,
+          "xga": 2.29,
+          "xgd": -1.79,
+          "posse": 27,
           "chutes": 8,
           "chutes_no_gol": 0,
           "escanteios": 1,
-          "desarmes": 22,
-          "xg_movel_5": 0.59,
+          "desarmes": 21,
+          "xg_movel_5": 0.61,
           "xga_movel_5": 1.81,
-          "xgd_movel_5": -1.22
+          "xgd_movel_5": -1.2
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.59,
-          "ultimos_5": 0.59
+          "temporada": 0.61,
+          "ultimos_5": 0.61
         },
         "defesa": {
           "status": "Estável",
@@ -1565,15 +1565,15 @@
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -1.22,
-          "ultimos_5": -1.22
+          "temporada": -1.2,
+          "ultimos_5": -1.2
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 0.59,
+        "xg_medio": 0.61,
         "xga_medio": 1.81,
-        "xgd_medio": -1.22
+        "xgd_medio": -1.2
       }
     },
     "Beşiktaş": {
@@ -1667,44 +1667,44 @@
           "gols_pro": 3,
           "gols_contra": 0,
           "placar": "3 x 0",
-          "xg": 2.27,
-          "xga": 0.41,
-          "xgd": 1.86,
-          "posse": 74,
+          "xg": 2.29,
+          "xga": 0.5,
+          "xgd": 1.79,
+          "posse": 73,
           "chutes": 21,
           "chutes_no_gol": 6,
           "escanteios": 10,
           "desarmes": 10,
-          "xg_movel_5": 1.8,
-          "xga_movel_5": 0.46,
-          "xgd_movel_5": 1.34
+          "xg_movel_5": 1.81,
+          "xga_movel_5": 0.48,
+          "xgd_movel_5": 1.33
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.8,
-          "ultimos_5": 1.8
+          "temporada": 1.81,
+          "ultimos_5": 1.81
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.46,
-          "ultimos_5": 0.46
+          "temporada": 0.48,
+          "ultimos_5": 0.48
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.34,
-          "ultimos_5": 1.34
+          "temporada": 1.33,
+          "ultimos_5": 1.33
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.8,
-        "xga_medio": 0.46,
-        "xgd_medio": 1.34
+        "xg_medio": 1.81,
+        "xga_medio": 0.48,
+        "xgd_medio": 1.33
       }
     },
     "Eyüpspor": {

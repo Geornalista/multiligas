@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T00:13:33.201Z",
+  "updated_at": "2026-09-12T12:14:15.662Z",
   "teams": {
     "AEK Athens": {
       "team": "AEK Athens",
@@ -1105,17 +1105,17 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 0.4,
-          "xga": 2.69,
-          "xgd": -2.29,
-          "posse": 32,
+          "xg": 0.36,
+          "xga": 2.56,
+          "xgd": -2.2,
+          "posse": 31,
           "chutes": 7,
           "chutes_no_gol": 4,
           "escanteios": 1,
           "desarmes": 17,
-          "xg_movel_5": 0.4,
-          "xga_movel_5": 2.69,
-          "xgd_movel_5": -2.29
+          "xg_movel_5": 0.36,
+          "xga_movel_5": 2.56,
+          "xgd_movel_5": -2.2
         },
         {
           "rodada": 2,
@@ -1133,9 +1133,9 @@
           "chutes_no_gol": 3,
           "escanteios": 1,
           "desarmes": 7,
-          "xg_movel_5": 0.83,
-          "xga_movel_5": 1.59,
-          "xgd_movel_5": -0.75
+          "xg_movel_5": 0.81,
+          "xga_movel_5": 1.52,
+          "xgd_movel_5": -0.71
         },
         {
           "rodada": 3,
@@ -1153,36 +1153,36 @@
           "chutes_no_gol": 3,
           "escanteios": 9,
           "desarmes": 7,
-          "xg_movel_5": 0.93,
-          "xga_movel_5": 1.35,
-          "xgd_movel_5": -0.42
+          "xg_movel_5": 0.92,
+          "xga_movel_5": 1.31,
+          "xgd_movel_5": -0.39
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.93,
-          "ultimos_5": 0.93
+          "temporada": 0.92,
+          "ultimos_5": 0.92
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.35,
-          "ultimos_5": 1.35
+          "temporada": 1.31,
+          "ultimos_5": 1.31
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.42,
-          "ultimos_5": -0.42
+          "temporada": -0.39,
+          "ultimos_5": -0.39
         }
       },
       "resumo": {
         "jogos": 3,
-        "xg_medio": 0.93,
-        "xga_medio": 1.35,
-        "xgd_medio": -0.42
+        "xg_medio": 0.92,
+        "xga_medio": 1.31,
+        "xgd_medio": -0.39
       }
     },
     "Panathinaikos": {
@@ -1196,17 +1196,17 @@
           "gols_pro": 3,
           "gols_contra": 1,
           "placar": "3 x 1",
-          "xg": 2.69,
-          "xga": 0.4,
-          "xgd": 2.29,
-          "posse": 68,
+          "xg": 2.56,
+          "xga": 0.36,
+          "xgd": 2.2,
+          "posse": 69,
           "chutes": 20,
           "chutes_no_gol": 9,
           "escanteios": 11,
-          "desarmes": 11,
-          "xg_movel_5": 2.69,
-          "xga_movel_5": 0.4,
-          "xgd_movel_5": 2.29
+          "desarmes": 12,
+          "xg_movel_5": 2.56,
+          "xga_movel_5": 0.36,
+          "xgd_movel_5": 2.2
         },
         {
           "rodada": 2,
@@ -1224,9 +1224,9 @@
           "chutes_no_gol": 6,
           "escanteios": 5,
           "desarmes": 14,
-          "xg_movel_5": 1.89,
-          "xga_movel_5": 0.68,
-          "xgd_movel_5": 1.21
+          "xg_movel_5": 1.83,
+          "xga_movel_5": 0.66,
+          "xgd_movel_5": 1.17
         },
         {
           "rodada": 3,
@@ -1244,36 +1244,36 @@
           "chutes_no_gol": 11,
           "escanteios": 5,
           "desarmes": 13,
-          "xg_movel_5": 2.18,
-          "xga_movel_5": 0.8,
-          "xgd_movel_5": 1.38
+          "xg_movel_5": 2.13,
+          "xga_movel_5": 0.79,
+          "xgd_movel_5": 1.35
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.18,
-          "ultimos_5": 2.18
+          "temporada": 2.13,
+          "ultimos_5": 2.13
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.8,
-          "ultimos_5": 0.8
+          "temporada": 0.79,
+          "ultimos_5": 0.79
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.38,
-          "ultimos_5": 1.38
+          "temporada": 1.35,
+          "ultimos_5": 1.35
         }
       },
       "resumo": {
         "jogos": 3,
-        "xg_medio": 2.18,
-        "xga_medio": 0.8,
-        "xgd_medio": 1.38
+        "xg_medio": 2.13,
+        "xga_medio": 0.79,
+        "xgd_medio": 1.35
       }
     }
   }
