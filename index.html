@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Brasileirão Stats</title>
+<title>MULTILIGAS STATS</title>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -1234,10 +1234,10 @@ tr.team-row:hover {
             </div>
 
             <div>
-                <h1>Football Stats</h1>
+                <h1>MULTILIGAS STATS</h1>
 
                 <p>
-                    Gols, mercados e Expected Goals
+                    🏆 Gols, mercados e xG 🥇
                 </p>
             </div>
 
@@ -1313,28 +1313,28 @@ tr.team-row:hover {
 ============================================================ */
 
 const LEAGUES = {
-    alemanha: { name: "Alemanha", leagueId: 54, defaultSeason: "2026/27" },
-    alemanha2: { name: "Alemanha 2", leagueId: 146, defaultSeason: "2026/27" },
-    espanha: { name: "Espanha", leagueId: 87, defaultSeason: "2026/27" },
-    espanha2: { name: "Espanha 2", leagueId: 140, defaultSeason: "2026/27" },
-    franca: { name: "França", leagueId: 53, defaultSeason: "2026/27" },
-    franca2: { name: "França 2", leagueId: 110, defaultSeason: "2026/27" },
-    italia: { name: "Itália", leagueId: 55, defaultSeason: "2026/27" },
-    italia2: { name: "Itália 2", leagueId: 86, defaultSeason: "2026/27" },
-    inglaterra: { name: "Inglaterra", leagueId: 47, defaultSeason: "2026/27" },
-    inglaterra2: { name: "Inglaterra 2", leagueId: 48, defaultSeason: "2026/27" },
-    belgica: { name: "Bélgica", leagueId: 40, defaultSeason: "2026/27" },
-    holanda: { name: "Holanda", leagueId: 57, defaultSeason: "2026/27" },
-    portugal: { name: "Portugal", leagueId: 61, defaultSeason: "2026/27" },
-    turquia: { name: "Turquia", leagueId: 71, defaultSeason: "2026/27" },
-    grecia: { name: "Grécia", leagueId: 135, defaultSeason: "2026/27" },
-    escocia: { name: "Escócia", leagueId: 64, defaultSeason: "2026/27" },
-    dinamarca: { name: "Dinamarca", leagueId: 46, defaultSeason: "2026" },
-    noruega: { name: "Noruega", leagueId: 59, defaultSeason: "2026" },
-    suica: { name: "Suíça", leagueId: 69, defaultSeason: "2026/27" },
-    suecia: { name: "Suécia", leagueId: 67, defaultSeason: "2026" },
-    brasil: { name: "Campeonato Brasileiro Série A", leagueId: 268, defaultSeason: "2026" },
-    australia: { name: "Austrália", leagueId: 113, defaultSeason: "2026" }
+    alemanha: { name: "🇩🇪 Alemanha", leagueId: 54, defaultSeason: "2026/27" },
+    alemanha2: { name: "🇩🇪 Alemanha 2a Div", leagueId: 146, defaultSeason: "2026/27" },
+    espanha: { name: "🇪🇸 Espanha", leagueId: 87, defaultSeason: "2026/27" },
+    espanha2: { name: "🇪🇸 Espanha 2a Div", leagueId: 140, defaultSeason: "2026/27" },
+    franca: { name: "🇫🇷 França", leagueId: 53, defaultSeason: "2026/27" },
+    franca2: { name: "🇫🇷 França 2a Div", leagueId: 110, defaultSeason: "2026/27" },
+    italia: { name: "🇮🇹 Itália", leagueId: 55, defaultSeason: "2026/27" },
+    italia2: { name: "🇮🇹 Itália 2a Div", leagueId: 86, defaultSeason: "2026/27" },
+    inglaterra: { name: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra", leagueId: 47, defaultSeason: "2026/27" },
+    inglaterra2: { name: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2a Div", leagueId: 48, defaultSeason: "2026/27" },
+    belgica: { name: "🇧🇪 Bélgica", leagueId: 40, defaultSeason: "2026/27" },
+    holanda: { name: "🇱🇺 Holanda", leagueId: 57, defaultSeason: "2026/27" },
+    portugal: { name: "🇵🇹 Portugal", leagueId: 61, defaultSeason: "2026/27" },
+    turquia: { name: "🇹🇷 Turquia", leagueId: 71, defaultSeason: "2026/27" },
+    grecia: { name: "🇬🇷 Grécia", leagueId: 135, defaultSeason: "2026/27" },
+    escocia: { name: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia", leagueId: 64, defaultSeason: "2026/27" },
+    dinamarca: { name: "🇩🇰 Dinamarca", leagueId: 46, defaultSeason: "2026" },
+    noruega: { name: "🇳🇴 Noruega", leagueId: 59, defaultSeason: "2026" },
+    suica: { name: "🇨🇭 Suíça", leagueId: 69, defaultSeason: "2026/27" },
+    suecia: { name: "🇸🇪 Suécia", leagueId: 67, defaultSeason: "2026" },
+    brasil: { name: "🇧🇷 Brasil - Série A", leagueId: 268, defaultSeason: "2026" },
+    australia: { name: "🇦🇺 Austrália", leagueId: 113, defaultSeason: "2026" }
 };
 
 const STORAGE_LEAGUE = "fotmob_stats_league";
