@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "updated_at": "2026-09-13T11:20:02.409Z",
+  "updated_at": "2026-09-13T12:22:43.966Z",
   "teams": {
     "Degerfors": {
       "team": "Degerfors",
@@ -1266,33 +1266,53 @@
           "xg_movel_5": 3.16,
           "xga_movel_5": 0.84,
           "xgd_movel_5": 2.32
+        },
+        {
+          "rodada": 21,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Brommapojkarna",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 2.82,
+          "xga_movel_5": 0.8,
+          "xgd_movel_5": 2.02
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 31.6,
-          "temporada": 2.4,
-          "ultimos_5": 3.16
+          "variacao": 23.4,
+          "temporada": 2.29,
+          "ultimos_5": 2.82
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 20.3,
-          "temporada": 1.06,
-          "ultimos_5": 0.84
+          "variacao": 20.2,
+          "temporada": 1.01,
+          "ultimos_5": 0.8
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 72.4,
-          "temporada": 1.34,
-          "ultimos_5": 2.32
+          "variacao": 57.9,
+          "temporada": 1.28,
+          "ultimos_5": 2.02
         }
       },
       "resumo": {
-        "jogos": 20,
-        "xg_medio": 2.4,
-        "xga_medio": 1.06,
-        "xgd_medio": 1.34
+        "jogos": 21,
+        "xg_medio": 2.29,
+        "xga_medio": 1.01,
+        "xgd_medio": 1.28
       }
     },
     "Mjällby": {
@@ -3010,32 +3030,52 @@
           "xg_movel_5": 0.96,
           "xga_movel_5": 1.36,
           "xgd_movel_5": -0.4
+        },
+        {
+          "rodada": 21,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Elfsborg",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.83,
+          "xga_movel_5": 0.88,
+          "xgd_movel_5": -0.05
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -23.7,
-          "temporada": 1.26,
-          "ultimos_5": 0.96
+          "variacao": -31.1,
+          "temporada": 1.2,
+          "ultimos_5": 0.83
         },
         "defesa": {
-          "status": "Piorando",
-          "variacao": -11.3,
-          "temporada": 1.22,
-          "ultimos_5": 1.36
+          "status": "Melhorando",
+          "variacao": 24.2,
+          "temporada": 1.16,
+          "ultimos_5": 0.88
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -1042.9,
+          "variacao": -230,
           "temporada": 0.04,
-          "ultimos_5": -0.4
+          "ultimos_5": -0.05
         }
       },
       "resumo": {
-        "jogos": 20,
-        "xg_medio": 1.26,
-        "xga_medio": 1.22,
+        "jogos": 21,
+        "xg_medio": 1.2,
+        "xga_medio": 1.16,
         "xgd_medio": 0.04
       }
     },
@@ -4754,32 +4794,52 @@
           "xg_movel_5": 1.77,
           "xga_movel_5": 1.1,
           "xgd_movel_5": 0.67
+        },
+        {
+          "rodada": 21,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Kalmar FF",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.18,
+          "xga_movel_5": 0.9,
+          "xgd_movel_5": 0.28
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Melhorando",
-          "variacao": 23.6,
-          "temporada": 1.43,
-          "ultimos_5": 1.77
+          "status": "Piorando",
+          "variacao": -13.7,
+          "temporada": 1.37,
+          "ultimos_5": 1.18
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 13.9,
-          "temporada": 1.28,
-          "ultimos_5": 1.1
+          "variacao": 26.1,
+          "temporada": 1.22,
+          "ultimos_5": 0.9
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 333.7,
+          "variacao": 88.9,
           "temporada": 0.15,
-          "ultimos_5": 0.67
+          "ultimos_5": 0.28
         }
       },
       "resumo": {
-        "jogos": 20,
-        "xg_medio": 1.43,
-        "xga_medio": 1.28,
+        "jogos": 21,
+        "xg_medio": 1.37,
+        "xga_medio": 1.22,
         "xgd_medio": 0.15
       }
     },
@@ -6087,32 +6147,52 @@
           "xg_movel_5": 1.26,
           "xga_movel_5": 1.1,
           "xgd_movel_5": 0.16
+        },
+        {
+          "rodada": 21,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Hammarby",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.14,
+          "xga_movel_5": 0.82,
+          "xgd_movel_5": 0.32
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -5.5,
-          "temporada": 1.33,
-          "ultimos_5": 1.26
+          "variacao": -10.2,
+          "temporada": 1.27,
+          "ultimos_5": 1.14
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 18,
-          "temporada": 1.34,
-          "ultimos_5": 1.1
+          "variacao": 35.7,
+          "temporada": 1.28,
+          "ultimos_5": 0.82
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 1982.4,
+          "variacao": 4028.2,
           "temporada": -0.01,
-          "ultimos_5": 0.16
+          "ultimos_5": 0.32
         }
       },
       "resumo": {
-        "jogos": 20,
-        "xg_medio": 1.33,
-        "xga_medio": 1.34,
+        "jogos": 21,
+        "xg_medio": 1.27,
+        "xga_medio": 1.28,
         "xgd_medio": -0.01
       }
     },

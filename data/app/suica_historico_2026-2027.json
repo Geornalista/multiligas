@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-13T11:18:10.168Z",
+  "updated_at": "2026-09-13T12:20:48.303Z",
   "teams": {
     "Lausanne": {
       "team": "Lausanne",
@@ -1683,33 +1683,53 @@
           "xg_movel_5": 1.79,
           "xga_movel_5": 2.06,
           "xgd_movel_5": -0.27
+        },
+        {
+          "rodada": 8,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Fora",
+          "adversario": "FC Zürich",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.46,
+          "xga_movel_5": 1.51,
+          "xgd_movel_5": -0.05
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0.1,
-          "temporada": 1.79,
-          "ultimos_5": 1.79
+          "status": "Piorando",
+          "variacao": -6.9,
+          "temporada": 1.57,
+          "ultimos_5": 1.46
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -0.8,
-          "temporada": 2.04,
-          "ultimos_5": 2.06
+          "status": "Melhorando",
+          "variacao": 15.8,
+          "temporada": 1.79,
+          "ultimos_5": 1.51
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -5.4,
-          "temporada": -0.25,
-          "ultimos_5": -0.27
+          "status": "Melhorando",
+          "variacao": 78.4,
+          "temporada": -0.22,
+          "ultimos_5": -0.05
         }
       },
       "resumo": {
-        "jogos": 7,
-        "xg_medio": 1.79,
-        "xga_medio": 2.04,
-        "xgd_medio": -0.25
+        "jogos": 8,
+        "xg_medio": 1.57,
+        "xga_medio": 1.79,
+        "xgd_medio": -0.22
       }
     },
     "St. Gallen": {
@@ -2025,33 +2045,53 @@
           "xg_movel_5": 1.48,
           "xga_movel_5": 2.22,
           "xgd_movel_5": -0.74
+        },
+        {
+          "rodada": 8,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Casa",
+          "adversario": "FC Vaduz",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.31,
+          "xga_movel_5": 1.74,
+          "xgd_movel_5": -0.44
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 5.4,
-          "temporada": 1.4,
-          "ultimos_5": 1.48
+          "variacao": 6.4,
+          "temporada": 1.23,
+          "ultimos_5": 1.31
         },
         "defesa": {
-          "status": "Piorando",
-          "variacao": -9.4,
-          "temporada": 2.03,
-          "ultimos_5": 2.22
+          "status": "Estável",
+          "variacao": 1.9,
+          "temporada": 1.78,
+          "ultimos_5": 1.74
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -18.6,
-          "temporada": -0.63,
-          "ultimos_5": -0.74
+          "status": "Melhorando",
+          "variacao": 20.4,
+          "temporada": -0.55,
+          "ultimos_5": -0.44
         }
       },
       "resumo": {
-        "jogos": 7,
-        "xg_medio": 1.4,
-        "xga_medio": 2.03,
-        "xgd_medio": -0.63
+        "jogos": 8,
+        "xg_medio": 1.23,
+        "xga_medio": 1.78,
+        "xgd_medio": -0.55
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-13T11:08:53.055Z",
+  "updated_at": "2026-09-13T12:11:45.555Z",
   "teams": {
     "Real Sociedad B": {
       "team": "Real Sociedad B",
@@ -2302,33 +2302,53 @@
           "xg_movel_5": 1.19,
           "xga_movel_5": 0.97,
           "xgd_movel_5": 0.22
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Eldense",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.95,
+          "xga_movel_5": 0.78,
+          "xgd_movel_5": 0.17
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.19,
-          "ultimos_5": 1.19
+          "temporada": 0.95,
+          "ultimos_5": 0.95
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.97,
-          "ultimos_5": 0.97
+          "temporada": 0.78,
+          "ultimos_5": 0.78
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.22,
-          "ultimos_5": 0.22
+          "temporada": 0.17,
+          "ultimos_5": 0.17
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.19,
-        "xga_medio": 0.97,
-        "xgd_medio": 0.22
+        "jogos": 5,
+        "xg_medio": 0.95,
+        "xga_medio": 0.78,
+        "xgd_medio": 0.17
       }
     },
     "Sabadell": {
@@ -2655,33 +2675,53 @@
           "xg_movel_5": 0.87,
           "xga_movel_5": 1.64,
           "xgd_movel_5": -0.77
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-13T12:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Sporting Gijón",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.69,
+          "xga_movel_5": 1.31,
+          "xgd_movel_5": -0.62
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.87,
-          "ultimos_5": 0.87
+          "temporada": 0.69,
+          "ultimos_5": 0.69
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.64,
-          "ultimos_5": 1.64
+          "temporada": 1.31,
+          "ultimos_5": 1.31
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.77,
-          "ultimos_5": -0.77
+          "temporada": -0.62,
+          "ultimos_5": -0.62
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 0.87,
-        "xga_medio": 1.64,
-        "xgd_medio": -0.77
+        "jogos": 5,
+        "xg_medio": 0.69,
+        "xga_medio": 1.31,
+        "xgd_medio": -0.62
       }
     }
   }
