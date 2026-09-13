@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T14:16:44.461Z",
+  "updated_at": "2026-09-13T11:13:14.725Z",
   "teams": {
     "Cambuur": {
       "team": "Cambuur",
@@ -104,33 +104,53 @@
           "xg_movel_5": 1.13,
           "xga_movel_5": 2.24,
           "xgd_movel_5": -1.11
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T19:00:00Z",
+          "local": "Casa",
+          "adversario": "NEC Nijmegen",
+          "gols_pro": 3,
+          "gols_contra": 0,
+          "placar": "3 x 0",
+          "xg": 3.12,
+          "xga": 0.93,
+          "xgd": 2.19,
+          "posse": 37,
+          "chutes": 16,
+          "chutes_no_gol": 7,
+          "escanteios": 4,
+          "desarmes": 20,
+          "xg_movel_5": 1.61,
+          "xga_movel_5": 1.85,
+          "xgd_movel_5": -0.24
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.13,
-          "ultimos_5": 1.13
+          "status": "Melhorando",
+          "variacao": 10.1,
+          "temporada": 1.46,
+          "ultimos_5": 1.61
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.24,
-          "ultimos_5": 2.24
+          "status": "Melhorando",
+          "variacao": 8.4,
+          "temporada": 2.02,
+          "ultimos_5": 1.85
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -1.11,
-          "ultimos_5": -1.11
+          "status": "Melhorando",
+          "variacao": 56.6,
+          "temporada": -0.56,
+          "ultimos_5": -0.24
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.13,
-        "xga_medio": 2.24,
-        "xgd_medio": -1.11
+        "jogos": 6,
+        "xg_medio": 1.46,
+        "xga_medio": 2.02,
+        "xgd_medio": -0.56
       }
     },
     "Excelsior": {
@@ -235,33 +255,53 @@
           "xg_movel_5": 1.65,
           "xga_movel_5": 1.3,
           "xgd_movel_5": 0.34
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-13T10:15:00.000Z",
+          "local": "Casa",
+          "adversario": "FC Utrecht",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.07,
+          "xga_movel_5": 1.16,
+          "xgd_movel_5": -0.09
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.65,
-          "ultimos_5": 1.65
+          "status": "Piorando",
+          "variacao": -21.8,
+          "temporada": 1.37,
+          "ultimos_5": 1.07
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.3,
-          "ultimos_5": 1.3
+          "status": "Piorando",
+          "variacao": -6.7,
+          "temporada": 1.09,
+          "ultimos_5": 1.16
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.34,
-          "ultimos_5": 0.34
+          "status": "Piorando",
+          "variacao": -130,
+          "temporada": 0.29,
+          "ultimos_5": -0.09
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.65,
-        "xga_medio": 1.3,
-        "xgd_medio": 0.34
+        "jogos": 6,
+        "xg_medio": 1.37,
+        "xga_medio": 1.09,
+        "xgd_medio": 0.29
       }
     },
     "NEC Nijmegen": {
@@ -366,33 +406,53 @@
           "xg_movel_5": 2,
           "xga_movel_5": 1.67,
           "xgd_movel_5": 0.34
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T19:00:00Z",
+          "local": "Fora",
+          "adversario": "Cambuur",
+          "gols_pro": 0,
+          "gols_contra": 3,
+          "placar": "0 x 3",
+          "xg": 0.93,
+          "xga": 3.12,
+          "xgd": -2.19,
+          "posse": 63,
+          "chutes": 10,
+          "chutes_no_gol": 1,
+          "escanteios": 5,
+          "desarmes": 11,
+          "xg_movel_5": 1.76,
+          "xga_movel_5": 1.96,
+          "xgd_movel_5": -0.2
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 2,
-          "ultimos_5": 2
+          "variacao": -3.6,
+          "temporada": 1.83,
+          "ultimos_5": 1.76
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.67,
-          "ultimos_5": 1.67
+          "variacao": -2.6,
+          "temporada": 1.91,
+          "ultimos_5": 1.96
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.34,
-          "ultimos_5": 0.34
+          "status": "Piorando",
+          "variacao": -135.3,
+          "temporada": -0.08,
+          "ultimos_5": -0.2
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 2,
-        "xga_medio": 1.67,
-        "xgd_medio": 0.34
+        "jogos": 6,
+        "xg_medio": 1.83,
+        "xga_medio": 1.91,
+        "xgd_medio": -0.08
       }
     },
     "Telstar": {
@@ -628,33 +688,53 @@
           "xg_movel_5": 1.72,
           "xga_movel_5": 2,
           "xgd_movel_5": -0.28
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T16:45:00Z",
+          "local": "Casa",
+          "adversario": "FC Groningen",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 2.23,
+          "xga": 0.16,
+          "xgd": 2.07,
+          "posse": 60,
+          "chutes": 24,
+          "chutes_no_gol": 6,
+          "escanteios": 9,
+          "desarmes": 6,
+          "xg_movel_5": 1.68,
+          "xga_movel_5": 1.73,
+          "xgd_movel_5": -0.05
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.72,
-          "ultimos_5": 1.72
+          "status": "Piorando",
+          "variacao": -6.9,
+          "temporada": 1.81,
+          "ultimos_5": 1.68
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 2,
-          "ultimos_5": 2
+          "variacao": -2.2,
+          "temporada": 1.69,
+          "ultimos_5": 1.73
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.28,
-          "ultimos_5": -0.28
+          "status": "Piorando",
+          "variacao": -144.8,
+          "temporada": 0.11,
+          "ultimos_5": -0.05
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.72,
-        "xga_medio": 2,
-        "xgd_medio": -0.28
+        "jogos": 6,
+        "xg_medio": 1.81,
+        "xga_medio": 1.69,
+        "xgd_medio": 0.11
       }
     },
     "Willem II": {
@@ -748,44 +828,44 @@
           "gols_pro": 1,
           "gols_contra": 1,
           "placar": "1 x 1",
-          "xg": 0.93,
-          "xga": 2.48,
-          "xgd": -1.55,
+          "xg": 1.23,
+          "xga": 3.14,
+          "xgd": -1.91,
           "posse": 33,
           "chutes": 8,
           "chutes_no_gol": 2,
           "escanteios": 2,
           "desarmes": 15,
-          "xg_movel_5": 1.32,
-          "xga_movel_5": 2.31,
-          "xgd_movel_5": -0.99
+          "xg_movel_5": 1.38,
+          "xga_movel_5": 2.44,
+          "xgd_movel_5": -1.06
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.32,
-          "ultimos_5": 1.32
+          "temporada": 1.38,
+          "ultimos_5": 1.38
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.31,
-          "ultimos_5": 2.31
+          "temporada": 2.44,
+          "ultimos_5": 2.44
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.99,
-          "ultimos_5": -0.99
+          "temporada": -1.06,
+          "ultimos_5": -1.06
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.32,
-        "xga_medio": 2.31,
-        "xgd_medio": -0.99
+        "xg_medio": 1.38,
+        "xga_medio": 2.44,
+        "xgd_medio": -1.06
       }
     },
     "PSV Eindhoven": {
@@ -1021,33 +1101,53 @@
           "xg_movel_5": 0.94,
           "xga_movel_5": 2.4,
           "xgd_movel_5": -1.46
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T18:00:00Z",
+          "local": "Casa",
+          "adversario": "Ajax",
+          "gols_pro": 1,
+          "gols_contra": 5,
+          "placar": "1 x 5",
+          "xg": 0.71,
+          "xga": 4.13,
+          "xgd": -3.42,
+          "posse": 35,
+          "chutes": 8,
+          "chutes_no_gol": 4,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 0.89,
+          "xga_movel_5": 2.72,
+          "xgd_movel_5": -1.83
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.94,
-          "ultimos_5": 0.94
+          "variacao": -1.7,
+          "temporada": 0.9,
+          "ultimos_5": 0.89
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.4,
-          "ultimos_5": 2.4
+          "variacao": -1,
+          "temporada": 2.69,
+          "ultimos_5": 2.72
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": -1.46,
-          "ultimos_5": -1.46
+          "variacao": -2.3,
+          "temporada": -1.79,
+          "ultimos_5": -1.83
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 0.94,
-        "xga_medio": 2.4,
-        "xgd_medio": -1.46
+        "jogos": 6,
+        "xg_medio": 0.9,
+        "xga_medio": 2.69,
+        "xgd_medio": -1.79
       }
     },
     "AZ Alkmaar": {
@@ -1161,44 +1261,44 @@
           "gols_pro": 1,
           "gols_contra": 1,
           "placar": "1 x 1",
-          "xg": 2.48,
-          "xga": 0.93,
-          "xgd": 1.55,
+          "xg": 3.14,
+          "xga": 1.23,
+          "xgd": 1.91,
           "posse": 67,
           "chutes": 22,
           "chutes_no_gol": 5,
           "escanteios": 11,
           "desarmes": 12,
-          "xg_movel_5": 2.5,
-          "xga_movel_5": 1.08,
-          "xgd_movel_5": 1.43
+          "xg_movel_5": 2.64,
+          "xga_movel_5": 1.14,
+          "xgd_movel_5": 1.5
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": -1.5,
-          "temporada": 2.54,
-          "ultimos_5": 2.5
+          "variacao": -0.7,
+          "temporada": 2.65,
+          "ultimos_5": 2.64
         },
         "defesa": {
           "status": "Estável",
-          "variacao": -3.5,
-          "temporada": 1.04,
-          "ultimos_5": 1.08
+          "variacao": -4.2,
+          "temporada": 1.09,
+          "ultimos_5": 1.14
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": -5,
-          "temporada": 1.5,
-          "ultimos_5": 1.43
+          "variacao": -4.1,
+          "temporada": 1.56,
+          "ultimos_5": 1.5
         }
       },
       "resumo": {
         "jogos": 6,
-        "xg_medio": 2.54,
-        "xga_medio": 1.04,
-        "xgd_medio": 1.5
+        "xg_medio": 2.65,
+        "xga_medio": 1.09,
+        "xgd_medio": 1.56
       }
     },
     "ADO Den Haag": {
@@ -1303,33 +1403,53 @@
           "xg_movel_5": 0.69,
           "xga_movel_5": 1.98,
           "xgd_movel_5": -1.29
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T14:30:00Z",
+          "local": "Fora",
+          "adversario": "FC Twente",
+          "gols_pro": 0,
+          "gols_contra": 2,
+          "placar": "0 x 2",
+          "xg": 0.54,
+          "xga": 2.81,
+          "xgd": -2.27,
+          "posse": 39,
+          "chutes": 10,
+          "chutes_no_gol": 5,
+          "escanteios": 2,
+          "desarmes": 17,
+          "xg_movel_5": 0.63,
+          "xga_movel_5": 1.99,
+          "xgd_movel_5": -1.36
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.69,
-          "ultimos_5": 0.69
+          "status": "Piorando",
+          "variacao": -5.8,
+          "temporada": 0.67,
+          "ultimos_5": 0.63
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.98,
-          "ultimos_5": 1.98
+          "status": "Melhorando",
+          "variacao": 5.9,
+          "temporada": 2.12,
+          "ultimos_5": 1.99
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -1.29,
-          "ultimos_5": -1.29
+          "status": "Melhorando",
+          "variacao": 5.9,
+          "temporada": -1.45,
+          "ultimos_5": -1.36
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 0.69,
-        "xga_medio": 1.98,
-        "xgd_medio": -1.29
+        "jogos": 6,
+        "xg_medio": 0.67,
+        "xga_medio": 2.12,
+        "xgd_medio": -1.45
       }
     },
     "Sparta Rotterdam": {
@@ -1696,33 +1816,53 @@
           "xg_movel_5": 1.93,
           "xga_movel_5": 2.14,
           "xgd_movel_5": -0.22
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T16:45:00Z",
+          "local": "Fora",
+          "adversario": "Go Ahead Eagles",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 0.16,
+          "xga": 2.23,
+          "xgd": -2.07,
+          "posse": 40,
+          "chutes": 4,
+          "chutes_no_gol": 2,
+          "escanteios": 0,
+          "desarmes": 17,
+          "xg_movel_5": 1.65,
+          "xga_movel_5": 2.17,
+          "xgd_movel_5": -0.52
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.93,
-          "ultimos_5": 1.93
+          "variacao": 0.8,
+          "temporada": 1.63,
+          "ultimos_5": 1.65
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.14,
-          "ultimos_5": 2.14
+          "variacao": -0.4,
+          "temporada": 2.16,
+          "ultimos_5": 2.17
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.22,
-          "ultimos_5": -0.22
+          "variacao": 1,
+          "temporada": -0.52,
+          "ultimos_5": -0.52
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.93,
-        "xga_medio": 2.14,
-        "xgd_medio": -0.22
+        "jogos": 6,
+        "xg_medio": 1.63,
+        "xga_medio": 2.16,
+        "xgd_medio": -0.52
       }
     },
     "FC Utrecht": {
@@ -1827,33 +1967,53 @@
           "xg_movel_5": 1.56,
           "xga_movel_5": 2.18,
           "xgd_movel_5": -0.61
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-13T10:15:00.000Z",
+          "local": "Fora",
+          "adversario": "Excelsior",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.14,
+          "xga_movel_5": 1.86,
+          "xgd_movel_5": -0.72
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.56,
-          "ultimos_5": 1.56
+          "status": "Piorando",
+          "variacao": -12.6,
+          "temporada": 1.3,
+          "ultimos_5": 1.14
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.18,
-          "ultimos_5": 2.18
+          "variacao": -2.7,
+          "temporada": 1.81,
+          "ultimos_5": 1.86
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.61,
-          "ultimos_5": -0.61
+          "status": "Piorando",
+          "variacao": -41.5,
+          "temporada": -0.51,
+          "ultimos_5": -0.72
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.56,
-        "xga_medio": 2.18,
-        "xgd_medio": -0.61
+        "jogos": 6,
+        "xg_medio": 1.3,
+        "xga_medio": 1.81,
+        "xgd_medio": -0.51
       }
     },
     "PEC Zwolle": {
@@ -2069,33 +2229,53 @@
           "xg_movel_5": 2.1,
           "xga_movel_5": 1.4,
           "xgd_movel_5": 0.7
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T18:00:00Z",
+          "local": "Fora",
+          "adversario": "Fortuna Sittard",
+          "gols_pro": 5,
+          "gols_contra": 1,
+          "placar": "5 x 1",
+          "xg": 4.13,
+          "xga": 0.71,
+          "xgd": 3.42,
+          "posse": 65,
+          "chutes": 27,
+          "chutes_no_gol": 11,
+          "escanteios": 11,
+          "desarmes": 6,
+          "xg_movel_5": 2.51,
+          "xga_movel_5": 1.26,
+          "xgd_movel_5": 1.25
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.1,
-          "ultimos_5": 2.1
+          "temporada": 2.51,
+          "ultimos_5": 2.51
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.4,
-          "ultimos_5": 1.4
+          "temporada": 1.26,
+          "ultimos_5": 1.26
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.7,
-          "ultimos_5": 0.7
+          "temporada": 1.25,
+          "ultimos_5": 1.25
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 2.1,
-        "xga_medio": 1.4,
-        "xgd_medio": 0.7
+        "jogos": 5,
+        "xg_medio": 2.51,
+        "xga_medio": 1.26,
+        "xgd_medio": 1.25
       }
     },
     "SC Heerenveen": {
@@ -2331,33 +2511,53 @@
           "xg_movel_5": 2.12,
           "xga_movel_5": 0.77,
           "xgd_movel_5": 1.35
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-12T14:30:00Z",
+          "local": "Casa",
+          "adversario": "ADO Den Haag",
+          "gols_pro": 2,
+          "gols_contra": 0,
+          "placar": "2 x 0",
+          "xg": 2.81,
+          "xga": 0.54,
+          "xgd": 2.27,
+          "posse": 61,
+          "chutes": 24,
+          "chutes_no_gol": 12,
+          "escanteios": 12,
+          "desarmes": 12,
+          "xg_movel_5": 2.4,
+          "xga_movel_5": 0.8,
+          "xgd_movel_5": 1.6
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.12,
-          "ultimos_5": 2.12
+          "status": "Melhorando",
+          "variacao": 7.4,
+          "temporada": 2.24,
+          "ultimos_5": 2.4
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.77,
-          "ultimos_5": 0.77
+          "status": "Piorando",
+          "variacao": -9.1,
+          "temporada": 0.74,
+          "ultimos_5": 0.8
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.35,
-          "ultimos_5": 1.35
+          "status": "Melhorando",
+          "variacao": 6.6,
+          "temporada": 1.5,
+          "ultimos_5": 1.6
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 2.12,
-        "xga_medio": 0.77,
-        "xgd_medio": 1.35
+        "jogos": 6,
+        "xg_medio": 2.24,
+        "xga_medio": 0.74,
+        "xgd_medio": 1.5
       }
     }
   }

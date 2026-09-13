@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T14:12:33.536Z",
+  "updated_at": "2026-09-13T11:07:46.671Z",
   "teams": {
     "Bochum": {
       "team": "Bochum",
@@ -87,7 +87,7 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-12T11:00:00.000Z",
+          "data": "2026-09-12T11:00:00Z",
           "local": "Casa",
           "adversario": "Greuther Fürth",
           "gols_pro": 1,
@@ -1035,7 +1035,7 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-12T11:00:00.000Z",
+          "data": "2026-09-12T11:00:00Z",
           "local": "Casa",
           "adversario": "Kaiserslautern",
           "gols_pro": 3,
@@ -1166,7 +1166,7 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-12T11:15:00.000Z",
+          "data": "2026-09-12T11:15:00Z",
           "local": "Casa",
           "adversario": "Dynamo Dresden",
           "gols_pro": 2,
@@ -1294,33 +1294,53 @@
           "xg_movel_5": 2.54,
           "xga_movel_5": 1.71,
           "xgd_movel_5": 0.83
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-12T18:30:00Z",
+          "local": "Fora",
+          "adversario": "St. Pauli",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0.54,
+          "xga": 0.93,
+          "xgd": -0.39,
+          "posse": 60,
+          "chutes": 10,
+          "chutes_no_gol": 2,
+          "escanteios": 4,
+          "desarmes": 17,
+          "xg_movel_5": 2.14,
+          "xga_movel_5": 1.56,
+          "xgd_movel_5": 0.59
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.54,
-          "ultimos_5": 2.54
+          "temporada": 2.14,
+          "ultimos_5": 2.14
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.71,
-          "ultimos_5": 1.71
+          "temporada": 1.56,
+          "ultimos_5": 1.56
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.83,
-          "ultimos_5": 0.83
+          "temporada": 0.59,
+          "ultimos_5": 0.59
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 2.54,
-        "xga_medio": 1.71,
-        "xgd_medio": 0.83
+        "jogos": 5,
+        "xg_medio": 2.14,
+        "xga_medio": 1.56,
+        "xgd_medio": 0.59
       }
     },
     "Kaiserslautern": {
@@ -1408,7 +1428,7 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-12T11:00:00.000Z",
+          "data": "2026-09-12T11:00:00Z",
           "local": "Fora",
           "adversario": "Magdeburg",
           "gols_pro": 0,
@@ -1912,7 +1932,7 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-12T11:15:00.000Z",
+          "data": "2026-09-12T11:15:00Z",
           "local": "Fora",
           "adversario": "Eintracht Braunschweig",
           "gols_pro": 2,
@@ -2040,33 +2060,53 @@
           "xg_movel_5": 1.73,
           "xga_movel_5": 1.42,
           "xgd_movel_5": 0.32
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-12T18:30:00Z",
+          "local": "Casa",
+          "adversario": "Wolfsburg",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0.93,
+          "xga": 0.54,
+          "xgd": 0.39,
+          "posse": 40,
+          "chutes": 18,
+          "chutes_no_gol": 4,
+          "escanteios": 10,
+          "desarmes": 17,
+          "xg_movel_5": 1.57,
+          "xga_movel_5": 1.24,
+          "xgd_movel_5": 0.33
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.73,
-          "ultimos_5": 1.73
+          "temporada": 1.57,
+          "ultimos_5": 1.57
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.42,
-          "ultimos_5": 1.42
+          "temporada": 1.24,
+          "ultimos_5": 1.24
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.32,
-          "ultimos_5": 0.32
+          "temporada": 0.33,
+          "ultimos_5": 0.33
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.73,
-        "xga_medio": 1.42,
-        "xgd_medio": 0.32
+        "jogos": 5,
+        "xg_medio": 1.57,
+        "xga_medio": 1.24,
+        "xgd_medio": 0.33
       }
     },
     "Greuther Fürth": {
@@ -2154,7 +2194,7 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-12T11:00:00.000Z",
+          "data": "2026-09-12T11:00:00Z",
           "local": "Fora",
           "adversario": "Bochum",
           "gols_pro": 1,

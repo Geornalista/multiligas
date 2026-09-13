@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-12T14:17:52.091Z",
+  "updated_at": "2026-09-13T11:14:33.000Z",
   "teams": {
     "AEK Athens": {
       "team": "AEK Athens",
@@ -155,33 +155,53 @@
           "xg_movel_5": 0.63,
           "xga_movel_5": 1.45,
           "xgd_movel_5": -0.81
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T18:00:00Z",
+          "local": "Casa",
+          "adversario": "Atromitos",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": 59,
+          "chutes": 7,
+          "chutes_no_gol": 2,
+          "escanteios": 1,
+          "desarmes": 0,
+          "xg_movel_5": 0.48,
+          "xga_movel_5": 1.09,
+          "xgd_movel_5": -0.61
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.63,
-          "ultimos_5": 0.63
+          "temporada": 0.48,
+          "ultimos_5": 0.48
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.45,
-          "ultimos_5": 1.45
+          "temporada": 1.09,
+          "ultimos_5": 1.09
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.81,
-          "ultimos_5": -0.81
+          "temporada": -0.61,
+          "ultimos_5": -0.61
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 0.63,
-        "xga_medio": 1.45,
-        "xgd_medio": -0.81
+        "jogos": 4,
+        "xg_medio": 0.48,
+        "xga_medio": 1.09,
+        "xgd_medio": -0.61
       }
     },
     "Kalamata": {
@@ -428,33 +448,53 @@
           "xg_movel_5": 2.19,
           "xga_movel_5": 0.55,
           "xgd_movel_5": 1.63
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T16:00:00Z",
+          "local": "Casa",
+          "adversario": "OFI Crete",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 1.39,
+          "xga": 0.87,
+          "xgd": 0.52,
+          "posse": 62,
+          "chutes": 20,
+          "chutes_no_gol": 4,
+          "escanteios": 8,
+          "desarmes": 13,
+          "xg_movel_5": 1.99,
+          "xga_movel_5": 0.63,
+          "xgd_movel_5": 1.36
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.19,
-          "ultimos_5": 2.19
+          "temporada": 1.99,
+          "ultimos_5": 1.99
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.55,
-          "ultimos_5": 0.55
+          "temporada": 0.63,
+          "ultimos_5": 0.63
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.63,
-          "ultimos_5": 1.63
+          "temporada": 1.36,
+          "ultimos_5": 1.36
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 2.19,
-        "xga_medio": 0.55,
-        "xgd_medio": 1.63
+        "jogos": 4,
+        "xg_medio": 1.99,
+        "xga_medio": 0.63,
+        "xgd_medio": 1.36
       }
     },
     "Atromitos": {
@@ -519,33 +559,53 @@
           "xg_movel_5": 0.63,
           "xga_movel_5": 1.68,
           "xgd_movel_5": -1.05
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T18:00:00Z",
+          "local": "Fora",
+          "adversario": "Iraklis",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": 41,
+          "chutes": 8,
+          "chutes_no_gol": 4,
+          "escanteios": 0,
+          "desarmes": 0,
+          "xg_movel_5": 0.47,
+          "xga_movel_5": 1.26,
+          "xgd_movel_5": -0.79
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.63,
-          "ultimos_5": 0.63
+          "temporada": 0.47,
+          "ultimos_5": 0.47
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.68,
-          "ultimos_5": 1.68
+          "temporada": 1.26,
+          "ultimos_5": 1.26
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -1.05,
-          "ultimos_5": -1.05
+          "temporada": -0.79,
+          "ultimos_5": -0.79
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 0.63,
-        "xga_medio": 1.68,
-        "xgd_medio": -1.05
+        "jogos": 4,
+        "xg_medio": 0.47,
+        "xga_medio": 1.26,
+        "xgd_medio": -0.79
       }
     },
     "OFI Crete": {
@@ -610,33 +670,53 @@
           "xg_movel_5": 1.17,
           "xga_movel_5": 1.28,
           "xgd_movel_5": -0.12
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-12T16:00:00Z",
+          "local": "Fora",
+          "adversario": "Olympiacos",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0.87,
+          "xga": 1.39,
+          "xgd": -0.52,
+          "posse": 38,
+          "chutes": 13,
+          "chutes_no_gol": 4,
+          "escanteios": 2,
+          "desarmes": 11,
+          "xg_movel_5": 1.09,
+          "xga_movel_5": 1.31,
+          "xgd_movel_5": -0.22
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.17,
-          "ultimos_5": 1.17
+          "temporada": 1.09,
+          "ultimos_5": 1.09
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.28,
-          "ultimos_5": 1.28
+          "temporada": 1.31,
+          "ultimos_5": 1.31
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.12,
-          "ultimos_5": -0.12
+          "temporada": -0.22,
+          "ultimos_5": -0.22
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.17,
-        "xga_medio": 1.28,
-        "xgd_medio": -0.12
+        "jogos": 4,
+        "xg_medio": 1.09,
+        "xga_medio": 1.31,
+        "xgd_medio": -0.22
       }
     },
     "NFC Volos": {
