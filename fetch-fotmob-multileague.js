@@ -20,15 +20,15 @@ const BASE_URL = "https://www.fotmob.com/api/data";
 
 const LEAGUES = {
     alemanha:     { id: 54,  name: "Alemanha" },
-    alemanha2:    { id: 146, name: "Alemanha 2" },
+    alemanha2:    { id: 146, name: "Alemanha 2a Div" },
     espanha:      { id: 87,  name: "Espanha" },
-    espanha2:     { id: 140, name: "Espanha 2" },
+    espanha2:     { id: 140, name: "Espanha 2a Div" },
     franca:       { id: 53,  name: "França" },
-    franca2:      { id: 110, name: "França 2" },
+    franca2:      { id: 110, name: "França 2a Div" },
     italia:       { id: 55,  name: "Itália" },
-    italia2:      { id: 86,  name: "Itália 2" },
+    italia2:      { id: 86,  name: "Itália 2a Div" },
     inglaterra:   { id: 47,  name: "Inglaterra" },
-    inglaterra2:  { id: 48,  name: "Inglaterra 2" },
+    inglaterra2:  { id: 48,  name: "Inglaterra 2a Div" },
     belgica:      { id: 40,  name: "Bélgica" },
     holanda:      { id: 57,  name: "Holanda" },
     portugal:     { id: 61,  name: "Portugal" },
@@ -39,7 +39,7 @@ const LEAGUES = {
     noruega:      { id: 59,  name: "Noruega" },
     suica:        { id: 69,  name: "Suíça" },
     suecia:       { id: 67,  name: "Suécia" },
-    brasil:       { id: 268, name: "Brasil" },
+    brasil:       { id: 268, name: "Brasil - Série A" },
     australia:    { id: 113, name: "Austrália" }
 };
 
