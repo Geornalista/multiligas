@@ -2,7 +2,7 @@ name: Atualizar dados FotMob
 
 on:
   schedule:
-    - cron: "17 8 * * *"
+    - cron: "0 3 * * *"
       timezone: "America/Sao_Paulo"
   workflow_dispatch:
 
