@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-13T12:10:09.337Z",
+  "updated_at": "2026-09-14T11:52:31.139Z",
   "teams": {
     "Bayern München": {
       "team": "Bayern München",
@@ -44,33 +44,53 @@
           "xg_movel_5": 3,
           "xga_movel_5": 0.5,
           "xgd_movel_5": 2.5
+        },
+        {
+          "rodada": 3,
+          "data": "2026-09-13T15:30:00Z",
+          "local": "Fora",
+          "adversario": "Elversberg",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 2.83,
+          "xga": 0.94,
+          "xgd": 1.89,
+          "posse": 72,
+          "chutes": 28,
+          "chutes_no_gol": 6,
+          "escanteios": 9,
+          "desarmes": 17,
+          "xg_movel_5": 2.94,
+          "xga_movel_5": 0.65,
+          "xgd_movel_5": 2.3
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 3,
-          "ultimos_5": 3
+          "temporada": 2.94,
+          "ultimos_5": 2.94
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.5,
-          "ultimos_5": 0.5
+          "temporada": 0.65,
+          "ultimos_5": 0.65
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.5,
-          "ultimos_5": 2.5
+          "temporada": 2.3,
+          "ultimos_5": 2.3
         }
       },
       "resumo": {
-        "jogos": 2,
-        "xg_medio": 3,
-        "xga_medio": 0.5,
-        "xgd_medio": 2.5
+        "jogos": 3,
+        "xg_medio": 2.94,
+        "xga_medio": 0.65,
+        "xgd_medio": 2.3
       }
     },
     "VfB Stuttgart": {
@@ -206,33 +226,53 @@
           "xg_movel_5": 1.79,
           "xga_movel_5": 2.12,
           "xgd_movel_5": -0.33
+        },
+        {
+          "rodada": 3,
+          "data": "2026-09-13T15:30:00Z",
+          "local": "Casa",
+          "adversario": "Bayern München",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 0.94,
+          "xga": 2.83,
+          "xgd": -1.89,
+          "posse": 28,
+          "chutes": 5,
+          "chutes_no_gol": 1,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 1.51,
+          "xga_movel_5": 2.36,
+          "xgd_movel_5": -0.85
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.79,
-          "ultimos_5": 1.79
+          "temporada": 1.51,
+          "ultimos_5": 1.51
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.12,
-          "ultimos_5": 2.12
+          "temporada": 2.36,
+          "ultimos_5": 2.36
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.33,
-          "ultimos_5": -0.33
+          "temporada": -0.85,
+          "ultimos_5": -0.85
         }
       },
       "resumo": {
-        "jogos": 2,
-        "xg_medio": 1.79,
-        "xga_medio": 2.12,
-        "xgd_medio": -0.33
+        "jogos": 3,
+        "xg_medio": 1.51,
+        "xga_medio": 2.36,
+        "xgd_medio": -0.85
       }
     },
     "Bayer Leverkusen": {
@@ -732,33 +772,53 @@
           "xg_movel_5": 2.73,
           "xga_movel_5": 1.02,
           "xgd_movel_5": 1.71
+        },
+        {
+          "rodada": 3,
+          "data": "2026-09-13T13:30:00Z",
+          "local": "Casa",
+          "adversario": "Hamburger SV",
+          "gols_pro": 5,
+          "gols_contra": 0,
+          "placar": "5 x 0",
+          "xg": 2.43,
+          "xga": 1.1,
+          "xgd": 1.33,
+          "posse": 64,
+          "chutes": 19,
+          "chutes_no_gol": 6,
+          "escanteios": 7,
+          "desarmes": 10,
+          "xg_movel_5": 2.63,
+          "xga_movel_5": 1.05,
+          "xgd_movel_5": 1.58
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.73,
-          "ultimos_5": 2.73
+          "temporada": 2.63,
+          "ultimos_5": 2.63
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.02,
-          "ultimos_5": 1.02
+          "temporada": 1.05,
+          "ultimos_5": 1.05
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.71,
-          "ultimos_5": 1.71
+          "temporada": 1.58,
+          "ultimos_5": 1.58
         }
       },
       "resumo": {
-        "jogos": 2,
-        "xg_medio": 2.73,
-        "xga_medio": 1.02,
-        "xgd_medio": 1.71
+        "jogos": 3,
+        "xg_medio": 2.63,
+        "xga_medio": 1.05,
+        "xgd_medio": 1.58
       }
     },
     "Borussia Mönchengladbach": {
@@ -1167,33 +1227,53 @@
           "xg_movel_5": 0.55,
           "xga_movel_5": 2.14,
           "xgd_movel_5": -1.59
+        },
+        {
+          "rodada": 3,
+          "data": "2026-09-13T13:30:00Z",
+          "local": "Fora",
+          "adversario": "RB Leipzig",
+          "gols_pro": 0,
+          "gols_contra": 5,
+          "placar": "0 x 5",
+          "xg": 1.1,
+          "xga": 2.43,
+          "xgd": -1.33,
+          "posse": 36,
+          "chutes": 10,
+          "chutes_no_gol": 4,
+          "escanteios": 7,
+          "desarmes": 14,
+          "xg_movel_5": 0.73,
+          "xga_movel_5": 2.24,
+          "xgd_movel_5": -1.5
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.55,
-          "ultimos_5": 0.55
+          "temporada": 0.73,
+          "ultimos_5": 0.73
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.14,
-          "ultimos_5": 2.14
+          "temporada": 2.24,
+          "ultimos_5": 2.24
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -1.59,
-          "ultimos_5": -1.59
+          "temporada": -1.5,
+          "ultimos_5": -1.5
         }
       },
       "resumo": {
-        "jogos": 2,
-        "xg_medio": 0.55,
-        "xga_medio": 2.14,
-        "xgd_medio": -1.59
+        "jogos": 3,
+        "xg_medio": 0.73,
+        "xga_medio": 2.24,
+        "xgd_medio": -1.5
       }
     },
     "Freiburg": {

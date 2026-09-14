@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-13T12:10:38.485Z",
+  "updated_at": "2026-09-14T11:52:49.929Z",
   "teams": {
     "Bochum": {
       "team": "Bochum",
@@ -218,50 +218,50 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-13T11:30:00.000Z",
+          "data": "2026-09-13T11:30:00Z",
           "local": "Fora",
           "adversario": "VfL Osnabrück",
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.58,
-          "xga_movel_5": 1.22,
-          "xgd_movel_5": 0.36
+          "gols_pro": 3,
+          "gols_contra": 1,
+          "placar": "3 x 1",
+          "xg": 2.14,
+          "xga": 1.73,
+          "xgd": 0.41,
+          "posse": 57,
+          "chutes": 22,
+          "chutes_no_gol": 7,
+          "escanteios": 5,
+          "desarmes": 15,
+          "xg_movel_5": 2.01,
+          "xga_movel_5": 1.56,
+          "xgd_movel_5": 0.44
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.58,
-          "ultimos_5": 1.58
+          "temporada": 2.01,
+          "ultimos_5": 2.01
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.22,
-          "ultimos_5": 1.22
+          "temporada": 1.56,
+          "ultimos_5": 1.56
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.36,
-          "ultimos_5": 0.36
+          "temporada": 0.44,
+          "ultimos_5": 0.44
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.58,
-        "xga_medio": 1.22,
-        "xgd_medio": 0.36
+        "xg_medio": 2.01,
+        "xga_medio": 1.56,
+        "xgd_medio": 0.44
       }
     },
     "Darmstadt": {
@@ -480,50 +480,50 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-13T11:30:00.000Z",
+          "data": "2026-09-13T11:30:00Z",
           "local": "Fora",
           "adversario": "FC Heidenheim",
           "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.34,
-          "xga_movel_5": 1.21,
-          "xgd_movel_5": 0.14
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0.8,
+          "xga": 2.33,
+          "xgd": -1.53,
+          "posse": 49,
+          "chutes": 13,
+          "chutes_no_gol": 2,
+          "escanteios": 8,
+          "desarmes": 13,
+          "xg_movel_5": 1.5,
+          "xga_movel_5": 1.67,
+          "xgd_movel_5": -0.17
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.34,
-          "ultimos_5": 1.34
+          "temporada": 1.5,
+          "ultimos_5": 1.5
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.21,
-          "ultimos_5": 1.21
+          "temporada": 1.67,
+          "ultimos_5": 1.67
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.14,
-          "ultimos_5": 0.14
+          "temporada": -0.17,
+          "ultimos_5": -0.17
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.34,
-        "xga_medio": 1.21,
-        "xgd_medio": 0.14
+        "xg_medio": 1.5,
+        "xga_medio": 1.67,
+        "xgd_medio": -0.17
       }
     },
     "FC Heidenheim": {
@@ -611,50 +611,50 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-13T11:30:00.000Z",
+          "data": "2026-09-13T11:30:00Z",
           "local": "Casa",
           "adversario": "Holstein Kiel",
-          "gols_pro": 0,
+          "gols_pro": 1,
           "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.82,
-          "xga_movel_5": 1.33,
-          "xgd_movel_5": 0.5
+          "placar": "1 x 0",
+          "xg": 2.33,
+          "xga": 0.8,
+          "xgd": 1.53,
+          "posse": 51,
+          "chutes": 19,
+          "chutes_no_gol": 4,
+          "escanteios": 6,
+          "desarmes": 15,
+          "xg_movel_5": 2.29,
+          "xga_movel_5": 1.49,
+          "xgd_movel_5": 0.8
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.82,
-          "ultimos_5": 1.82
+          "temporada": 2.29,
+          "ultimos_5": 2.29
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.33,
-          "ultimos_5": 1.33
+          "temporada": 1.49,
+          "ultimos_5": 1.49
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.5,
-          "ultimos_5": 0.5
+          "temporada": 0.8,
+          "ultimos_5": 0.8
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.82,
-        "xga_medio": 1.33,
-        "xgd_medio": 0.5
+        "xg_medio": 2.29,
+        "xga_medio": 1.49,
+        "xgd_medio": 0.8
       }
     },
     "VfL Osnabrück": {
@@ -742,50 +742,50 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-13T11:30:00.000Z",
+          "data": "2026-09-13T11:30:00Z",
           "local": "Casa",
           "adversario": "Hertha BSC",
-          "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.37,
-          "xga_movel_5": 1.59,
-          "xgd_movel_5": -0.22
+          "gols_pro": 1,
+          "gols_contra": 3,
+          "placar": "1 x 3",
+          "xg": 1.73,
+          "xga": 2.14,
+          "xgd": -0.41,
+          "posse": 43,
+          "chutes": 14,
+          "chutes_no_gol": 7,
+          "escanteios": 4,
+          "desarmes": 17,
+          "xg_movel_5": 1.72,
+          "xga_movel_5": 2.02,
+          "xgd_movel_5": -0.3
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.37,
-          "ultimos_5": 1.37
+          "temporada": 1.72,
+          "ultimos_5": 1.72
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.59,
-          "ultimos_5": 1.59
+          "temporada": 2.02,
+          "ultimos_5": 2.02
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.22,
-          "ultimos_5": -0.22
+          "temporada": -0.3,
+          "ultimos_5": -0.3
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.37,
-        "xga_medio": 1.59,
-        "xgd_medio": -0.22
+        "xg_medio": 1.72,
+        "xga_medio": 2.02,
+        "xgd_medio": -0.3
       }
     },
     "Karlsruher SC": {
@@ -873,50 +873,50 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-13T11:30:00.000Z",
+          "data": "2026-09-13T11:30:00Z",
           "local": "Casa",
           "adversario": "Energie Cottbus",
           "gols_pro": 0,
-          "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.23,
-          "xga_movel_5": 1.58,
-          "xgd_movel_5": -0.34
+          "gols_contra": 3,
+          "placar": "0 x 3",
+          "xg": 1.73,
+          "xga": 1.93,
+          "xgd": -0.2,
+          "posse": 57,
+          "chutes": 20,
+          "chutes_no_gol": 5,
+          "escanteios": 5,
+          "desarmes": 17,
+          "xg_movel_5": 1.58,
+          "xga_movel_5": 1.96,
+          "xgd_movel_5": -0.38
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.23,
-          "ultimos_5": 1.23
+          "temporada": 1.58,
+          "ultimos_5": 1.58
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.58,
-          "ultimos_5": 1.58
+          "temporada": 1.96,
+          "ultimos_5": 1.96
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.34,
-          "ultimos_5": -0.34
+          "temporada": -0.38,
+          "ultimos_5": -0.38
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.23,
-        "xga_medio": 1.58,
-        "xgd_medio": -0.34
+        "xg_medio": 1.58,
+        "xga_medio": 1.96,
+        "xgd_medio": -0.38
       }
     },
     "Arminia Bielefeld": {
@@ -1659,50 +1659,50 @@
         },
         {
           "rodada": 5,
-          "data": "2026-09-13T11:30:00.000Z",
+          "data": "2026-09-13T11:30:00Z",
           "local": "Fora",
           "adversario": "Karlsruher SC",
-          "gols_pro": 0,
+          "gols_pro": 3,
           "gols_contra": 0,
-          "placar": "0 x 0",
-          "xg": 0,
-          "xga": 0,
-          "xgd": 0,
-          "posse": null,
-          "chutes": null,
-          "chutes_no_gol": null,
-          "escanteios": null,
-          "desarmes": null,
-          "xg_movel_5": 1.48,
-          "xga_movel_5": 2.61,
-          "xgd_movel_5": -1.13
+          "placar": "3 x 0",
+          "xg": 1.93,
+          "xga": 1.73,
+          "xgd": 0.2,
+          "posse": 43,
+          "chutes": 25,
+          "chutes_no_gol": 10,
+          "escanteios": 8,
+          "desarmes": 16,
+          "xg_movel_5": 1.86,
+          "xga_movel_5": 2.95,
+          "xgd_movel_5": -1.09
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.48,
-          "ultimos_5": 1.48
+          "temporada": 1.86,
+          "ultimos_5": 1.86
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.61,
-          "ultimos_5": 2.61
+          "temporada": 2.95,
+          "ultimos_5": 2.95
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -1.13,
-          "ultimos_5": -1.13
+          "temporada": -1.09,
+          "ultimos_5": -1.09
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.48,
-        "xga_medio": 2.61,
-        "xgd_medio": -1.13
+        "xg_medio": 1.86,
+        "xga_medio": 2.95,
+        "xgd_medio": -1.09
       }
     },
     "Hannover 96": {

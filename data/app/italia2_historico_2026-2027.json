@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-13T12:13:32.682Z",
+  "updated_at": "2026-09-14T11:54:25.997Z",
   "teams": {
     "LR Vicenza": {
       "team": "LR Vicenza",
@@ -184,17 +184,17 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 2.42,
-          "xga": 0.53,
-          "xgd": 1.89,
+          "xg": 2.44,
+          "xga": 0.57,
+          "xgd": 1.87,
           "posse": 67,
           "chutes": 20,
           "chutes_no_gol": 2,
           "escanteios": 2,
-          "desarmes": 17,
+          "desarmes": 18,
           "xg_movel_5": 1.45,
-          "xga_movel_5": 1.27,
-          "xgd_movel_5": 0.18
+          "xga_movel_5": 1.28,
+          "xgd_movel_5": 0.17
         }
       ],
       "tendencia": {
@@ -207,21 +207,21 @@
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.27,
-          "ultimos_5": 1.27
+          "temporada": 1.28,
+          "ultimos_5": 1.28
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.18,
-          "ultimos_5": 0.18
+          "temporada": 0.17,
+          "ultimos_5": 0.17
         }
       },
       "resumo": {
         "jogos": 4,
         "xg_medio": 1.45,
-        "xga_medio": 1.27,
-        "xgd_medio": 0.18
+        "xga_medio": 1.28,
+        "xgd_medio": 0.17
       }
     },
     "Carrarese": {
@@ -295,44 +295,44 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "placar": "0 x 1",
-          "xg": 0.53,
-          "xga": 2.42,
-          "xgd": -1.89,
+          "xg": 0.57,
+          "xga": 2.44,
+          "xgd": -1.87,
           "posse": 33,
           "chutes": 11,
           "chutes_no_gol": 1,
           "escanteios": 5,
           "desarmes": 18,
-          "xg_movel_5": 1,
-          "xga_movel_5": 1.48,
-          "xgd_movel_5": -0.48
+          "xg_movel_5": 1.01,
+          "xga_movel_5": 1.49,
+          "xgd_movel_5": -0.47
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1,
-          "ultimos_5": 1
+          "temporada": 1.01,
+          "ultimos_5": 1.01
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.48,
-          "ultimos_5": 1.48
+          "temporada": 1.49,
+          "ultimos_5": 1.49
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.48,
-          "ultimos_5": -0.48
+          "temporada": -0.47,
+          "ultimos_5": -0.47
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1,
-        "xga_medio": 1.48,
-        "xgd_medio": -0.48
+        "xg_medio": 1.01,
+        "xga_medio": 1.49,
+        "xgd_medio": -0.47
       }
     },
     "Mantova": {
@@ -397,33 +397,53 @@
           "xg_movel_5": 1.03,
           "xga_movel_5": 0.99,
           "xgd_movel_5": 0.03
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-13T15:15:00Z",
+          "local": "Casa",
+          "adversario": "Sampdoria",
+          "gols_pro": 2,
+          "gols_contra": 0,
+          "placar": "2 x 0",
+          "xg": 1.13,
+          "xga": 1.75,
+          "xgd": -0.62,
+          "posse": 52,
+          "chutes": 10,
+          "chutes_no_gol": 5,
+          "escanteios": 5,
+          "desarmes": 19,
+          "xg_movel_5": 1.05,
+          "xga_movel_5": 1.18,
+          "xgd_movel_5": -0.13
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.03,
-          "ultimos_5": 1.03
+          "temporada": 1.05,
+          "ultimos_5": 1.05
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.99,
-          "ultimos_5": 0.99
+          "temporada": 1.18,
+          "ultimos_5": 1.18
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.03,
-          "ultimos_5": 0.03
+          "temporada": -0.13,
+          "ultimos_5": -0.13
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.03,
-        "xga_medio": 0.99,
-        "xgd_medio": 0.03
+        "jogos": 4,
+        "xg_medio": 1.05,
+        "xga_medio": 1.18,
+        "xgd_medio": -0.13
       }
     },
     "Südtirol": {
@@ -710,33 +730,53 @@
           "xg_movel_5": 0.88,
           "xga_movel_5": 1.58,
           "xgd_movel_5": -0.69
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-13T15:15:00Z",
+          "local": "Casa",
+          "adversario": "Palermo",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 1.87,
+          "xga": 0.55,
+          "xgd": 1.32,
+          "posse": 47,
+          "chutes": 15,
+          "chutes_no_gol": 5,
+          "escanteios": 4,
+          "desarmes": 11,
+          "xg_movel_5": 1.13,
+          "xga_movel_5": 1.32,
+          "xgd_movel_5": -0.19
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.88,
-          "ultimos_5": 0.88
+          "temporada": 1.13,
+          "ultimos_5": 1.13
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.58,
-          "ultimos_5": 1.58
+          "temporada": 1.32,
+          "ultimos_5": 1.32
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.69,
-          "ultimos_5": -0.69
+          "temporada": -0.19,
+          "ultimos_5": -0.19
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 0.88,
-        "xga_medio": 1.58,
-        "xgd_medio": -0.69
+        "jogos": 4,
+        "xg_medio": 1.13,
+        "xga_medio": 1.32,
+        "xgd_medio": -0.19
       }
     },
     "Arezzo": {
@@ -1254,44 +1294,44 @@
           "gols_pro": 2,
           "gols_contra": 2,
           "placar": "2 x 2",
-          "xg": 1.28,
-          "xga": 1.25,
-          "xgd": 0.03,
+          "xg": 1.23,
+          "xga": 1.15,
+          "xgd": 0.08,
           "posse": 60,
           "chutes": 19,
           "chutes_no_gol": 6,
           "escanteios": 4,
           "desarmes": 14,
-          "xg_movel_5": 1.25,
-          "xga_movel_5": 1.21,
-          "xgd_movel_5": 0.04
+          "xg_movel_5": 1.23,
+          "xga_movel_5": 1.19,
+          "xgd_movel_5": 0.05
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.25,
-          "ultimos_5": 1.25
+          "temporada": 1.23,
+          "ultimos_5": 1.23
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.21,
-          "ultimos_5": 1.21
+          "temporada": 1.19,
+          "ultimos_5": 1.19
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.04,
-          "ultimos_5": 0.04
+          "temporada": 0.05,
+          "ultimos_5": 0.05
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.25,
-        "xga_medio": 1.21,
-        "xgd_medio": 0.04
+        "xg_medio": 1.23,
+        "xga_medio": 1.19,
+        "xgd_medio": 0.05
       }
     },
     "Hellas Verona": {
@@ -1476,44 +1516,44 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "placar": "0 x 1",
-          "xg": 1.77,
-          "xga": 0.97,
-          "xgd": 0.8,
+          "xg": 2.04,
+          "xga": 0.98,
+          "xgd": 1.06,
           "posse": 65,
           "chutes": 20,
           "chutes_no_gol": 5,
           "escanteios": 8,
           "desarmes": 14,
-          "xg_movel_5": 1.75,
-          "xga_movel_5": 1.46,
-          "xgd_movel_5": 0.29
+          "xg_movel_5": 1.82,
+          "xga_movel_5": 1.47,
+          "xgd_movel_5": 0.36
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.75,
-          "ultimos_5": 1.75
+          "temporada": 1.82,
+          "ultimos_5": 1.82
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.46,
-          "ultimos_5": 1.46
+          "temporada": 1.47,
+          "ultimos_5": 1.47
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.29,
-          "ultimos_5": 0.29
+          "temporada": 0.36,
+          "ultimos_5": 0.36
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.75,
-        "xga_medio": 1.46,
-        "xgd_medio": 0.29
+        "xg_medio": 1.82,
+        "xga_medio": 1.47,
+        "xgd_medio": 0.36
       }
     },
     "Pisa": {
@@ -1698,44 +1738,44 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 0.97,
-          "xga": 1.77,
-          "xgd": -0.8,
+          "xg": 0.98,
+          "xga": 2.04,
+          "xgd": -1.06,
           "posse": 35,
           "chutes": 11,
           "chutes_no_gol": 4,
           "escanteios": 2,
           "desarmes": 23,
-          "xg_movel_5": 1.08,
-          "xga_movel_5": 1.87,
-          "xgd_movel_5": -0.79
+          "xg_movel_5": 1.09,
+          "xga_movel_5": 1.94,
+          "xgd_movel_5": -0.85
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.08,
-          "ultimos_5": 1.08
+          "temporada": 1.09,
+          "ultimos_5": 1.09
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.87,
-          "ultimos_5": 1.87
+          "temporada": 1.94,
+          "ultimos_5": 1.94
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.79,
-          "ultimos_5": -0.79
+          "temporada": -0.85,
+          "ultimos_5": -0.85
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.08,
-        "xga_medio": 1.87,
-        "xgd_medio": -0.79
+        "xg_medio": 1.09,
+        "xga_medio": 1.94,
+        "xgd_medio": -0.85
       }
     },
     "Cesena": {
@@ -1809,44 +1849,44 @@
           "gols_pro": 2,
           "gols_contra": 2,
           "placar": "2 x 2",
-          "xg": 1.25,
-          "xga": 1.28,
-          "xgd": -0.03,
+          "xg": 1.15,
+          "xga": 1.23,
+          "xgd": -0.08,
           "posse": 40,
           "chutes": 8,
           "chutes_no_gol": 2,
           "escanteios": 5,
           "desarmes": 13,
-          "xg_movel_5": 1.22,
-          "xga_movel_5": 0.91,
-          "xgd_movel_5": 0.32
+          "xg_movel_5": 1.2,
+          "xga_movel_5": 0.9,
+          "xgd_movel_5": 0.3
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.22,
-          "ultimos_5": 1.22
+          "temporada": 1.2,
+          "ultimos_5": 1.2
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.91,
-          "ultimos_5": 0.91
+          "temporada": 0.9,
+          "ultimos_5": 0.9
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.32,
-          "ultimos_5": 0.32
+          "temporada": 0.3,
+          "ultimos_5": 0.3
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.22,
-        "xga_medio": 0.91,
-        "xgd_medio": 0.32
+        "xg_medio": 1.2,
+        "xga_medio": 0.9,
+        "xgd_medio": 0.3
       }
     },
     "Sampdoria": {
@@ -1911,33 +1951,53 @@
           "xg_movel_5": 1.37,
           "xga_movel_5": 1.33,
           "xgd_movel_5": 0.04
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-13T15:15:00Z",
+          "local": "Fora",
+          "adversario": "Mantova",
+          "gols_pro": 0,
+          "gols_contra": 2,
+          "placar": "0 x 2",
+          "xg": 1.75,
+          "xga": 1.13,
+          "xgd": 0.62,
+          "posse": 48,
+          "chutes": 13,
+          "chutes_no_gol": 2,
+          "escanteios": 5,
+          "desarmes": 10,
+          "xg_movel_5": 1.47,
+          "xga_movel_5": 1.28,
+          "xgd_movel_5": 0.18
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.37,
-          "ultimos_5": 1.37
+          "temporada": 1.47,
+          "ultimos_5": 1.47
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.33,
-          "ultimos_5": 1.33
+          "temporada": 1.28,
+          "ultimos_5": 1.28
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.04,
-          "ultimos_5": 0.04
+          "temporada": 0.18,
+          "ultimos_5": 0.18
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.37,
-        "xga_medio": 1.33,
-        "xgd_medio": 0.04
+        "jogos": 4,
+        "xg_medio": 1.47,
+        "xga_medio": 1.28,
+        "xgd_medio": 0.18
       }
     },
     "Palermo": {
@@ -2002,33 +2062,53 @@
           "xg_movel_5": 1.73,
           "xga_movel_5": 1.34,
           "xgd_movel_5": 0.39
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-13T15:15:00Z",
+          "local": "Fora",
+          "adversario": "Avellino",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 0.55,
+          "xga": 1.87,
+          "xgd": -1.32,
+          "posse": 53,
+          "chutes": 9,
+          "chutes_no_gol": 2,
+          "escanteios": 3,
+          "desarmes": 19,
+          "xg_movel_5": 1.43,
+          "xga_movel_5": 1.47,
+          "xgd_movel_5": -0.04
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.73,
-          "ultimos_5": 1.73
+          "temporada": 1.43,
+          "ultimos_5": 1.43
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.34,
-          "ultimos_5": 1.34
+          "temporada": 1.47,
+          "ultimos_5": 1.47
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.39,
-          "ultimos_5": 0.39
+          "temporada": -0.04,
+          "ultimos_5": -0.04
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.73,
-        "xga_medio": 1.34,
-        "xgd_medio": 0.39
+        "jogos": 4,
+        "xg_medio": 1.43,
+        "xga_medio": 1.47,
+        "xgd_medio": -0.04
       }
     },
     "Juve Stabia": {
