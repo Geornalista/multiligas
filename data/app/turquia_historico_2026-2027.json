@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-14T11:56:29.879Z",
+  "updated_at": "2026-09-15T11:17:42.735Z",
   "teams": {
     "Galatasaray": {
       "team": "Galatasaray",
@@ -870,33 +870,53 @@
           "xg_movel_5": 1.28,
           "xga_movel_5": 1.54,
           "xgd_movel_5": -0.26
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-14T17:00:00Z",
+          "local": "Casa",
+          "adversario": "Fenerbahçe",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0.49,
+          "xga": 1.34,
+          "xgd": -0.85,
+          "posse": 32,
+          "chutes": 11,
+          "chutes_no_gol": 0,
+          "escanteios": 6,
+          "desarmes": 8,
+          "xg_movel_5": 1.12,
+          "xga_movel_5": 1.5,
+          "xgd_movel_5": -0.38
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.28,
-          "ultimos_5": 1.28
+          "temporada": 1.12,
+          "ultimos_5": 1.12
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.54,
-          "ultimos_5": 1.54
+          "temporada": 1.5,
+          "ultimos_5": 1.5
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.26,
-          "ultimos_5": -0.26
+          "temporada": -0.38,
+          "ultimos_5": -0.38
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.28,
-        "xga_medio": 1.54,
-        "xgd_medio": -0.26
+        "jogos": 5,
+        "xg_medio": 1.12,
+        "xga_medio": 1.5,
+        "xgd_medio": -0.38
       }
     },
     "Alanyaspor": {
@@ -1243,33 +1263,53 @@
           "xg_movel_5": 1.85,
           "xga_movel_5": 1.39,
           "xgd_movel_5": 0.47
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-14T17:00:00Z",
+          "local": "Fora",
+          "adversario": "Gaziantep FK",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 1.34,
+          "xga": 0.49,
+          "xgd": 0.85,
+          "posse": 68,
+          "chutes": 15,
+          "chutes_no_gol": 4,
+          "escanteios": 6,
+          "desarmes": 17,
+          "xg_movel_5": 1.75,
+          "xga_movel_5": 1.21,
+          "xgd_movel_5": 0.54
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.85,
-          "ultimos_5": 1.85
+          "temporada": 1.75,
+          "ultimos_5": 1.75
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.39,
-          "ultimos_5": 1.39
+          "temporada": 1.21,
+          "ultimos_5": 1.21
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.47,
-          "ultimos_5": 0.47
+          "temporada": 0.54,
+          "ultimos_5": 0.54
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.85,
-        "xga_medio": 1.39,
-        "xgd_medio": 0.47
+        "jogos": 5,
+        "xg_medio": 1.75,
+        "xga_medio": 1.21,
+        "xgd_medio": 0.54
       }
     },
     "Başakşehir": {

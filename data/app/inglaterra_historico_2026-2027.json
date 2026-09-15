@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-14T11:54:38.573Z",
+  "updated_at": "2026-09-15T11:14:13.197Z",
   "teams": {
     "Arsenal": {
       "team": "Arsenal",
@@ -1063,33 +1063,53 @@
           "xg_movel_5": 1.47,
           "xga_movel_5": 1.51,
           "xgd_movel_5": -0.03
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-14T19:00:00Z",
+          "local": "Casa",
+          "adversario": "Newcastle United",
+          "gols_pro": 4,
+          "gols_contra": 1,
+          "placar": "4 x 1",
+          "xg": 2.08,
+          "xga": 0.88,
+          "xgd": 1.2,
+          "posse": 50,
+          "chutes": 15,
+          "chutes_no_gol": 6,
+          "escanteios": 5,
+          "desarmes": 18,
+          "xg_movel_5": 1.63,
+          "xga_movel_5": 1.35,
+          "xgd_movel_5": 0.28
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.47,
-          "ultimos_5": 1.47
+          "temporada": 1.63,
+          "ultimos_5": 1.63
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.51,
-          "ultimos_5": 1.51
+          "temporada": 1.35,
+          "ultimos_5": 1.35
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.03,
-          "ultimos_5": -0.03
+          "temporada": 0.28,
+          "ultimos_5": 0.28
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.47,
-        "xga_medio": 1.51,
-        "xgd_medio": -0.03
+        "jogos": 4,
+        "xg_medio": 1.63,
+        "xga_medio": 1.35,
+        "xgd_medio": 0.28
       }
     },
     "Brentford": {
@@ -1820,33 +1840,53 @@
           "xg_movel_5": 1,
           "xga_movel_5": 1.82,
           "xgd_movel_5": -0.82
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-14T19:00:00Z",
+          "local": "Fora",
+          "adversario": "Leeds United",
+          "gols_pro": 1,
+          "gols_contra": 4,
+          "placar": "1 x 4",
+          "xg": 0.88,
+          "xga": 2.08,
+          "xgd": -1.2,
+          "posse": 50,
+          "chutes": 7,
+          "chutes_no_gol": 5,
+          "escanteios": 5,
+          "desarmes": 19,
+          "xg_movel_5": 0.97,
+          "xga_movel_5": 1.89,
+          "xgd_movel_5": -0.91
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1,
-          "ultimos_5": 1
+          "temporada": 0.97,
+          "ultimos_5": 0.97
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.82,
-          "ultimos_5": 1.82
+          "temporada": 1.89,
+          "ultimos_5": 1.89
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.82,
-          "ultimos_5": -0.82
+          "temporada": -0.91,
+          "ultimos_5": -0.91
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1,
-        "xga_medio": 1.82,
-        "xgd_medio": -0.82
+        "jogos": 4,
+        "xg_medio": 0.97,
+        "xga_medio": 1.89,
+        "xgd_medio": -0.91
       }
     },
     "Liverpool": {

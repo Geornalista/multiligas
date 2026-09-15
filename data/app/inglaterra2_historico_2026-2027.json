@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-14T11:55:10.797Z",
+  "updated_at": "2026-09-15T11:15:08.999Z",
   "teams": {
     "Wolverhampton Wanderers": {
       "team": "Wolverhampton Wanderers",
@@ -113,24 +113,24 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 1.57,
+          "xg": 1.54,
           "xga": 0.63,
-          "xgd": 0.94,
+          "xgd": 0.91,
           "posse": 63,
-          "chutes": 17,
+          "chutes": 16,
           "chutes_no_gol": 3,
           "escanteios": 9,
           "desarmes": 15,
           "xg_movel_5": 1.84,
           "xga_movel_5": 1.1,
-          "xgd_movel_5": 0.75
+          "xgd_movel_5": 0.74
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": -1.1,
-          "temporada": 1.87,
+          "variacao": -1.2,
+          "temporada": 1.86,
           "ultimos_5": 1.84
         },
         "defesa": {
@@ -141,14 +141,14 @@
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -7.8,
+          "variacao": -8,
           "temporada": 0.81,
-          "ultimos_5": 0.75
+          "ultimos_5": 0.74
         }
       },
       "resumo": {
         "jogos": 6,
-        "xg_medio": 1.87,
+        "xg_medio": 1.86,
         "xga_medio": 1.05,
         "xgd_medio": 0.81
       }
@@ -2750,15 +2750,15 @@
           "gols_contra": 1,
           "placar": "0 x 1",
           "xg": 0.63,
-          "xga": 1.57,
-          "xgd": -0.94,
+          "xga": 1.54,
+          "xgd": -0.91,
           "posse": 37,
           "chutes": 6,
           "chutes_no_gol": 2,
           "escanteios": 0,
           "desarmes": 19,
           "xg_movel_5": 1.11,
-          "xga_movel_5": 2.08,
+          "xga_movel_5": 2.07,
           "xgd_movel_5": -0.96
         }
       ],
@@ -2773,12 +2773,12 @@
           "status": "Piorando",
           "variacao": -24,
           "temporada": 1.67,
-          "ultimos_5": 2.08
+          "ultimos_5": 2.07
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -53,
-          "temporada": -0.63,
+          "variacao": -53.1,
+          "temporada": -0.62,
           "ultimos_5": -0.96
         }
       },
@@ -2786,7 +2786,7 @@
         "jogos": 7,
         "xg_medio": 1.05,
         "xga_medio": 1.67,
-        "xgd_medio": -0.63
+        "xgd_medio": -0.62
       }
     },
     "Birmingham City": {

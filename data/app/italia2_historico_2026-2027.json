@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-14T11:54:25.997Z",
+  "updated_at": "2026-09-15T11:13:47.043Z",
   "teams": {
     "LR Vicenza": {
       "team": "LR Vicenza",
@@ -406,16 +406,16 @@
           "gols_pro": 2,
           "gols_contra": 0,
           "placar": "2 x 0",
-          "xg": 1.13,
-          "xga": 1.75,
-          "xgd": -0.62,
+          "xg": 1.19,
+          "xga": 1.8,
+          "xgd": -0.61,
           "posse": 52,
           "chutes": 10,
           "chutes_no_gol": 5,
           "escanteios": 5,
-          "desarmes": 19,
-          "xg_movel_5": 1.05,
-          "xga_movel_5": 1.18,
+          "desarmes": 18,
+          "xg_movel_5": 1.07,
+          "xga_movel_5": 1.2,
           "xgd_movel_5": -0.13
         }
       ],
@@ -423,14 +423,14 @@
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.05,
-          "ultimos_5": 1.05
+          "temporada": 1.07,
+          "ultimos_5": 1.07
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.18,
-          "ultimos_5": 1.18
+          "temporada": 1.2,
+          "ultimos_5": 1.2
         },
         "equilibrio": {
           "status": "Estável",
@@ -441,8 +441,8 @@
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.05,
-        "xga_medio": 1.18,
+        "xg_medio": 1.07,
+        "xga_medio": 1.2,
         "xgd_medio": -0.13
       }
     },
@@ -1960,16 +1960,16 @@
           "gols_pro": 0,
           "gols_contra": 2,
           "placar": "0 x 2",
-          "xg": 1.75,
-          "xga": 1.13,
-          "xgd": 0.62,
+          "xg": 1.8,
+          "xga": 1.19,
+          "xgd": 0.61,
           "posse": 48,
           "chutes": 13,
           "chutes_no_gol": 2,
           "escanteios": 5,
           "desarmes": 10,
-          "xg_movel_5": 1.47,
-          "xga_movel_5": 1.28,
+          "xg_movel_5": 1.48,
+          "xga_movel_5": 1.3,
           "xgd_movel_5": 0.18
         }
       ],
@@ -1977,14 +1977,14 @@
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.47,
-          "ultimos_5": 1.47
+          "temporada": 1.48,
+          "ultimos_5": 1.48
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.28,
-          "ultimos_5": 1.28
+          "temporada": 1.3,
+          "ultimos_5": 1.3
         },
         "equilibrio": {
           "status": "Estável",
@@ -1995,8 +1995,8 @@
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.47,
-        "xga_medio": 1.28,
+        "xg_medio": 1.48,
+        "xga_medio": 1.3,
         "xgd_medio": 0.18
       }
     },

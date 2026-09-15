@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-14T11:53:07.716Z",
+  "updated_at": "2026-09-15T11:11:02.281Z",
   "teams": {
     "Deportivo Alavés": {
       "team": "Deportivo Alavés",
@@ -739,33 +739,53 @@
           "xg_movel_5": 1.8,
           "xga_movel_5": 1.05,
           "xgd_movel_5": 0.75
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-14T19:00:00Z",
+          "local": "Casa",
+          "adversario": "Real Betis",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.88,
+          "xga": 3.75,
+          "xgd": -1.87,
+          "posse": 62,
+          "chutes": 14,
+          "chutes_no_gol": 8,
+          "escanteios": 7,
+          "desarmes": 14,
+          "xg_movel_5": 1.82,
+          "xga_movel_5": 1.59,
+          "xgd_movel_5": 0.23
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.8,
-          "ultimos_5": 1.8
+          "temporada": 1.82,
+          "ultimos_5": 1.82
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.05,
-          "ultimos_5": 1.05
+          "temporada": 1.59,
+          "ultimos_5": 1.59
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.75,
-          "ultimos_5": 0.75
+          "temporada": 0.23,
+          "ultimos_5": 0.23
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.8,
-        "xga_medio": 1.05,
-        "xgd_medio": 0.75
+        "jogos": 5,
+        "xg_medio": 1.82,
+        "xga_medio": 1.59,
+        "xgd_medio": 0.23
       }
     },
     "Espanyol": {
@@ -1636,33 +1656,53 @@
           "xg_movel_5": 1.2,
           "xga_movel_5": 2.17,
           "xgd_movel_5": -0.97
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-14T19:00:00Z",
+          "local": "Fora",
+          "adversario": "Villarreal",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 3.75,
+          "xga": 1.88,
+          "xgd": 1.87,
+          "posse": 38,
+          "chutes": 26,
+          "chutes_no_gol": 12,
+          "escanteios": 4,
+          "desarmes": 22,
+          "xg_movel_5": 1.71,
+          "xga_movel_5": 2.12,
+          "xgd_movel_5": -0.41
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.2,
-          "ultimos_5": 1.2
+          "temporada": 1.71,
+          "ultimos_5": 1.71
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.17,
-          "ultimos_5": 2.17
+          "temporada": 2.12,
+          "ultimos_5": 2.12
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.97,
-          "ultimos_5": -0.97
+          "temporada": -0.41,
+          "ultimos_5": -0.41
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.2,
-        "xga_medio": 2.17,
-        "xgd_medio": -0.97
+        "jogos": 5,
+        "xg_medio": 1.71,
+        "xga_medio": 2.12,
+        "xgd_medio": -0.41
       }
     },
     "Real Sociedad": {

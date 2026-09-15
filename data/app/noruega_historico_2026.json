@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "updated_at": "2026-09-14T11:58:17.227Z",
+  "updated_at": "2026-09-15T11:21:01.055Z",
   "teams": {
     "Hamarkameratene": {
       "team": "Hamarkameratene",
@@ -5125,33 +5125,53 @@
           "xg_movel_5": 1.4,
           "xga_movel_5": 1.99,
           "xgd_movel_5": -0.59
+        },
+        {
+          "rodada": 21,
+          "data": "2026-09-14T17:00:00Z",
+          "local": "Fora",
+          "adversario": "Bodø/Glimt",
+          "gols_pro": 2,
+          "gols_contra": 3,
+          "placar": "2 x 3",
+          "xg": 1.01,
+          "xga": 3.16,
+          "xgd": -2.15,
+          "posse": 35,
+          "chutes": 10,
+          "chutes_no_gol": 4,
+          "escanteios": 2,
+          "desarmes": 12,
+          "xg_movel_5": 1.37,
+          "xga_movel_5": 2.33,
+          "xgd_movel_5": -0.95
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 10.6,
-          "temporada": 1.27,
-          "ultimos_5": 1.4
+          "variacao": 9.5,
+          "temporada": 1.25,
+          "ultimos_5": 1.37
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -5.8,
-          "temporada": 1.89,
-          "ultimos_5": 1.99
+          "variacao": -19.3,
+          "temporada": 1.95,
+          "ultimos_5": 2.33
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 4.1,
-          "temporada": -0.62,
-          "ultimos_5": -0.59
+          "status": "Piorando",
+          "variacao": -37.1,
+          "temporada": -0.7,
+          "ultimos_5": -0.95
         }
       },
       "resumo": {
-        "jogos": 19,
-        "xg_medio": 1.27,
-        "xga_medio": 1.89,
-        "xgd_medio": -0.62
+        "jogos": 20,
+        "xg_medio": 1.25,
+        "xga_medio": 1.95,
+        "xgd_medio": -0.7
       }
     },
     "Tromsø": {
@@ -6829,33 +6849,53 @@
           "xg_movel_5": 2.89,
           "xga_movel_5": 0.88,
           "xgd_movel_5": 2.01
+        },
+        {
+          "rodada": 21,
+          "data": "2026-09-14T17:00:00Z",
+          "local": "Casa",
+          "adversario": "Sandefjord",
+          "gols_pro": 3,
+          "gols_contra": 2,
+          "placar": "3 x 2",
+          "xg": 3.16,
+          "xga": 1.01,
+          "xgd": 2.15,
+          "posse": 65,
+          "chutes": 28,
+          "chutes_no_gol": 10,
+          "escanteios": 10,
+          "desarmes": 9,
+          "xg_movel_5": 3.06,
+          "xga_movel_5": 0.99,
+          "xgd_movel_5": 2.07
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 1.6,
-          "temporada": 2.84,
-          "ultimos_5": 2.89
+          "status": "Melhorando",
+          "variacao": 7,
+          "temporada": 2.86,
+          "ultimos_5": 3.06
         },
         "defesa": {
-          "status": "Melhorando",
-          "variacao": 11.4,
+          "status": "Estável",
+          "variacao": 0.6,
           "temporada": 0.99,
-          "ultimos_5": 0.88
+          "ultimos_5": 0.99
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 8.6,
-          "temporada": 1.85,
-          "ultimos_5": 2.01
+          "variacao": 11.1,
+          "temporada": 1.86,
+          "ultimos_5": 2.07
         }
       },
       "resumo": {
-        "jogos": 19,
-        "xg_medio": 2.84,
+        "jogos": 20,
+        "xg_medio": 2.86,
         "xga_medio": 0.99,
-        "xgd_medio": 1.85
+        "xgd_medio": 1.86
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-14T11:52:31.137Z",
+  "updated_at": "2026-09-15T11:09:54.427Z",
   "league": {
     "name": "Alemanha",
     "season": "2026/2027",
@@ -97,10 +97,10 @@
       "touches_opp_box_conceded_avg": 56.52,
       "offsides_sum": 84,
       "offsides_avg": 3.11,
-      "big_chances_sum": 163,
-      "big_chances_avg": 6.04,
-      "big_chances_missed_sum": 102,
-      "big_chances_missed_avg": 3.78,
+      "big_chances_sum": 164,
+      "big_chances_avg": 6.07,
+      "big_chances_missed_sum": 103,
+      "big_chances_missed_avg": 3.81,
       "tackles_sum": 838,
       "tackles_avg": 31.04,
       "interceptions_sum": 544,
@@ -4849,10 +4849,10 @@
         "touches_opp_box_conceded_avg": 23.33,
         "offsides_sum": 6,
         "offsides_avg": 2,
-        "big_chances_sum": 10,
-        "big_chances_avg": 3.33,
-        "big_chances_missed_sum": 6,
-        "big_chances_missed_avg": 2,
+        "big_chances_sum": 11,
+        "big_chances_avg": 3.67,
+        "big_chances_missed_sum": 7,
+        "big_chances_missed_avg": 2.33,
         "tackles_sum": 57,
         "tackles_avg": 19,
         "interceptions_sum": 46,
@@ -4976,10 +4976,10 @@
         "touches_opp_box_conceded_avg": 17,
         "offsides_sum": 4,
         "offsides_avg": 2,
-        "big_chances_sum": 6,
-        "big_chances_avg": 3,
-        "big_chances_missed_sum": 4,
-        "big_chances_missed_avg": 2,
+        "big_chances_sum": 7,
+        "big_chances_avg": 3.5,
+        "big_chances_missed_sum": 5,
+        "big_chances_missed_avg": 2.5,
         "tackles_sum": 42,
         "tackles_avg": 21,
         "interceptions_sum": 30,
@@ -8425,15 +8425,15 @@
         "value": 3.67
       },
       {
+        "team": "Borussia Dortmund",
+        "value": 3.67
+      },
+      {
         "team": "Augsburg",
         "value": 3.67
       },
       {
         "team": "Mainz 05",
-        "value": 3.33
-      },
-      {
-        "team": "Borussia Dortmund",
         "value": 3.33
       },
       {
