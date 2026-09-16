@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-15T11:11:42.826Z",
+  "updated_at": "2026-09-16T10:57:21.774Z",
   "teams": {
     "Real Sociedad B": {
       "team": "Real Sociedad B",
@@ -748,25 +748,25 @@
           "gols_pro": 0,
           "gols_contra": 4,
           "placar": "0 x 4",
-          "xg": 1.22,
-          "xga": 1.29,
-          "xgd": -0.07,
+          "xg": 1.47,
+          "xga": 1.32,
+          "xgd": 0.15,
           "posse": 67,
           "chutes": 24,
           "chutes_no_gol": 9,
           "escanteios": 5,
-          "desarmes": 7,
-          "xg_movel_5": 1.52,
+          "desarmes": 8,
+          "xg_movel_5": 1.57,
           "xga_movel_5": 1.64,
-          "xgd_movel_5": -0.12
+          "xgd_movel_5": -0.07
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.52,
-          "ultimos_5": 1.52
+          "temporada": 1.57,
+          "ultimos_5": 1.57
         },
         "defesa": {
           "status": "Estável",
@@ -777,15 +777,15 @@
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.12,
-          "ultimos_5": -0.12
+          "temporada": -0.07,
+          "ultimos_5": -0.07
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.52,
+        "xg_medio": 1.57,
         "xga_medio": 1.64,
-        "xgd_medio": -0.12
+        "xgd_medio": -0.07
       }
     },
     "Real Oviedo": {
@@ -1141,16 +1141,16 @@
           "gols_pro": 2,
           "gols_contra": 0,
           "placar": "2 x 0",
-          "xg": 2.3,
-          "xga": 0.77,
-          "xgd": 1.53,
+          "xg": 2.29,
+          "xga": 0.73,
+          "xgd": 1.56,
           "posse": 50,
           "chutes": 13,
           "chutes_no_gol": 6,
           "escanteios": 3,
-          "desarmes": 16,
+          "desarmes": 17,
           "xg_movel_5": 1.52,
-          "xga_movel_5": 0.67,
+          "xga_movel_5": 0.66,
           "xgd_movel_5": 0.85
         }
       ],
@@ -1164,8 +1164,8 @@
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.67,
-          "ultimos_5": 0.67
+          "temporada": 0.66,
+          "ultimos_5": 0.66
         },
         "equilibrio": {
           "status": "Estável",
@@ -1177,7 +1177,7 @@
       "resumo": {
         "jogos": 5,
         "xg_medio": 1.52,
-        "xga_medio": 0.67,
+        "xga_medio": 0.66,
         "xgd_medio": 0.85
       }
     },
@@ -1403,17 +1403,17 @@
           "gols_pro": 4,
           "gols_contra": 0,
           "placar": "4 x 0",
-          "xg": 1.29,
-          "xga": 1.22,
-          "xgd": 0.07,
+          "xg": 1.32,
+          "xga": 1.47,
+          "xgd": -0.15,
           "posse": 33,
           "chutes": 12,
           "chutes_no_gol": 7,
           "escanteios": 1,
-          "desarmes": 20,
+          "desarmes": 16,
           "xg_movel_5": 1.05,
-          "xga_movel_5": 0.91,
-          "xgd_movel_5": 0.13
+          "xga_movel_5": 0.96,
+          "xgd_movel_5": 0.09
         }
       ],
       "tendencia": {
@@ -1426,21 +1426,21 @@
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.91,
-          "ultimos_5": 0.91
+          "temporada": 0.96,
+          "ultimos_5": 0.96
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.13,
-          "ultimos_5": 0.13
+          "temporada": 0.09,
+          "ultimos_5": 0.09
         }
       },
       "resumo": {
         "jogos": 5,
         "xg_medio": 1.05,
-        "xga_medio": 0.91,
-        "xgd_medio": 0.13
+        "xga_medio": 0.96,
+        "xgd_medio": 0.09
       }
     },
     "Tenerife": {
@@ -2582,17 +2582,17 @@
           "gols_pro": 0,
           "gols_contra": 2,
           "placar": "0 x 2",
-          "xg": 0.77,
-          "xga": 2.3,
-          "xgd": -1.53,
+          "xg": 0.73,
+          "xga": 2.29,
+          "xgd": -1.56,
           "posse": 50,
-          "chutes": 18,
+          "chutes": 17,
           "chutes_no_gol": 4,
           "escanteios": 7,
-          "desarmes": 17,
+          "desarmes": 18,
           "xg_movel_5": 1.93,
           "xga_movel_5": 1.25,
-          "xgd_movel_5": 0.68
+          "xgd_movel_5": 0.67
         }
       ],
       "tendencia": {
@@ -2611,15 +2611,15 @@
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.68,
-          "ultimos_5": 0.68
+          "temporada": 0.67,
+          "ultimos_5": 0.67
         }
       },
       "resumo": {
         "jogos": 5,
         "xg_medio": 1.93,
         "xga_medio": 1.25,
-        "xgd_medio": 0.68
+        "xgd_medio": 0.67
       }
     },
     "Almería": {

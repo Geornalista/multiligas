@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-15T11:12:48.208Z",
+  "updated_at": "2026-09-16T10:58:27.170Z",
   "teams": {
     "Boulogne": {
       "team": "Boulogne",
@@ -546,11 +546,11 @@
           "gols_pro": 2,
           "gols_contra": 2,
           "placar": "2 x 2",
-          "xg": 1.28,
+          "xg": 1.25,
           "xga": 3.66,
-          "xgd": -2.38,
+          "xgd": -2.41,
           "posse": 52,
-          "chutes": 10,
+          "chutes": 9,
           "chutes_no_gol": 3,
           "escanteios": 0,
           "desarmes": 8,
@@ -574,9 +574,9 @@
           "chutes_no_gol": 3,
           "escanteios": 0,
           "desarmes": 14,
-          "xg_movel_5": 1.69,
+          "xg_movel_5": 1.68,
           "xga_movel_5": 1.96,
-          "xgd_movel_5": -0.27
+          "xgd_movel_5": -0.28
         }
       ],
       "tendencia": {
@@ -584,7 +584,7 @@
           "status": "Melhorando",
           "variacao": 7.4,
           "temporada": 1.57,
-          "ultimos_5": 1.69
+          "ultimos_5": 1.68
         },
         "defesa": {
           "status": "Piorando",
@@ -594,9 +594,9 @@
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -116.3,
+          "variacao": -112.7,
           "temporada": -0.13,
-          "ultimos_5": -0.27
+          "ultimos_5": -0.28
         }
       },
       "resumo": {
@@ -1151,15 +1151,15 @@
           "gols_contra": 2,
           "placar": "2 x 2",
           "xg": 3.66,
-          "xga": 1.28,
-          "xgd": 2.38,
+          "xga": 1.25,
+          "xgd": 2.41,
           "posse": 48,
           "chutes": 17,
           "chutes_no_gol": 7,
           "escanteios": 3,
           "desarmes": 15,
           "xg_movel_5": 2.11,
-          "xga_movel_5": 1.56,
+          "xga_movel_5": 1.55,
           "xgd_movel_5": 0.55
         },
         {
@@ -1192,13 +1192,13 @@
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 10.6,
-          "temporada": 1.48,
+          "variacao": 10.7,
+          "temporada": 1.47,
           "ultimos_5": 1.32
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 45.8,
+          "variacao": 45.7,
           "temporada": 0.7,
           "ultimos_5": 1.02
         }
@@ -1206,7 +1206,7 @@
       "resumo": {
         "jogos": 6,
         "xg_medio": 2.17,
-        "xga_medio": 1.48,
+        "xga_medio": 1.47,
         "xgd_medio": 0.7
       }
     },
