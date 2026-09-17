@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-16T11:02:10.579Z",
+  "updated_at": "2026-09-17T11:04:33.674Z",
   "teams": {
     "Cambuur": {
       "team": "Cambuur",
@@ -808,17 +808,17 @@
           "gols_pro": 1,
           "gols_contra": 5,
           "placar": "1 x 5",
-          "xg": 1.58,
-          "xga": 3.79,
-          "xgd": -2.21,
+          "xg": 1.57,
+          "xga": 3.36,
+          "xgd": -1.79,
           "posse": 30,
           "chutes": 10,
           "chutes_no_gol": 4,
           "escanteios": 2,
           "desarmes": 12,
-          "xg_movel_5": 1.53,
-          "xga_movel_5": 3.25,
-          "xgd_movel_5": -1.73
+          "xg_movel_5": 1.52,
+          "xga_movel_5": 3.11,
+          "xgd_movel_5": -1.59
         },
         {
           "rodada": 4,
@@ -837,8 +837,8 @@
           "escanteios": 9,
           "desarmes": 18,
           "xg_movel_5": 1.54,
-          "xga_movel_5": 2.78,
-          "xgd_movel_5": -1.24
+          "xga_movel_5": 2.68,
+          "xgd_movel_5": -1.13
         },
         {
           "rodada": 5,
@@ -857,8 +857,8 @@
           "escanteios": 7,
           "desarmes": 11,
           "xg_movel_5": 1.45,
-          "xga_movel_5": 2.57,
-          "xgd_movel_5": -1.12
+          "xga_movel_5": 2.49,
+          "xgd_movel_5": -1.03
         },
         {
           "rodada": 6,
@@ -877,8 +877,8 @@
           "escanteios": 2,
           "desarmes": 15,
           "xg_movel_5": 1.4,
-          "xga_movel_5": 2.71,
-          "xgd_movel_5": -1.32
+          "xga_movel_5": 2.63,
+          "xgd_movel_5": -1.23
         }
       ],
       "tendencia": {
@@ -890,22 +890,22 @@
         },
         "defesa": {
           "status": "Estável",
-          "variacao": -1.8,
-          "temporada": 2.67,
-          "ultimos_5": 2.71
+          "variacao": -1.3,
+          "temporada": 2.6,
+          "ultimos_5": 2.63
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -5.3,
-          "temporada": -1.25,
-          "ultimos_5": -1.32
+          "status": "Estável",
+          "variacao": -4.4,
+          "temporada": -1.18,
+          "ultimos_5": -1.23
         }
       },
       "resumo": {
         "jogos": 6,
         "xg_medio": 1.42,
-        "xga_medio": 2.67,
-        "xgd_medio": -1.25
+        "xga_medio": 2.6,
+        "xgd_medio": -1.18
       }
     },
     "PSV Eindhoven": {
@@ -2318,17 +2318,17 @@
           "gols_pro": 5,
           "gols_contra": 1,
           "placar": "5 x 1",
-          "xg": 3.79,
-          "xga": 1.58,
-          "xgd": 2.21,
+          "xg": 3.36,
+          "xga": 1.57,
+          "xgd": 1.79,
           "posse": 70,
           "chutes": 33,
           "chutes_no_gol": 12,
           "escanteios": 14,
           "desarmes": 12,
-          "xg_movel_5": 2.76,
+          "xg_movel_5": 2.62,
           "xga_movel_5": 1.23,
-          "xgd_movel_5": 1.53
+          "xgd_movel_5": 1.39
         },
         {
           "rodada": 4,
@@ -2346,9 +2346,9 @@
           "chutes_no_gol": 9,
           "escanteios": 4,
           "desarmes": 13,
-          "xg_movel_5": 2.58,
+          "xg_movel_5": 2.47,
           "xga_movel_5": 1.17,
-          "xgd_movel_5": 1.42
+          "xgd_movel_5": 1.31
         },
         {
           "rodada": 5,
@@ -2366,9 +2366,9 @@
           "chutes_no_gol": 6,
           "escanteios": 1,
           "desarmes": 24,
-          "xg_movel_5": 2.44,
+          "xg_movel_5": 2.35,
           "xga_movel_5": 1.43,
-          "xgd_movel_5": 1
+          "xgd_movel_5": 0.92
         },
         {
           "rodada": 6,
@@ -2386,17 +2386,17 @@
           "chutes_no_gol": 10,
           "escanteios": 11,
           "desarmes": 6,
-          "xg_movel_5": 2.94,
+          "xg_movel_5": 2.86,
           "xga_movel_5": 1.5,
-          "xgd_movel_5": 1.44
+          "xgd_movel_5": 1.36
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 5.8,
-          "temporada": 2.78,
-          "ultimos_5": 2.94
+          "variacao": 5.5,
+          "temporada": 2.71,
+          "ultimos_5": 2.86
         },
         "defesa": {
           "status": "Piorando",
@@ -2406,16 +2406,16 @@
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 0.7,
-          "temporada": 1.43,
-          "ultimos_5": 1.44
+          "variacao": -0.2,
+          "temporada": 1.36,
+          "ultimos_5": 1.36
         }
       },
       "resumo": {
         "jogos": 6,
-        "xg_medio": 2.78,
+        "xg_medio": 2.71,
         "xga_medio": 1.35,
-        "xgd_medio": 1.43
+        "xgd_medio": 1.36
       }
     },
     "SC Heerenveen": {

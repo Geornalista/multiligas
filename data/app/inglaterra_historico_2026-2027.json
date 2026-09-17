@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-16T10:59:52.401Z",
+  "updated_at": "2026-09-17T11:03:23.890Z",
   "teams": {
     "Arsenal": {
       "team": "Arsenal",
@@ -1072,25 +1072,25 @@
           "gols_pro": 4,
           "gols_contra": 1,
           "placar": "4 x 1",
-          "xg": 2.08,
+          "xg": 1.99,
           "xga": 0.88,
-          "xgd": 1.2,
+          "xgd": 1.11,
           "posse": 50,
-          "chutes": 15,
+          "chutes": 14,
           "chutes_no_gol": 6,
           "escanteios": 5,
           "desarmes": 18,
-          "xg_movel_5": 1.63,
+          "xg_movel_5": 1.6,
           "xga_movel_5": 1.35,
-          "xgd_movel_5": 0.28
+          "xgd_movel_5": 0.25
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.63,
-          "ultimos_5": 1.63
+          "temporada": 1.6,
+          "ultimos_5": 1.6
         },
         "defesa": {
           "status": "Estável",
@@ -1101,15 +1101,15 @@
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.28,
-          "ultimos_5": 0.28
+          "temporada": 0.25,
+          "ultimos_5": 0.25
         }
       },
       "resumo": {
         "jogos": 4,
-        "xg_medio": 1.63,
+        "xg_medio": 1.6,
         "xga_medio": 1.35,
-        "xgd_medio": 0.28
+        "xgd_medio": 0.25
       }
     },
     "Brentford": {
@@ -1850,16 +1850,16 @@
           "gols_contra": 4,
           "placar": "1 x 4",
           "xg": 0.88,
-          "xga": 2.08,
-          "xgd": -1.2,
+          "xga": 1.99,
+          "xgd": -1.11,
           "posse": 50,
           "chutes": 7,
           "chutes_no_gol": 5,
           "escanteios": 5,
           "desarmes": 19,
           "xg_movel_5": 0.97,
-          "xga_movel_5": 1.89,
-          "xgd_movel_5": -0.91
+          "xga_movel_5": 1.87,
+          "xgd_movel_5": -0.89
         }
       ],
       "tendencia": {
@@ -1872,21 +1872,21 @@
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.89,
-          "ultimos_5": 1.89
+          "temporada": 1.87,
+          "ultimos_5": 1.87
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.91,
-          "ultimos_5": -0.91
+          "temporada": -0.89,
+          "ultimos_5": -0.89
         }
       },
       "resumo": {
         "jogos": 4,
         "xg_medio": 0.97,
-        "xga_medio": 1.89,
-        "xgd_medio": -0.91
+        "xga_medio": 1.87,
+        "xgd_medio": -0.89
       }
     },
     "Liverpool": {
