@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-17T11:02:06.836Z",
+  "updated_at": "2026-09-18T10:38:43.515Z",
   "teams": {
     "Real Sociedad B": {
       "team": "Real Sociedad B",
@@ -2451,44 +2451,44 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "placar": "0 x 1",
-          "xg": 1.18,
-          "xga": 0.61,
-          "xgd": 0.57,
+          "xg": 0.9,
+          "xga": 0.64,
+          "xgd": 0.26,
           "posse": 56,
           "chutes": 12,
-          "chutes_no_gol": 3,
+          "chutes_no_gol": 4,
           "escanteios": 4,
           "desarmes": 19,
-          "xg_movel_5": 1.19,
-          "xga_movel_5": 0.9,
-          "xgd_movel_5": 0.29
+          "xg_movel_5": 1.13,
+          "xga_movel_5": 0.91,
+          "xgd_movel_5": 0.22
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.19,
-          "ultimos_5": 1.19
+          "temporada": 1.13,
+          "ultimos_5": 1.13
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.9,
-          "ultimos_5": 0.9
+          "temporada": 0.91,
+          "ultimos_5": 0.91
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.29,
-          "ultimos_5": 0.29
+          "temporada": 0.22,
+          "ultimos_5": 0.22
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.19,
-        "xga_medio": 0.9,
-        "xgd_medio": 0.29
+        "xg_medio": 1.13,
+        "xga_medio": 0.91,
+        "xgd_medio": 0.22
       }
     },
     "Sabadell": {
@@ -2844,17 +2844,17 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 0.61,
-          "xga": 1.18,
-          "xgd": -0.57,
+          "xg": 0.64,
+          "xga": 0.9,
+          "xgd": -0.26,
           "posse": 44,
           "chutes": 8,
           "chutes_no_gol": 2,
           "escanteios": 4,
-          "desarmes": 24,
+          "desarmes": 22,
           "xg_movel_5": 0.82,
-          "xga_movel_5": 1.55,
-          "xgd_movel_5": -0.73
+          "xga_movel_5": 1.49,
+          "xgd_movel_5": -0.67
         }
       ],
       "tendencia": {
@@ -2867,21 +2867,21 @@
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.55,
-          "ultimos_5": 1.55
+          "temporada": 1.49,
+          "ultimos_5": 1.49
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.73,
-          "ultimos_5": -0.73
+          "temporada": -0.67,
+          "ultimos_5": -0.67
         }
       },
       "resumo": {
         "jogos": 5,
         "xg_medio": 0.82,
-        "xga_medio": 1.55,
-        "xgd_medio": -0.73
+        "xga_medio": 1.49,
+        "xgd_medio": -0.67
       }
     }
   }

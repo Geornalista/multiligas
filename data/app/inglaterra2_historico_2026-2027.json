@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-17T11:03:53.392Z",
+  "updated_at": "2026-09-18T10:40:32.896Z",
   "teams": {
     "Wolverhampton Wanderers": {
       "team": "Wolverhampton Wanderers",
@@ -285,8 +285,8 @@
           "gols_contra": 1,
           "placar": "3 x 1",
           "xg": 1.23,
-          "xga": 1.67,
-          "xgd": -0.44,
+          "xga": 1.63,
+          "xgd": -0.4,
           "posse": 45,
           "chutes": 18,
           "chutes_no_gol": 4,
@@ -306,13 +306,13 @@
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 4.4,
+          "variacao": 4.6,
           "temporada": 1.53,
           "ultimos_5": 1.46
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 19.7,
+          "variacao": 20.3,
           "temporada": -0.55,
           "ultimos_5": -0.44
         }
@@ -968,25 +968,25 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 1.67,
+          "xg": 1.63,
           "xga": 1.23,
-          "xgd": 0.44,
+          "xgd": 0.4,
           "posse": 55,
-          "chutes": 16,
+          "chutes": 15,
           "chutes_no_gol": 2,
           "escanteios": 2,
           "desarmes": 11,
-          "xg_movel_5": 1.52,
+          "xg_movel_5": 1.51,
           "xga_movel_5": 1.68,
-          "xgd_movel_5": -0.16
+          "xgd_movel_5": -0.17
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -22.2,
-          "temporada": 1.96,
-          "ultimos_5": 1.52
+          "variacao": -22.4,
+          "temporada": 1.95,
+          "ultimos_5": 1.51
         },
         "defesa": {
           "status": "Piorando",
@@ -996,16 +996,16 @@
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -129.4,
-          "temporada": 0.54,
-          "ultimos_5": -0.16
+          "variacao": -131.2,
+          "temporada": 0.53,
+          "ultimos_5": -0.17
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 1.96,
+        "xg_medio": 1.95,
         "xga_medio": 1.42,
-        "xgd_medio": 0.54
+        "xgd_medio": 0.53
       }
     },
     "Charlton Athletic": {

@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-17T11:01:24.769Z",
+  "updated_at": "2026-09-18T10:38:07.384Z",
   "teams": {
     "Bochum": {
       "team": "Bochum",
@@ -93,44 +93,44 @@
           "gols_pro": 1,
           "gols_contra": 1,
           "placar": "1 x 1",
-          "xg": 1.53,
-          "xga": 1.64,
-          "xgd": -0.11,
+          "xg": 1.42,
+          "xga": 1.49,
+          "xgd": -0.07,
           "posse": 48,
           "chutes": 16,
           "chutes_no_gol": 5,
           "escanteios": 3,
-          "desarmes": 13,
-          "xg_movel_5": 1.43,
-          "xga_movel_5": 1.18,
-          "xgd_movel_5": 0.25
+          "desarmes": 14,
+          "xg_movel_5": 1.41,
+          "xga_movel_5": 1.15,
+          "xgd_movel_5": 0.26
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.43,
-          "ultimos_5": 1.43
+          "temporada": 1.41,
+          "ultimos_5": 1.41
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.18,
-          "ultimos_5": 1.18
+          "temporada": 1.15,
+          "ultimos_5": 1.15
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.25,
-          "ultimos_5": 0.25
+          "temporada": 0.26,
+          "ultimos_5": 0.26
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.43,
-        "xga_medio": 1.18,
-        "xgd_medio": 0.25
+        "xg_medio": 1.41,
+        "xga_medio": 1.15,
+        "xgd_medio": 0.26
       }
     },
     "Hertha BSC": {
@@ -2320,44 +2320,44 @@
           "gols_pro": 1,
           "gols_contra": 1,
           "placar": "1 x 1",
-          "xg": 1.64,
-          "xga": 1.53,
-          "xgd": 0.11,
+          "xg": 1.49,
+          "xga": 1.42,
+          "xgd": 0.07,
           "posse": 52,
           "chutes": 18,
           "chutes_no_gol": 6,
           "escanteios": 7,
           "desarmes": 14,
-          "xg_movel_5": 1.85,
-          "xga_movel_5": 1.7,
-          "xgd_movel_5": 0.15
+          "xg_movel_5": 1.82,
+          "xga_movel_5": 1.68,
+          "xgd_movel_5": 0.14
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.85,
-          "ultimos_5": 1.85
+          "temporada": 1.82,
+          "ultimos_5": 1.82
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.7,
-          "ultimos_5": 1.7
+          "temporada": 1.68,
+          "ultimos_5": 1.68
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.15,
-          "ultimos_5": 0.15
+          "temporada": 0.14,
+          "ultimos_5": 0.14
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.85,
-        "xga_medio": 1.7,
-        "xgd_medio": 0.15
+        "xg_medio": 1.82,
+        "xga_medio": 1.68,
+        "xgd_medio": 0.14
       }
     }
   }
