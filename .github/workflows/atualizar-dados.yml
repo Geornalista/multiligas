@@ -2,8 +2,12 @@ name: Atualizar dados FotMob
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    # Executa todos os dias às 03:17 no horário de São Paulo.
+    # O minuto 17 evita o pico do início da hora.
+    - cron: "17 3 * * *"
       timezone: "America/Sao_Paulo"
+
+  # Permite execução manual pelo botão "Run workflow"
   workflow_dispatch:
 
 permissions:
@@ -16,6 +20,7 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Baixar repositório
@@ -28,13 +33,50 @@ jobs:
         with:
           node-version: 22
 
+      - name: Diagnóstico do agendamento
+        run: |
+          echo "=========================================="
+          echo "DIAGNÓSTICO DO WORKFLOW"
+          echo "=========================================="
+          echo ""
+          echo "Evento que iniciou o workflow:"
+          echo "${{ github.event_name }}"
+          echo ""
+          echo "Schedule que disparou o workflow:"
+          echo "${{ github.event.schedule }}"
+          echo ""
+          echo "Horário UTC do runner:"
+          date -u
+          echo ""
+          echo "Horário de São Paulo:"
+          TZ=America/Sao_Paulo date
+          echo ""
+          echo "Branch:"
+          echo "${{ github.ref_name }}"
+          echo ""
+          echo "Commit:"
+          echo "${{ github.sha }}"
+          echo "=========================================="
+
       - name: Atualizar todas as ligas
         run: node update-all.js
 
       - name: Verificar arquivos gerados
         run: |
+          echo "=========================================="
+          echo "ARQUIVOS GERADOS"
+          echo "=========================================="
+
           test -f data/app/manifest.json
+
           find data/app -maxdepth 1 -type f -name '*.json' -print | sort
+
+          echo ""
+          echo "=========================================="
+          echo "STATUS DO GIT"
+          echo "=========================================="
+
+          git status --short
 
       - name: Configurar Git
         run: |
@@ -43,10 +85,29 @@ jobs:
 
       - name: Commit e push dos dados
         run: |
-          git add data/app/*.json
+          git add data/app/
+
           if git diff --cached --quiet; then
             echo "Nenhuma alteração nos dados."
             exit 0
           fi
+
+          echo "=========================================="
+          echo "ARQUIVOS QUE SERÃO ENVIADOS"
+          echo "=========================================="
+
+          git diff --cached --name-only
+
+          echo ""
+          echo "=========================================="
+          echo "CRIANDO COMMIT"
+          echo "=========================================="
+
           git commit -m "Atualiza dados das ligas"
+
+          echo ""
+          echo "=========================================="
+          echo "ENVIANDO PARA O GITHUB"
+          echo "=========================================="
+
           git push
