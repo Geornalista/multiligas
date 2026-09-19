@@ -40,7 +40,7 @@ const LEAGUES = {
     suica:        { id: 69,  name: "Suíça" },
     suecia:       { id: 67,  name: "Suécia" },
     brasil:       { id: 268, name: "Brasil - Série A" },
-    australia:    { id: 113, name: "Austrália" }
+    mexico:       { id: 230, name: "México" }
 };
 
 const DATA_DIR = path.join(__dirname, "data");
