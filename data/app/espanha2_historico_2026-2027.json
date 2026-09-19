@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-19T10:23:58.205Z",
+  "updated_at": "2026-09-19T12:54:58.373Z",
   "teams": {
     "Real Sociedad B": {
       "team": "Real Sociedad B",
@@ -104,33 +104,53 @@
           "xg_movel_5": 1.3,
           "xga_movel_5": 1.47,
           "xgd_movel_5": -0.17
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T12:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Mallorca",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.26,
+          "xga_movel_5": 1.18,
+          "xgd_movel_5": 0.08
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.3,
-          "ultimos_5": 1.3
+          "status": "Melhorando",
+          "variacao": 15.9,
+          "temporada": 1.08,
+          "ultimos_5": 1.26
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.47,
-          "ultimos_5": 1.47
+          "variacao": 3.7,
+          "temporada": 1.23,
+          "ultimos_5": 1.18
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.17,
-          "ultimos_5": -0.17
+          "status": "Melhorando",
+          "variacao": 153.6,
+          "temporada": -0.14,
+          "ultimos_5": 0.08
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.3,
-        "xga_medio": 1.47,
-        "xgd_medio": -0.17
+        "jogos": 6,
+        "xg_medio": 1.08,
+        "xga_medio": 1.23,
+        "xgd_medio": -0.14
       }
     },
     "Castellón": {
@@ -1152,33 +1172,53 @@
           "xg_movel_5": 1.52,
           "xga_movel_5": 0.66,
           "xgd_movel_5": 0.85
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T12:00:00.000Z",
+          "local": "Fora",
+          "adversario": "Real Sociedad B",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 1.4,
+          "xga_movel_5": 0.47,
+          "xgd_movel_5": 0.93
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.52,
-          "ultimos_5": 1.52
+          "status": "Melhorando",
+          "variacao": 11,
+          "temporada": 1.27,
+          "ultimos_5": 1.4
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.66,
-          "ultimos_5": 0.66
+          "status": "Melhorando",
+          "variacao": 14.7,
+          "temporada": 0.55,
+          "ultimos_5": 0.47
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.85,
-          "ultimos_5": 0.85
+          "status": "Melhorando",
+          "variacao": 31,
+          "temporada": 0.71,
+          "ultimos_5": 0.93
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.52,
-        "xga_medio": 0.66,
-        "xgd_medio": 0.85
+        "jogos": 6,
+        "xg_medio": 1.27,
+        "xga_medio": 0.55,
+        "xgd_medio": 0.71
       }
     },
     "Real Valladolid": {

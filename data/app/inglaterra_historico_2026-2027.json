@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-19T10:25:16.950Z",
+  "updated_at": "2026-09-19T12:56:14.197Z",
   "teams": {
     "Arsenal": {
       "team": "Arsenal",
@@ -1325,33 +1325,53 @@
           "xg_movel_5": 0.86,
           "xga_movel_5": 1.66,
           "xgd_movel_5": -0.79
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-19T11:30:00.000Z",
+          "local": "Casa",
+          "adversario": "Aston Villa",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.69,
+          "xga_movel_5": 1.32,
+          "xgd_movel_5": -0.64
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.86,
-          "ultimos_5": 0.86
+          "temporada": 0.69,
+          "ultimos_5": 0.69
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.66,
-          "ultimos_5": 1.66
+          "temporada": 1.32,
+          "ultimos_5": 1.32
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.79,
-          "ultimos_5": -0.79
+          "temporada": -0.64,
+          "ultimos_5": -0.64
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 0.86,
-        "xga_medio": 1.66,
-        "xgd_medio": -0.79
+        "jogos": 5,
+        "xg_medio": 0.69,
+        "xga_medio": 1.32,
+        "xgd_medio": -0.64
       }
     },
     "Brighton & Hove Albion": {
@@ -1547,33 +1567,53 @@
           "xg_movel_5": 0.84,
           "xga_movel_5": 1.92,
           "xgd_movel_5": -1.07
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-19T11:30:00.000Z",
+          "local": "Fora",
+          "adversario": "Tottenham Hotspur",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 0,
+          "xga": 0,
+          "xgd": 0,
+          "posse": null,
+          "chutes": null,
+          "chutes_no_gol": null,
+          "escanteios": null,
+          "desarmes": null,
+          "xg_movel_5": 0.67,
+          "xga_movel_5": 1.53,
+          "xgd_movel_5": -0.86
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.84,
-          "ultimos_5": 0.84
+          "temporada": 0.67,
+          "ultimos_5": 0.67
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.92,
-          "ultimos_5": 1.92
+          "temporada": 1.53,
+          "ultimos_5": 1.53
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -1.07,
-          "ultimos_5": -1.07
+          "temporada": -0.86,
+          "ultimos_5": -0.86
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 0.84,
-        "xga_medio": 1.92,
-        "xgd_medio": -1.07
+        "jogos": 5,
+        "xg_medio": 0.67,
+        "xga_medio": 1.53,
+        "xgd_medio": -0.86
       }
     },
     "Manchester City": {
