@@ -32,7 +32,7 @@ const LEAGUES = {
     noruega:     { id: 59,  name: "Noruega" },
     suica:       { id: 69,  name: "Suíça" },
     suecia:      { id: 67,  name: "Suécia" },
-    australia:   { id: 113, name: "Austrália" }
+    mexico:      { id: 230, name: "México" }
 };
 
 function ensureDir(dir) {
