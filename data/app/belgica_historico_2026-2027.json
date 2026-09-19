@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-18T10:40:56.433Z",
+  "updated_at": "2026-09-19T03:32:24.560Z",
   "teams": {
     "Club Brugge": {
       "team": "Club Brugge",
@@ -426,33 +426,53 @@
           "xg_movel_5": 1.92,
           "xga_movel_5": 1.66,
           "xgd_movel_5": 0.26
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-18T18:45:00Z",
+          "local": "Fora",
+          "adversario": "Gent",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.11,
+          "xga": 1.3,
+          "xgd": -0.19,
+          "posse": 55,
+          "chutes": 14,
+          "chutes_no_gol": 4,
+          "escanteios": 6,
+          "desarmes": 8,
+          "xg_movel_5": 1.82,
+          "xga_movel_5": 1.38,
+          "xgd_movel_5": 0.44
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -12.4,
-          "temporada": 2.2,
-          "ultimos_5": 1.92
+          "variacao": -11,
+          "temporada": 2.04,
+          "ultimos_5": 1.82
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -2.2,
-          "temporada": 1.62,
-          "ultimos_5": 1.66
+          "status": "Melhorando",
+          "variacao": 12.4,
+          "temporada": 1.58,
+          "ultimos_5": 1.38
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -54,
-          "temporada": 0.57,
-          "ultimos_5": 0.26
+          "variacao": -6.1,
+          "temporada": 0.46,
+          "ultimos_5": 0.44
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 2.2,
-        "xga_medio": 1.62,
-        "xgd_medio": 0.57
+        "jogos": 7,
+        "xg_medio": 2.04,
+        "xga_medio": 1.58,
+        "xgd_medio": 0.46
       }
     },
     "Cercle Brugge": {
@@ -1332,33 +1352,53 @@
           "xg_movel_5": 1.17,
           "xga_movel_5": 0.66,
           "xgd_movel_5": 0.5
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-18T18:45:00Z",
+          "local": "Casa",
+          "adversario": "Standard Liège",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 1.3,
+          "xga": 1.11,
+          "xgd": 0.19,
+          "posse": 45,
+          "chutes": 11,
+          "chutes_no_gol": 6,
+          "escanteios": 5,
+          "desarmes": 21,
+          "xg_movel_5": 1.2,
+          "xga_movel_5": 0.77,
+          "xgd_movel_5": 0.43
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": -0.2,
-          "temporada": 1.17,
-          "ultimos_5": 1.17
+          "variacao": 0.6,
+          "temporada": 1.19,
+          "ultimos_5": 1.2
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -11.3,
-          "temporada": 0.6,
-          "ultimos_5": 0.66
+          "variacao": -14.3,
+          "temporada": 0.67,
+          "ultimos_5": 0.77
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -12.1,
-          "temporada": 0.57,
-          "ultimos_5": 0.5
+          "variacao": -17.1,
+          "temporada": 0.52,
+          "ultimos_5": 0.43
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.17,
-        "xga_medio": 0.6,
-        "xgd_medio": 0.57
+        "jogos": 7,
+        "xg_medio": 1.19,
+        "xga_medio": 0.67,
+        "xgd_medio": 0.52
       }
     },
     "KV Mechelen": {

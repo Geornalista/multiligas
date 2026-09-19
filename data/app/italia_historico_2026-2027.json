@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-18T10:39:28.909Z",
+  "updated_at": "2026-09-19T03:31:29.857Z",
   "teams": {
     "Inter": {
       "team": "Inter",
@@ -195,33 +195,53 @@
           "xg_movel_5": 1.78,
           "xga_movel_5": 0.96,
           "xgd_movel_5": 0.82
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-18T18:45:00Z",
+          "local": "Casa",
+          "adversario": "Sassuolo",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 1.51,
+          "xga": 1.47,
+          "xgd": 0.04,
+          "posse": 35,
+          "chutes": 15,
+          "chutes_no_gol": 6,
+          "escanteios": 7,
+          "desarmes": 25,
+          "xg_movel_5": 1.73,
+          "xga_movel_5": 1.06,
+          "xgd_movel_5": 0.67
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.78,
-          "ultimos_5": 1.78
+          "temporada": 1.73,
+          "ultimos_5": 1.73
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.96,
-          "ultimos_5": 0.96
+          "temporada": 1.06,
+          "ultimos_5": 1.06
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.82,
-          "ultimos_5": 0.82
+          "temporada": 0.67,
+          "ultimos_5": 0.67
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.78,
-        "xga_medio": 0.96,
-        "xgd_medio": 0.82
+        "jogos": 5,
+        "xg_medio": 1.73,
+        "xga_medio": 1.06,
+        "xgd_medio": 0.67
       }
     },
     "Udinese": {
@@ -1527,33 +1547,53 @@
           "xg_movel_5": 1.8,
           "xga_movel_5": 1.28,
           "xgd_movel_5": 0.52
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-18T18:45:00Z",
+          "local": "Fora",
+          "adversario": "Monza",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.47,
+          "xga": 1.51,
+          "xgd": -0.04,
+          "posse": 65,
+          "chutes": 20,
+          "chutes_no_gol": 8,
+          "escanteios": 5,
+          "desarmes": 23,
+          "xg_movel_5": 1.73,
+          "xga_movel_5": 1.33,
+          "xgd_movel_5": 0.41
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.8,
-          "ultimos_5": 1.8
+          "temporada": 1.73,
+          "ultimos_5": 1.73
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.28,
-          "ultimos_5": 1.28
+          "temporada": 1.33,
+          "ultimos_5": 1.33
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.52,
-          "ultimos_5": 0.52
+          "temporada": 0.41,
+          "ultimos_5": 0.41
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.8,
-        "xga_medio": 1.28,
-        "xgd_medio": 0.52
+        "jogos": 5,
+        "xg_medio": 1.73,
+        "xga_medio": 1.33,
+        "xgd_medio": 0.41
       }
     },
     "Torino": {

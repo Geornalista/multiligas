@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-18T10:40:32.896Z",
+  "updated_at": "2026-09-19T03:32:10.845Z",
   "teams": {
     "Wolverhampton Wanderers": {
       "team": "Wolverhampton Wanderers",
@@ -808,33 +808,53 @@
           "xg_movel_5": 1.45,
           "xga_movel_5": 1.16,
           "xgd_movel_5": 0.29
+        },
+        {
+          "rodada": 8,
+          "data": "2026-09-18T19:00:00Z",
+          "local": "Casa",
+          "adversario": "Watford",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 1.56,
+          "xga": 0.52,
+          "xgd": 1.04,
+          "posse": 36,
+          "chutes": 17,
+          "chutes_no_gol": 7,
+          "escanteios": 2,
+          "desarmes": 19,
+          "xg_movel_5": 1.64,
+          "xga_movel_5": 0.99,
+          "xgd_movel_5": 0.65
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 9.3,
-          "temporada": 1.32,
-          "ultimos_5": 1.45
+          "variacao": 21,
+          "temporada": 1.35,
+          "ultimos_5": 1.64
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 24.2,
-          "temporada": 1.53,
-          "ultimos_5": 1.16
+          "variacao": 29.6,
+          "temporada": 1.4,
+          "ultimos_5": 0.99
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 243,
-          "temporada": -0.2,
-          "ultimos_5": 0.29
+          "variacao": 1468.4,
+          "temporada": -0.05,
+          "ultimos_5": 0.65
         }
       },
       "resumo": {
-        "jogos": 7,
-        "xg_medio": 1.32,
-        "xga_medio": 1.53,
-        "xgd_medio": -0.2
+        "jogos": 8,
+        "xg_medio": 1.35,
+        "xga_medio": 1.4,
+        "xgd_medio": -0.05
       }
     },
     "Millwall": {
@@ -3182,33 +3202,53 @@
           "xg_movel_5": 1.11,
           "xga_movel_5": 1.74,
           "xgd_movel_5": -0.63
+        },
+        {
+          "rodada": 8,
+          "data": "2026-09-18T19:00:00Z",
+          "local": "Fora",
+          "adversario": "Bristol City",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0.52,
+          "xga": 1.56,
+          "xgd": -1.04,
+          "posse": 64,
+          "chutes": 10,
+          "chutes_no_gol": 2,
+          "escanteios": 5,
+          "desarmes": 9,
+          "xg_movel_5": 0.9,
+          "xga_movel_5": 1.88,
+          "xgd_movel_5": -0.98
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Melhorando",
-          "variacao": 10.9,
-          "temporada": 1,
-          "ultimos_5": 1.11
+          "status": "Estável",
+          "variacao": -4.8,
+          "temporada": 0.94,
+          "ultimos_5": 0.9
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 1.1,
-          "temporada": 1.76,
-          "ultimos_5": 1.74
+          "status": "Piorando",
+          "variacao": -8,
+          "temporada": 1.74,
+          "ultimos_5": 1.88
         },
         "equilibrio": {
-          "status": "Melhorando",
-          "variacao": 17.1,
-          "temporada": -0.76,
-          "ultimos_5": -0.63
+          "status": "Piorando",
+          "variacao": -23.3,
+          "temporada": -0.79,
+          "ultimos_5": -0.98
         }
       },
       "resumo": {
-        "jogos": 7,
-        "xg_medio": 1,
-        "xga_medio": 1.76,
-        "xgd_medio": -0.76
+        "jogos": 8,
+        "xg_medio": 0.94,
+        "xga_medio": 1.74,
+        "xgd_medio": -0.79
       }
     },
     "Southampton": {

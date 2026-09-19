@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-18T10:37:50.659Z",
+  "updated_at": "2026-09-19T03:30:25.626Z",
   "teams": {
     "Bayern München": {
       "team": "Bayern München",
@@ -64,33 +64,53 @@
           "xg_movel_5": 2.94,
           "xga_movel_5": 0.65,
           "xgd_movel_5": 2.3
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-18T18:30:00Z",
+          "local": "Casa",
+          "adversario": "Union Berlin",
+          "gols_pro": 7,
+          "gols_contra": 0,
+          "placar": "7 x 0",
+          "xg": 3.71,
+          "xga": 0.34,
+          "xgd": 3.37,
+          "posse": 68,
+          "chutes": 23,
+          "chutes_no_gol": 15,
+          "escanteios": 9,
+          "desarmes": 11,
+          "xg_movel_5": 3.14,
+          "xga_movel_5": 0.57,
+          "xgd_movel_5": 2.57
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.94,
-          "ultimos_5": 2.94
+          "temporada": 3.14,
+          "ultimos_5": 3.14
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.65,
-          "ultimos_5": 0.65
+          "temporada": 0.57,
+          "ultimos_5": 0.57
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.3,
-          "ultimos_5": 2.3
+          "temporada": 2.57,
+          "ultimos_5": 2.57
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 2.94,
-        "xga_medio": 0.65,
-        "xgd_medio": 2.3
+        "jogos": 4,
+        "xg_medio": 3.14,
+        "xga_medio": 0.57,
+        "xgd_medio": 2.57
       }
     },
     "VfB Stuttgart": {
@@ -974,33 +994,53 @@
           "xg_movel_5": 1.39,
           "xga_movel_5": 2.37,
           "xgd_movel_5": -0.97
+        },
+        {
+          "rodada": 4,
+          "data": "2026-09-18T18:30:00Z",
+          "local": "Fora",
+          "adversario": "Bayern München",
+          "gols_pro": 0,
+          "gols_contra": 7,
+          "placar": "0 x 7",
+          "xg": 0.34,
+          "xga": 3.71,
+          "xgd": -3.37,
+          "posse": 32,
+          "chutes": 3,
+          "chutes_no_gol": 2,
+          "escanteios": 2,
+          "desarmes": 22,
+          "xg_movel_5": 1.13,
+          "xga_movel_5": 2.7,
+          "xgd_movel_5": -1.57
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.39,
-          "ultimos_5": 1.39
+          "temporada": 1.13,
+          "ultimos_5": 1.13
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.37,
-          "ultimos_5": 2.37
+          "temporada": 2.7,
+          "ultimos_5": 2.7
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.97,
-          "ultimos_5": -0.97
+          "temporada": -1.57,
+          "ultimos_5": -1.57
         }
       },
       "resumo": {
-        "jogos": 3,
-        "xg_medio": 1.39,
-        "xga_medio": 2.37,
-        "xgd_medio": -0.97
+        "jogos": 4,
+        "xg_medio": 1.13,
+        "xga_medio": 2.7,
+        "xgd_medio": -1.57
       }
     },
     "Eintracht Frankfurt": {

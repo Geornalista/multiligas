@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-18T10:40:01.364Z",
+  "updated_at": "2026-09-19T03:31:52.327Z",
   "teams": {
     "Arsenal": {
       "team": "Arsenal",
@@ -1194,33 +1194,53 @@
           "xg_movel_5": 1.81,
           "xga_movel_5": 1.37,
           "xgd_movel_5": 0.44
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-18T19:00:00Z",
+          "local": "Casa",
+          "adversario": "Chelsea",
+          "gols_pro": 3,
+          "gols_contra": 0,
+          "placar": "3 x 0",
+          "xg": 2.65,
+          "xga": 0.83,
+          "xgd": 1.82,
+          "posse": 40,
+          "chutes": 13,
+          "chutes_no_gol": 6,
+          "escanteios": 4,
+          "desarmes": 15,
+          "xg_movel_5": 1.98,
+          "xga_movel_5": 1.26,
+          "xgd_movel_5": 0.72
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.81,
-          "ultimos_5": 1.81
+          "temporada": 1.98,
+          "ultimos_5": 1.98
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.37,
-          "ultimos_5": 1.37
+          "temporada": 1.26,
+          "ultimos_5": 1.26
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.44,
-          "ultimos_5": 0.44
+          "temporada": 0.72,
+          "ultimos_5": 0.72
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.81,
-        "xga_medio": 1.37,
-        "xgd_medio": 0.44
+        "jogos": 5,
+        "xg_medio": 1.98,
+        "xga_medio": 1.26,
+        "xgd_medio": 0.72
       }
     },
     "Tottenham Hotspur": {
@@ -2193,33 +2213,53 @@
           "xg_movel_5": 1.62,
           "xga_movel_5": 1.54,
           "xgd_movel_5": 0.08
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-18T19:00:00Z",
+          "local": "Fora",
+          "adversario": "Brentford",
+          "gols_pro": 0,
+          "gols_contra": 3,
+          "placar": "0 x 3",
+          "xg": 0.83,
+          "xga": 2.65,
+          "xgd": -1.82,
+          "posse": 60,
+          "chutes": 12,
+          "chutes_no_gol": 2,
+          "escanteios": 12,
+          "desarmes": 20,
+          "xg_movel_5": 1.46,
+          "xga_movel_5": 1.76,
+          "xgd_movel_5": -0.3
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.62,
-          "ultimos_5": 1.62
+          "temporada": 1.46,
+          "ultimos_5": 1.46
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.54,
-          "ultimos_5": 1.54
+          "temporada": 1.76,
+          "ultimos_5": 1.76
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.08,
-          "ultimos_5": 0.08
+          "temporada": -0.3,
+          "ultimos_5": -0.3
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.62,
-        "xga_medio": 1.54,
-        "xgd_medio": 0.08
+        "jogos": 5,
+        "xg_medio": 1.46,
+        "xga_medio": 1.76,
+        "xgd_medio": -0.3
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-18T10:38:57.103Z",
+  "updated_at": "2026-09-19T03:31:10.868Z",
   "teams": {
     "Marseille": {
       "team": "Marseille",
@@ -306,33 +306,53 @@
           "xg_movel_5": 2.55,
           "xga_movel_5": 1.94,
           "xgd_movel_5": 0.61
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-18T18:45:00Z",
+          "local": "Fora",
+          "adversario": "Monaco",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.19,
+          "xga": 1.75,
+          "xgd": -0.56,
+          "posse": 50,
+          "chutes": 12,
+          "chutes_no_gol": 4,
+          "escanteios": 8,
+          "desarmes": 16,
+          "xg_movel_5": 2.27,
+          "xga_movel_5": 1.9,
+          "xgd_movel_5": 0.37
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.55,
-          "ultimos_5": 2.55
+          "temporada": 2.27,
+          "ultimos_5": 2.27
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.94,
-          "ultimos_5": 1.94
+          "temporada": 1.9,
+          "ultimos_5": 1.9
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.61,
-          "ultimos_5": 0.61
+          "temporada": 0.37,
+          "ultimos_5": 0.37
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 2.55,
-        "xga_medio": 1.94,
-        "xgd_medio": 0.61
+        "jogos": 5,
+        "xg_medio": 2.27,
+        "xga_medio": 1.9,
+        "xgd_medio": 0.37
       }
     },
     "Auxerre": {
@@ -1749,33 +1769,53 @@
           "xg_movel_5": 1.22,
           "xga_movel_5": 1.35,
           "xgd_movel_5": -0.13
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-18T18:45:00Z",
+          "local": "Casa",
+          "adversario": "Lens",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 1.75,
+          "xga": 1.19,
+          "xgd": 0.56,
+          "posse": 50,
+          "chutes": 9,
+          "chutes_no_gol": 6,
+          "escanteios": 2,
+          "desarmes": 22,
+          "xg_movel_5": 1.32,
+          "xga_movel_5": 1.31,
+          "xgd_movel_5": 0.01
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.22,
-          "ultimos_5": 1.22
+          "temporada": 1.32,
+          "ultimos_5": 1.32
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.35,
-          "ultimos_5": 1.35
+          "temporada": 1.31,
+          "ultimos_5": 1.31
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.13,
-          "ultimos_5": -0.13
+          "temporada": 0.01,
+          "ultimos_5": 0.01
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.22,
-        "xga_medio": 1.35,
-        "xgd_medio": -0.13
+        "jogos": 5,
+        "xg_medio": 1.32,
+        "xga_medio": 1.31,
+        "xgd_medio": 0.01
       }
     },
     "Rennes": {
