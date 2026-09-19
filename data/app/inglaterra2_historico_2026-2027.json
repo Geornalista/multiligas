@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-19T03:32:10.845Z",
+  "updated_at": "2026-09-19T10:25:53.418Z",
   "teams": {
     "Wolverhampton Wanderers": {
       "team": "Wolverhampton Wanderers",
@@ -817,44 +817,44 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 1.56,
-          "xga": 0.52,
-          "xgd": 1.04,
+          "xg": 1.47,
+          "xga": 0.57,
+          "xgd": 0.9,
           "posse": 36,
           "chutes": 17,
           "chutes_no_gol": 7,
           "escanteios": 2,
           "desarmes": 19,
-          "xg_movel_5": 1.64,
-          "xga_movel_5": 0.99,
-          "xgd_movel_5": 0.65
+          "xg_movel_5": 1.62,
+          "xga_movel_5": 1,
+          "xgd_movel_5": 0.62
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 21,
-          "temporada": 1.35,
-          "ultimos_5": 1.64
+          "variacao": 20.6,
+          "temporada": 1.34,
+          "ultimos_5": 1.62
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 29.6,
-          "temporada": 1.4,
-          "ultimos_5": 0.99
+          "variacao": 29.2,
+          "temporada": 1.41,
+          "ultimos_5": 1
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 1468.4,
-          "temporada": -0.05,
-          "ultimos_5": 0.65
+          "variacao": 1056.9,
+          "temporada": -0.06,
+          "ultimos_5": 0.62
         }
       },
       "resumo": {
         "jogos": 8,
-        "xg_medio": 1.35,
-        "xga_medio": 1.4,
-        "xgd_medio": -0.05
+        "xg_medio": 1.34,
+        "xga_medio": 1.41,
+        "xgd_medio": -0.06
       }
     },
     "Millwall": {
@@ -3211,44 +3211,44 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "placar": "0 x 1",
-          "xg": 0.52,
-          "xga": 1.56,
-          "xgd": -1.04,
+          "xg": 0.57,
+          "xga": 1.47,
+          "xgd": -0.9,
           "posse": 64,
           "chutes": 10,
           "chutes_no_gol": 2,
           "escanteios": 5,
           "desarmes": 9,
-          "xg_movel_5": 0.9,
-          "xga_movel_5": 1.88,
-          "xgd_movel_5": -0.98
+          "xg_movel_5": 0.91,
+          "xga_movel_5": 1.86,
+          "xgd_movel_5": -0.95
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": -4.8,
-          "temporada": 0.94,
-          "ultimos_5": 0.9
+          "variacao": -4.4,
+          "temporada": 0.95,
+          "ultimos_5": 0.91
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -8,
-          "temporada": 1.74,
-          "ultimos_5": 1.88
+          "variacao": -7.7,
+          "temporada": 1.73,
+          "ultimos_5": 1.86
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -23.3,
-          "temporada": -0.79,
-          "ultimos_5": -0.98
+          "variacao": -22.4,
+          "temporada": -0.78,
+          "ultimos_5": -0.95
         }
       },
       "resumo": {
         "jogos": 8,
-        "xg_medio": 0.94,
-        "xga_medio": 1.74,
-        "xgd_medio": -0.79
+        "xg_medio": 0.95,
+        "xga_medio": 1.73,
+        "xgd_medio": -0.78
       }
     },
     "Southampton": {

@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-19T03:35:00.345Z",
+  "updated_at": "2026-09-19T10:30:18.132Z",
   "teams": {
     "Lausanne": {
       "team": "Lausanne",
@@ -455,10 +455,10 @@
           "gols_pro": 4,
           "gols_contra": 2,
           "placar": "4 x 2",
-          "xg": 1.52,
-          "xga": 2.05,
-          "xgd": -0.53,
-          "posse": 40,
+          "xg": 1.55,
+          "xga": 2.07,
+          "xgd": -0.52,
+          "posse": 39,
           "chutes": 13,
           "chutes_no_gol": 4,
           "escanteios": 5,
@@ -483,7 +483,7 @@
           "chutes_no_gol": 5,
           "escanteios": 13,
           "desarmes": 15,
-          "xg_movel_5": 1.66,
+          "xg_movel_5": 1.67,
           "xga_movel_5": 1.6,
           "xgd_movel_5": 0.06
         },
@@ -503,7 +503,7 @@
           "chutes_no_gol": 2,
           "escanteios": 3,
           "desarmes": 15,
-          "xg_movel_5": 1.78,
+          "xg_movel_5": 1.79,
           "xga_movel_5": 1.44,
           "xgd_movel_5": 0.34
         },
@@ -523,7 +523,7 @@
           "chutes_no_gol": 2,
           "escanteios": 2,
           "desarmes": 17,
-          "xg_movel_5": 1.64,
+          "xg_movel_5": 1.65,
           "xga_movel_5": 1.46,
           "xgd_movel_5": 0.19
         },
@@ -544,34 +544,34 @@
           "escanteios": 2,
           "desarmes": 20,
           "xg_movel_5": 1.48,
-          "xga_movel_5": 1.52,
+          "xga_movel_5": 1.53,
           "xgd_movel_5": -0.04
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -5.3,
-          "temporada": 1.56,
+          "variacao": -5.2,
+          "temporada": 1.57,
           "ultimos_5": 1.48
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 1.3,
-          "temporada": 1.54,
-          "ultimos_5": 1.52
+          "variacao": 1.2,
+          "temporada": 1.55,
+          "ultimos_5": 1.53
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -334.7,
+          "variacao": -310,
           "temporada": 0.02,
           "ultimos_5": -0.04
         }
       },
       "resumo": {
         "jogos": 8,
-        "xg_medio": 1.56,
-        "xga_medio": 1.54,
+        "xg_medio": 1.57,
+        "xga_medio": 1.55,
         "xgd_medio": 0.02
       }
     },
@@ -1028,17 +1028,17 @@
           "gols_pro": 2,
           "gols_contra": 4,
           "placar": "2 x 4",
-          "xg": 2.05,
-          "xga": 1.52,
-          "xgd": 0.53,
-          "posse": 60,
+          "xg": 2.07,
+          "xga": 1.55,
+          "xgd": 0.52,
+          "posse": 61,
           "chutes": 17,
           "chutes_no_gol": 2,
           "escanteios": 7,
-          "desarmes": 25,
+          "desarmes": 28,
           "xg_movel_5": 1.4,
-          "xga_movel_5": 2.26,
-          "xgd_movel_5": -0.86
+          "xga_movel_5": 2.27,
+          "xgd_movel_5": -0.87
         },
         {
           "rodada": 5,
@@ -1057,7 +1057,7 @@
           "escanteios": 1,
           "desarmes": 20,
           "xg_movel_5": 1.37,
-          "xga_movel_5": 2.38,
+          "xga_movel_5": 2.39,
           "xgd_movel_5": -1.02
         },
         {
@@ -1117,7 +1117,7 @@
           "escanteios": 10,
           "desarmes": 23,
           "xg_movel_5": 1.7,
-          "xga_movel_5": 2.08,
+          "xga_movel_5": 2.09,
           "xgd_movel_5": -0.38
         }
       ],
@@ -1125,25 +1125,25 @@
         "ataque": {
           "status": "Melhorando",
           "variacao": 13.1,
-          "temporada": 1.5,
+          "temporada": 1.51,
           "ultimos_5": 1.7
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 7.1,
+          "variacao": 7,
           "temporada": 2.24,
-          "ultimos_5": 2.08
+          "ultimos_5": 2.09
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 48.4,
+          "variacao": 48.2,
           "temporada": -0.74,
           "ultimos_5": -0.38
         }
       },
       "resumo": {
         "jogos": 8,
-        "xg_medio": 1.5,
+        "xg_medio": 1.51,
         "xga_medio": 2.24,
         "xgd_medio": -0.74
       }
