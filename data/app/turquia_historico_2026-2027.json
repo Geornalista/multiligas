@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-19T12:58:16.200Z",
+  "updated_at": "2026-09-20T11:37:12.037Z",
   "teams": {
     "Galatasaray": {
       "team": "Galatasaray",
@@ -104,33 +104,53 @@
           "xg_movel_5": 2.65,
           "xga_movel_5": 0.91,
           "xgd_movel_5": 1.74
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T17:00:00Z",
+          "local": "Fora",
+          "adversario": "Trabzonspor",
+          "gols_pro": 0,
+          "gols_contra": 4,
+          "placar": "0 x 4",
+          "xg": 0.96,
+          "xga": 2.2,
+          "xgd": -1.24,
+          "posse": 54,
+          "chutes": 13,
+          "chutes_no_gol": 3,
+          "escanteios": 5,
+          "desarmes": 23,
+          "xg_movel_5": 2.26,
+          "xga_movel_5": 1.22,
+          "xgd_movel_5": 1.03
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.65,
-          "ultimos_5": 2.65
+          "variacao": -4.5,
+          "temporada": 2.37,
+          "ultimos_5": 2.26
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.91,
-          "ultimos_5": 0.91
+          "status": "Piorando",
+          "variacao": -9.1,
+          "temporada": 1.12,
+          "ultimos_5": 1.22
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.74,
-          "ultimos_5": 1.74
+          "status": "Piorando",
+          "variacao": -16.8,
+          "temporada": 1.24,
+          "ultimos_5": 1.03
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 2.65,
-        "xga_medio": 0.91,
-        "xgd_medio": 1.74
+        "jogos": 6,
+        "xg_medio": 2.37,
+        "xga_medio": 1.12,
+        "xgd_medio": 1.24
       }
     },
     "Çorum FK": {
@@ -235,33 +255,53 @@
           "xg_movel_5": 1.34,
           "xga_movel_5": 1.63,
           "xgd_movel_5": -0.29
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T14:00:00Z",
+          "local": "Casa",
+          "adversario": "Alanyaspor",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.11,
+          "xga": 1.18,
+          "xgd": -0.07,
+          "posse": 66,
+          "chutes": 12,
+          "chutes_no_gol": 5,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 1.44,
+          "xga_movel_5": 1.29,
+          "xgd_movel_5": 0.15
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.34,
-          "ultimos_5": 1.34
+          "status": "Melhorando",
+          "variacao": 10.6,
+          "temporada": 1.3,
+          "ultimos_5": 1.44
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.63,
-          "ultimos_5": 1.63
+          "status": "Melhorando",
+          "variacao": 17.3,
+          "temporada": 1.56,
+          "ultimos_5": 1.29
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.29,
-          "ultimos_5": -0.29
+          "status": "Melhorando",
+          "variacao": 160.8,
+          "temporada": -0.25,
+          "ultimos_5": 0.15
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.34,
-        "xga_medio": 1.63,
-        "xgd_medio": -0.29
+        "jogos": 6,
+        "xg_medio": 1.3,
+        "xga_medio": 1.56,
+        "xgd_medio": -0.25
       }
     },
     "Kasımpaşa": {
@@ -517,33 +557,53 @@
           "xg_movel_5": 1.69,
           "xga_movel_5": 1.65,
           "xgd_movel_5": 0.03
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T17:00:00Z",
+          "local": "Casa",
+          "adversario": "Galatasaray",
+          "gols_pro": 4,
+          "gols_contra": 0,
+          "placar": "4 x 0",
+          "xg": 2.2,
+          "xga": 0.96,
+          "xgd": 1.24,
+          "posse": 46,
+          "chutes": 7,
+          "chutes_no_gol": 4,
+          "escanteios": 1,
+          "desarmes": 19,
+          "xg_movel_5": 1.96,
+          "xga_movel_5": 1.47,
+          "xgd_movel_5": 0.48
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.69,
-          "ultimos_5": 1.69
+          "status": "Melhorando",
+          "variacao": 10.4,
+          "temporada": 1.77,
+          "ultimos_5": 1.96
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.65,
-          "ultimos_5": 1.65
+          "variacao": 4.2,
+          "temporada": 1.54,
+          "ultimos_5": 1.47
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.03,
-          "ultimos_5": 0.03
+          "status": "Melhorando",
+          "variacao": 106.6,
+          "temporada": 0.23,
+          "ultimos_5": 0.48
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.69,
-        "xga_medio": 1.65,
-        "xgd_medio": 0.03
+        "jogos": 6,
+        "xg_medio": 1.77,
+        "xga_medio": 1.54,
+        "xgd_medio": 0.23
       }
     },
     "Konyaspor": {
@@ -930,33 +990,53 @@
           "xg_movel_5": 1.12,
           "xga_movel_5": 1.5,
           "xgd_movel_5": -0.38
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T14:00:00Z",
+          "local": "Fora",
+          "adversario": "Kocaelispor",
+          "gols_pro": 0,
+          "gols_contra": 2,
+          "placar": "0 x 2",
+          "xg": 1.03,
+          "xga": 1.3,
+          "xgd": -0.27,
+          "posse": 49,
+          "chutes": 16,
+          "chutes_no_gol": 3,
+          "escanteios": 2,
+          "desarmes": 14,
+          "xg_movel_5": 1.07,
+          "xga_movel_5": 1.51,
+          "xgd_movel_5": -0.44
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.12,
-          "ultimos_5": 1.12
+          "variacao": -3.2,
+          "temporada": 1.11,
+          "ultimos_5": 1.07
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.5,
-          "ultimos_5": 1.5
+          "variacao": -3,
+          "temporada": 1.47,
+          "ultimos_5": 1.51
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.38,
-          "ultimos_5": -0.38
+          "status": "Piorando",
+          "variacao": -21.7,
+          "temporada": -0.36,
+          "ultimos_5": -0.44
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.12,
-        "xga_medio": 1.5,
-        "xgd_medio": -0.38
+        "jogos": 6,
+        "xg_medio": 1.11,
+        "xga_medio": 1.47,
+        "xgd_medio": -0.36
       }
     },
     "Alanyaspor": {
@@ -1061,33 +1141,53 @@
           "xg_movel_5": 1.25,
           "xga_movel_5": 1.31,
           "xgd_movel_5": -0.07
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T14:00:00Z",
+          "local": "Fora",
+          "adversario": "Çorum FK",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 1.18,
+          "xga": 1.11,
+          "xgd": 0.07,
+          "posse": 34,
+          "chutes": 9,
+          "chutes_no_gol": 5,
+          "escanteios": 3,
+          "desarmes": 14,
+          "xg_movel_5": 1.23,
+          "xga_movel_5": 1.28,
+          "xgd_movel_5": -0.05
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.25,
-          "ultimos_5": 1.25
+          "variacao": -0.2,
+          "temporada": 1.24,
+          "ultimos_5": 1.23
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.31,
-          "ultimos_5": 1.31
+          "temporada": 1.28,
+          "ultimos_5": 1.28
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.07,
-          "ultimos_5": -0.07
+          "status": "Piorando",
+          "variacao": -6.2,
+          "temporada": -0.04,
+          "ultimos_5": -0.05
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.25,
-        "xga_medio": 1.31,
-        "xgd_medio": -0.07
+        "jogos": 6,
+        "xg_medio": 1.24,
+        "xga_medio": 1.28,
+        "xgd_medio": -0.04
       }
     },
     "Gençlerbirliği": {
@@ -1192,33 +1292,53 @@
           "xg_movel_5": 1.08,
           "xga_movel_5": 2.09,
           "xgd_movel_5": -1.01
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T17:00:00Z",
+          "local": "Fora",
+          "adversario": "Başakşehir",
+          "gols_pro": 0,
+          "gols_contra": 4,
+          "placar": "0 x 4",
+          "xg": 0.52,
+          "xga": 2.74,
+          "xgd": -2.22,
+          "posse": 46,
+          "chutes": 7,
+          "chutes_no_gol": 0,
+          "escanteios": 7,
+          "desarmes": 8,
+          "xg_movel_5": 0.94,
+          "xga_movel_5": 2.06,
+          "xgd_movel_5": -1.12
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.08,
-          "ultimos_5": 1.08
+          "variacao": -4.2,
+          "temporada": 0.99,
+          "ultimos_5": 0.94
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.09,
-          "ultimos_5": 2.09
+          "status": "Melhorando",
+          "variacao": 6.4,
+          "temporada": 2.2,
+          "ultimos_5": 2.06
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -1.01,
-          "ultimos_5": -1.01
+          "status": "Melhorando",
+          "variacao": 8.1,
+          "temporada": -1.21,
+          "ultimos_5": -1.12
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.08,
-        "xga_medio": 2.09,
-        "xgd_medio": -1.01
+        "jogos": 6,
+        "xg_medio": 0.99,
+        "xga_medio": 2.2,
+        "xgd_medio": -1.21
       }
     },
     "Fenerbahçe": {
@@ -1454,33 +1574,53 @@
           "xg_movel_5": 1.41,
           "xga_movel_5": 2.15,
           "xgd_movel_5": -0.74
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T17:00:00Z",
+          "local": "Casa",
+          "adversario": "Gençlerbirliği",
+          "gols_pro": 4,
+          "gols_contra": 0,
+          "placar": "4 x 0",
+          "xg": 2.74,
+          "xga": 0.52,
+          "xgd": 2.22,
+          "posse": 54,
+          "chutes": 18,
+          "chutes_no_gol": 11,
+          "escanteios": 3,
+          "desarmes": 2,
+          "xg_movel_5": 1.57,
+          "xga_movel_5": 2.17,
+          "xgd_movel_5": -0.6
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.41,
-          "ultimos_5": 1.41
+          "variacao": -4,
+          "temporada": 1.63,
+          "ultimos_5": 1.57
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 2.15,
-          "ultimos_5": 2.15
+          "status": "Piorando",
+          "variacao": -15.4,
+          "temporada": 1.88,
+          "ultimos_5": 2.17
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.74,
-          "ultimos_5": -0.74
+          "status": "Piorando",
+          "variacao": -143.2,
+          "temporada": -0.25,
+          "ultimos_5": -0.6
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 1.41,
-        "xga_medio": 2.15,
-        "xgd_medio": -0.74
+        "jogos": 6,
+        "xg_medio": 1.63,
+        "xga_medio": 1.88,
+        "xgd_medio": -0.25
       }
     },
     "Kocaelispor": {
@@ -1585,33 +1725,53 @@
           "xg_movel_5": 0.98,
           "xga_movel_5": 1.48,
           "xgd_movel_5": -0.5
+        },
+        {
+          "rodada": 6,
+          "data": "2026-09-19T14:00:00Z",
+          "local": "Casa",
+          "adversario": "Gaziantep FK",
+          "gols_pro": 2,
+          "gols_contra": 0,
+          "placar": "2 x 0",
+          "xg": 1.3,
+          "xga": 1.03,
+          "xgd": 0.27,
+          "posse": 51,
+          "chutes": 19,
+          "chutes_no_gol": 5,
+          "escanteios": 1,
+          "desarmes": 18,
+          "xg_movel_5": 1.16,
+          "xga_movel_5": 1.3,
+          "xgd_movel_5": -0.14
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 0.98,
-          "ultimos_5": 0.98
+          "status": "Melhorando",
+          "variacao": 11.7,
+          "temporada": 1.04,
+          "ultimos_5": 1.16
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": 1.48,
-          "ultimos_5": 1.48
+          "status": "Melhorando",
+          "variacao": 7.9,
+          "temporada": 1.41,
+          "ultimos_5": 1.3
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0,
-          "temporada": -0.5,
-          "ultimos_5": -0.5
+          "status": "Melhorando",
+          "variacao": 62.3,
+          "temporada": -0.37,
+          "ultimos_5": -0.14
         }
       },
       "resumo": {
-        "jogos": 5,
-        "xg_medio": 0.98,
-        "xga_medio": 1.48,
-        "xgd_medio": -0.5
+        "jogos": 6,
+        "xg_medio": 1.04,
+        "xga_medio": 1.41,
+        "xgd_medio": -0.37
       }
     },
     "Amed Sportif": {

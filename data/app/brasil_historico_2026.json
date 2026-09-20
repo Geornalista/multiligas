@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "updated_at": "2026-09-19T12:53:50.362Z",
+  "updated_at": "2026-09-20T11:31:56.733Z",
   "teams": {
     "Atlético-MG": {
       "team": "Atlético-MG",
@@ -524,33 +524,53 @@
           "xg_movel_5": 1.66,
           "xga_movel_5": 1.01,
           "xgd_movel_5": 0.65
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T19:00:00Z",
+          "local": "Casa",
+          "adversario": "Chapecoense",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 2.21,
+          "xga": 1.13,
+          "xgd": 1.08,
+          "posse": 66,
+          "chutes": 26,
+          "chutes_no_gol": 11,
+          "escanteios": 10,
+          "desarmes": 13,
+          "xg_movel_5": 1.56,
+          "xga_movel_5": 1.14,
+          "xgd_movel_5": 0.41
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 22.5,
-          "temporada": 1.36,
-          "ultimos_5": 1.66
+          "variacao": 12.2,
+          "temporada": 1.39,
+          "ultimos_5": 1.56
         },
         "defesa": {
-          "status": "Melhorando",
-          "variacao": 15.3,
+          "status": "Estável",
+          "variacao": 4,
           "temporada": 1.19,
-          "ultimos_5": 1.01
+          "ultimos_5": 1.14
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 304,
-          "temporada": 0.16,
-          "ultimos_5": 0.65
+          "variacao": 111.9,
+          "temporada": 0.19,
+          "ultimos_5": 0.41
         }
       },
       "resumo": {
-        "jogos": 26,
-        "xg_medio": 1.36,
+        "jogos": 27,
+        "xg_medio": 1.39,
         "xga_medio": 1.19,
-        "xgd_medio": 0.16
+        "xgd_medio": 0.19
       }
     },
     "Palmeiras": {
@@ -1666,33 +1686,53 @@
           "xg_movel_5": 1.33,
           "xga_movel_5": 1.76,
           "xgd_movel_5": -0.44
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T23:30:00Z",
+          "local": "Fora",
+          "adversario": "Vasco da Gama",
+          "gols_pro": 0,
+          "gols_contra": 5,
+          "placar": "0 x 5",
+          "xg": 0.22,
+          "xga": 4.05,
+          "xgd": -3.83,
+          "posse": 35,
+          "chutes": 4,
+          "chutes_no_gol": 1,
+          "escanteios": 2,
+          "desarmes": 17,
+          "xg_movel_5": 1.29,
+          "xga_movel_5": 2.35,
+          "xgd_movel_5": -1.06
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
           "variacao": 21.6,
-          "temporada": 1.09,
-          "ultimos_5": 1.33
+          "temporada": 1.06,
+          "ultimos_5": 1.29
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -13.4,
-          "temporada": 1.55,
-          "ultimos_5": 1.76
+          "variacao": -42.9,
+          "temporada": 1.64,
+          "ultimos_5": 2.35
         },
         "equilibrio": {
-          "status": "Melhorando",
-          "variacao": 5.9,
-          "temporada": -0.46,
-          "ultimos_5": -0.44
+          "status": "Piorando",
+          "variacao": -81.6,
+          "temporada": -0.58,
+          "ultimos_5": -1.06
         }
       },
       "resumo": {
-        "jogos": 27,
-        "xg_medio": 1.09,
-        "xga_medio": 1.55,
-        "xgd_medio": -0.46
+        "jogos": 28,
+        "xg_medio": 1.06,
+        "xga_medio": 1.64,
+        "xgd_medio": -0.58
       }
     },
     "RB Bragantino": {
@@ -2788,33 +2828,53 @@
           "xg_movel_5": 1.25,
           "xga_movel_5": 1.34,
           "xgd_movel_5": -0.08
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-20T00:00:00.000Z",
+          "local": "Fora",
+          "adversario": "São Paulo",
+          "gols_pro": 0,
+          "gols_contra": 1,
+          "placar": "0 x 1",
+          "xg": 0.67,
+          "xga": 1.01,
+          "xgd": -0.34,
+          "posse": 56,
+          "chutes": 13,
+          "chutes_no_gol": 1,
+          "escanteios": 3,
+          "desarmes": 11,
+          "xg_movel_5": 1.11,
+          "xga_movel_5": 1.36,
+          "xgd_movel_5": -0.25
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -17,
-          "temporada": 1.51,
-          "ultimos_5": 1.25
+          "variacao": -25.1,
+          "temporada": 1.48,
+          "ultimos_5": 1.11
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -8.7,
-          "temporada": 1.23,
-          "ultimos_5": 1.34
+          "variacao": -11.2,
+          "temporada": 1.22,
+          "ultimos_5": 1.36
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -129.9,
-          "temporada": 0.28,
-          "ultimos_5": -0.08
+          "variacao": -196.7,
+          "temporada": 0.26,
+          "ultimos_5": -0.25
         }
       },
       "resumo": {
-        "jogos": 27,
-        "xg_medio": 1.51,
-        "xga_medio": 1.23,
-        "xgd_medio": 0.28
+        "jogos": 28,
+        "xg_medio": 1.48,
+        "xga_medio": 1.22,
+        "xgd_medio": 0.26
       }
     },
     "Athletico Paranaense": {
@@ -4501,33 +4561,53 @@
           "xg_movel_5": 1.27,
           "xga_movel_5": 1.99,
           "xgd_movel_5": -0.72
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T21:30:00Z",
+          "local": "Casa",
+          "adversario": "Santos",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 0.77,
+          "xga": 0.9,
+          "xgd": -0.13,
+          "posse": 48,
+          "chutes": 14,
+          "chutes_no_gol": 4,
+          "escanteios": 5,
+          "desarmes": 16,
+          "xg_movel_5": 1.24,
+          "xga_movel_5": 1.89,
+          "xgd_movel_5": -0.65
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 19.1,
-          "temporada": 1.06,
-          "ultimos_5": 1.27
+          "variacao": 17.8,
+          "temporada": 1.05,
+          "ultimos_5": 1.24
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -24.8,
-          "temporada": 1.6,
-          "ultimos_5": 1.99
+          "variacao": -20.5,
+          "temporada": 1.57,
+          "ultimos_5": 1.89
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -36.1,
-          "temporada": -0.53,
-          "ultimos_5": -0.72
+          "variacao": -26,
+          "temporada": -0.52,
+          "ultimos_5": -0.65
         }
       },
       "resumo": {
-        "jogos": 27,
-        "xg_medio": 1.06,
-        "xga_medio": 1.6,
-        "xgd_medio": -0.53
+        "jogos": 28,
+        "xg_medio": 1.05,
+        "xga_medio": 1.57,
+        "xgd_medio": -0.52
       }
     },
     "Fluminense": {
@@ -6194,33 +6274,53 @@
           "xg_movel_5": 1.26,
           "xga_movel_5": 1.45,
           "xgd_movel_5": -0.2
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T19:00:00Z",
+          "local": "Fora",
+          "adversario": "Atlético-MG",
+          "gols_pro": 1,
+          "gols_contra": 1,
+          "placar": "1 x 1",
+          "xg": 1.13,
+          "xga": 2.21,
+          "xgd": -1.08,
+          "posse": 34,
+          "chutes": 7,
+          "chutes_no_gol": 1,
+          "escanteios": 2,
+          "desarmes": 23,
+          "xg_movel_5": 1.22,
+          "xga_movel_5": 1.41,
+          "xgd_movel_5": -0.2
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 16.8,
+          "variacao": 12.8,
           "temporada": 1.08,
-          "ultimos_5": 1.26
+          "ultimos_5": 1.22
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 14.2,
-          "temporada": 1.69,
-          "ultimos_5": 1.45
+          "variacao": 17.4,
+          "temporada": 1.71,
+          "ultimos_5": 1.41
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 68.2,
-          "temporada": -0.62,
+          "variacao": 68.8,
+          "temporada": -0.63,
           "ultimos_5": -0.2
         }
       },
       "resumo": {
-        "jogos": 26,
+        "jogos": 27,
         "xg_medio": 1.08,
-        "xga_medio": 1.69,
-        "xgd_medio": -0.62
+        "xga_medio": 1.71,
+        "xgd_medio": -0.63
       }
     },
     "Santos": {
@@ -6745,32 +6845,52 @@
           "xg_movel_5": 1.75,
           "xga_movel_5": 1.09,
           "xgd_movel_5": 0.66
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T21:30:00Z",
+          "local": "Fora",
+          "adversario": "Remo",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 0.9,
+          "xga": 0.77,
+          "xgd": 0.13,
+          "posse": 52,
+          "chutes": 11,
+          "chutes_no_gol": 4,
+          "escanteios": 4,
+          "desarmes": 16,
+          "xg_movel_5": 1.47,
+          "xga_movel_5": 1.02,
+          "xgd_movel_5": 0.45
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 24.5,
-          "temporada": 1.41,
-          "ultimos_5": 1.75
+          "variacao": 6,
+          "temporada": 1.39,
+          "ultimos_5": 1.47
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 18.1,
-          "temporada": 1.33,
-          "ultimos_5": 1.09
+          "variacao": 22.1,
+          "temporada": 1.31,
+          "ultimos_5": 1.02
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 742.1,
+          "variacao": 462.3,
           "temporada": 0.08,
-          "ultimos_5": 0.66
+          "ultimos_5": 0.45
         }
       },
       "resumo": {
-        "jogos": 26,
-        "xg_medio": 1.41,
-        "xga_medio": 1.33,
+        "jogos": 27,
+        "xg_medio": 1.39,
+        "xga_medio": 1.31,
         "xgd_medio": 0.08
       }
     },
@@ -8438,32 +8558,52 @@
           "xg_movel_5": 1.56,
           "xga_movel_5": 0.92,
           "xgd_movel_5": 0.65
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-20T00:00:00.000Z",
+          "local": "Casa",
+          "adversario": "Internacional",
+          "gols_pro": 1,
+          "gols_contra": 0,
+          "placar": "1 x 0",
+          "xg": 1.01,
+          "xga": 0.67,
+          "xgd": 0.34,
+          "posse": 44,
+          "chutes": 6,
+          "chutes_no_gol": 1,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 1.54,
+          "xga_movel_5": 0.97,
+          "xgd_movel_5": 0.57
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 15.2,
-          "temporada": 1.36,
-          "ultimos_5": 1.56
+          "variacao": 14.7,
+          "temporada": 1.34,
+          "ultimos_5": 1.54
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 24.2,
-          "temporada": 1.21,
-          "ultimos_5": 0.92
+          "variacao": 18.6,
+          "temporada": 1.19,
+          "ultimos_5": 0.97
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 339.7,
+          "variacao": 271.3,
           "temporada": 0.15,
-          "ultimos_5": 0.65
+          "ultimos_5": 0.57
         }
       },
       "resumo": {
-        "jogos": 26,
-        "xg_medio": 1.36,
-        "xga_medio": 1.21,
+        "jogos": 27,
+        "xg_medio": 1.34,
+        "xga_medio": 1.19,
         "xgd_medio": 0.15
       }
     },
@@ -9580,30 +9720,50 @@
           "xg_movel_5": 1.23,
           "xga_movel_5": 1.89,
           "xgd_movel_5": -0.66
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T20:00:00Z",
+          "local": "Casa",
+          "adversario": "Botafogo",
+          "gols_pro": 2,
+          "gols_contra": 0,
+          "placar": "2 x 0",
+          "xg": 1.22,
+          "xga": 1.35,
+          "xgd": -0.13,
+          "posse": 50,
+          "chutes": 12,
+          "chutes_no_gol": 7,
+          "escanteios": 3,
+          "desarmes": 15,
+          "xg_movel_5": 1.22,
+          "xga_movel_5": 1.6,
+          "xgd_movel_5": -0.38
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 2.3,
+          "variacao": 1.5,
           "temporada": 1.21,
-          "ultimos_5": 1.23
+          "ultimos_5": 1.22
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -38.1,
+          "variacao": -17.2,
           "temporada": 1.37,
-          "ultimos_5": 1.89
+          "ultimos_5": 1.6
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -302.5,
+          "variacao": -134.9,
           "temporada": -0.16,
-          "ultimos_5": -0.66
+          "ultimos_5": -0.38
         }
       },
       "resumo": {
-        "jogos": 27,
+        "jogos": 28,
         "xg_medio": 1.21,
         "xga_medio": 1.37,
         "xgd_medio": -0.16
@@ -10131,33 +10291,53 @@
           "xg_movel_5": 1.78,
           "xga_movel_5": 1.51,
           "xgd_movel_5": 0.27
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T23:30:00Z",
+          "local": "Casa",
+          "adversario": "Coritiba",
+          "gols_pro": 5,
+          "gols_contra": 0,
+          "placar": "5 x 0",
+          "xg": 4.05,
+          "xga": 0.22,
+          "xgd": 3.83,
+          "posse": 65,
+          "chutes": 32,
+          "chutes_no_gol": 11,
+          "escanteios": 12,
+          "desarmes": 21,
+          "xg_movel_5": 2.36,
+          "xga_movel_5": 1.09,
+          "xgd_movel_5": 1.27
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 15.4,
-          "temporada": 1.54,
-          "ultimos_5": 1.78
+          "variacao": 44.8,
+          "temporada": 1.63,
+          "ultimos_5": 2.36
         },
         "defesa": {
-          "status": "Piorando",
-          "variacao": -27,
-          "temporada": 1.19,
-          "ultimos_5": 1.51
+          "status": "Melhorando",
+          "variacao": 5.1,
+          "temporada": 1.15,
+          "ultimos_5": 1.09
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -23.8,
-          "temporada": 0.35,
-          "ultimos_5": 0.27
+          "status": "Melhorando",
+          "variacao": 165.2,
+          "temporada": 0.48,
+          "ultimos_5": 1.27
         }
       },
       "resumo": {
-        "jogos": 26,
-        "xg_medio": 1.54,
-        "xga_medio": 1.19,
-        "xgd_medio": 0.35
+        "jogos": 27,
+        "xg_medio": 1.63,
+        "xga_medio": 1.15,
+        "xgd_medio": 0.48
       }
     },
     "Botafogo": {
@@ -10702,33 +10882,53 @@
           "xg_movel_5": 1.5,
           "xga_movel_5": 1.51,
           "xgd_movel_5": 0
+        },
+        {
+          "rodada": 28,
+          "data": "2026-09-19T20:00:00Z",
+          "local": "Fora",
+          "adversario": "Mirassol",
+          "gols_pro": 0,
+          "gols_contra": 2,
+          "placar": "0 x 2",
+          "xg": 1.35,
+          "xga": 1.22,
+          "xgd": 0.13,
+          "posse": 50,
+          "chutes": 12,
+          "chutes_no_gol": 5,
+          "escanteios": 4,
+          "desarmes": 11,
+          "xg_movel_5": 1.51,
+          "xga_movel_5": 1.31,
+          "xgd_movel_5": 0.21
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 13.9,
+          "variacao": 14.6,
           "temporada": 1.32,
-          "ultimos_5": 1.5
+          "ultimos_5": 1.51
         },
         "defesa": {
-          "status": "Estável",
-          "variacao": -1.2,
-          "temporada": 1.49,
-          "ultimos_5": 1.51
+          "status": "Melhorando",
+          "variacao": 11.7,
+          "temporada": 1.48,
+          "ultimos_5": 1.31
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 97.6,
-          "temporada": -0.17,
-          "ultimos_5": 0
+          "variacao": 229.3,
+          "temporada": -0.16,
+          "ultimos_5": 0.21
         }
       },
       "resumo": {
-        "jogos": 27,
+        "jogos": 28,
         "xg_medio": 1.32,
-        "xga_medio": 1.49,
-        "xgd_medio": -0.17
+        "xga_medio": 1.48,
+        "xgd_medio": -0.16
       }
     },
     "Cruzeiro": {

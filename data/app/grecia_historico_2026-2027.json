@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-19T12:58:25.108Z",
+  "updated_at": "2026-09-20T11:37:25.132Z",
   "teams": {
     "AEK Athens": {
       "team": "AEK Athens",
@@ -195,33 +195,53 @@
           "xg_movel_5": 0.7,
           "xga_movel_5": 1.51,
           "xgd_movel_5": -0.81
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-19T16:30:00Z",
+          "local": "Fora",
+          "adversario": "Aris Thessaloniki",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 0.37,
+          "xga": 1.54,
+          "xgd": -1.17,
+          "posse": 41,
+          "chutes": 6,
+          "chutes_no_gol": 1,
+          "escanteios": 4,
+          "desarmes": 15,
+          "xg_movel_5": 0.63,
+          "xga_movel_5": 1.52,
+          "xgd_movel_5": -0.88
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.7,
-          "ultimos_5": 0.7
+          "temporada": 0.63,
+          "ultimos_5": 0.63
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.51,
-          "ultimos_5": 1.51
+          "temporada": 1.52,
+          "ultimos_5": 1.52
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.81,
-          "ultimos_5": -0.81
+          "temporada": -0.88,
+          "ultimos_5": -0.88
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 0.7,
-        "xga_medio": 1.51,
-        "xgd_medio": -0.81
+        "jogos": 5,
+        "xg_medio": 0.63,
+        "xga_medio": 1.52,
+        "xgd_medio": -0.88
       }
     },
     "Kalamata": {
@@ -417,33 +437,53 @@
           "xg_movel_5": 1.47,
           "xga_movel_5": 2.14,
           "xgd_movel_5": -0.66
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-19T16:30:00Z",
+          "local": "Casa",
+          "adversario": "Iraklis",
+          "gols_pro": 0,
+          "gols_contra": 0,
+          "placar": "0 x 0",
+          "xg": 1.54,
+          "xga": 0.37,
+          "xgd": 1.17,
+          "posse": 59,
+          "chutes": 23,
+          "chutes_no_gol": 2,
+          "escanteios": 7,
+          "desarmes": 18,
+          "xg_movel_5": 1.49,
+          "xga_movel_5": 1.78,
+          "xgd_movel_5": -0.3
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.47,
-          "ultimos_5": 1.47
+          "temporada": 1.49,
+          "ultimos_5": 1.49
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.14,
-          "ultimos_5": 2.14
+          "temporada": 1.78,
+          "ultimos_5": 1.78
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.66,
-          "ultimos_5": -0.66
+          "temporada": -0.3,
+          "ultimos_5": -0.3
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.47,
-        "xga_medio": 2.14,
-        "xgd_medio": -0.66
+        "jogos": 5,
+        "xg_medio": 1.49,
+        "xga_medio": 1.78,
+        "xgd_medio": -0.3
       }
     },
     "Olympiacos": {
@@ -639,33 +679,53 @@
           "xg_movel_5": 0.9,
           "xga_movel_5": 1.49,
           "xgd_movel_5": -0.59
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-19T16:00:00Z",
+          "local": "Casa",
+          "adversario": "Kifisia FC",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.19,
+          "xga": 1.72,
+          "xgd": -0.53,
+          "posse": 53,
+          "chutes": 14,
+          "chutes_no_gol": 5,
+          "escanteios": 3,
+          "desarmes": 20,
+          "xg_movel_5": 0.96,
+          "xga_movel_5": 1.53,
+          "xgd_movel_5": -0.58
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.9,
-          "ultimos_5": 0.9
+          "temporada": 0.96,
+          "ultimos_5": 0.96
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.49,
-          "ultimos_5": 1.49
+          "temporada": 1.53,
+          "ultimos_5": 1.53
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.59,
-          "ultimos_5": -0.59
+          "temporada": -0.58,
+          "ultimos_5": -0.58
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 0.9,
-        "xga_medio": 1.49,
-        "xgd_medio": -0.59
+        "jogos": 5,
+        "xg_medio": 0.96,
+        "xga_medio": 1.53,
+        "xgd_medio": -0.58
       }
     },
     "OFI Crete": {
@@ -1416,33 +1476,53 @@
           "xg_movel_5": 0.94,
           "xga_movel_5": 1.12,
           "xgd_movel_5": -0.18
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-19T16:00:00Z",
+          "local": "Fora",
+          "adversario": "Atromitos",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 1.72,
+          "xga": 1.19,
+          "xgd": 0.53,
+          "posse": 47,
+          "chutes": 6,
+          "chutes_no_gol": 3,
+          "escanteios": 2,
+          "desarmes": 8,
+          "xg_movel_5": 1.1,
+          "xga_movel_5": 1.13,
+          "xgd_movel_5": -0.04
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.94,
-          "ultimos_5": 0.94
+          "temporada": 1.1,
+          "ultimos_5": 1.1
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.12,
-          "ultimos_5": 1.12
+          "temporada": 1.13,
+          "ultimos_5": 1.13
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.18,
-          "ultimos_5": -0.18
+          "temporada": -0.04,
+          "ultimos_5": -0.04
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 0.94,
-        "xga_medio": 1.12,
-        "xgd_medio": -0.18
+        "jogos": 5,
+        "xg_medio": 1.1,
+        "xga_medio": 1.13,
+        "xgd_medio": -0.04
       }
     },
     "Panathinaikos": {
