@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-20T11:33:43.784Z",
+  "updated_at": "2026-09-21T12:58:55.426Z",
   "teams": {
     "Marseille": {
       "team": "Marseille",
@@ -84,33 +84,53 @@
           "xg_movel_5": 1.51,
           "xga_movel_5": 1.77,
           "xgd_movel_5": -0.26
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-20T18:45:00Z",
+          "local": "Casa",
+          "adversario": "Paris Saint-Germain",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.98,
+          "xga": 5.09,
+          "xgd": -3.11,
+          "posse": 39,
+          "chutes": 12,
+          "chutes_no_gol": 4,
+          "escanteios": 3,
+          "desarmes": 8,
+          "xg_movel_5": 1.6,
+          "xga_movel_5": 2.43,
+          "xgd_movel_5": -0.83
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.51,
-          "ultimos_5": 1.51
+          "temporada": 1.6,
+          "ultimos_5": 1.6
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.77,
-          "ultimos_5": 1.77
+          "temporada": 2.43,
+          "ultimos_5": 2.43
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.26,
-          "ultimos_5": -0.26
+          "temporada": -0.83,
+          "ultimos_5": -0.83
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.51,
-        "xga_medio": 1.77,
-        "xgd_medio": -0.26
+        "jogos": 5,
+        "xg_medio": 1.6,
+        "xga_medio": 2.43,
+        "xgd_medio": -0.83
       }
     },
     "Strasbourg": {
@@ -457,33 +477,53 @@
           "xg_movel_5": 1.53,
           "xga_movel_5": 2.47,
           "xgd_movel_5": -0.95
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-20T13:00:00Z",
+          "local": "Casa",
+          "adversario": "Brest",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 0.96,
+          "xga": 0.34,
+          "xgd": 0.62,
+          "posse": 52,
+          "chutes": 11,
+          "chutes_no_gol": 4,
+          "escanteios": 8,
+          "desarmes": 13,
+          "xg_movel_5": 1.41,
+          "xga_movel_5": 2.05,
+          "xgd_movel_5": -0.63
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.53,
-          "ultimos_5": 1.53
+          "temporada": 1.41,
+          "ultimos_5": 1.41
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.47,
-          "ultimos_5": 2.47
+          "temporada": 2.05,
+          "ultimos_5": 2.05
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.95,
-          "ultimos_5": -0.95
+          "temporada": -0.63,
+          "ultimos_5": -0.63
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.53,
-        "xga_medio": 2.47,
-        "xgd_medio": -0.95
+        "jogos": 5,
+        "xg_medio": 1.41,
+        "xga_medio": 2.05,
+        "xgd_medio": -0.63
       }
     },
     "Le Mans": {
@@ -699,33 +739,53 @@
           "xg_movel_5": 2.37,
           "xga_movel_5": 1.22,
           "xgd_movel_5": 1.15
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-20T13:00:00Z",
+          "local": "Fora",
+          "adversario": "Auxerre",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 0.34,
+          "xga": 0.96,
+          "xgd": -0.62,
+          "posse": 48,
+          "chutes": 8,
+          "chutes_no_gol": 2,
+          "escanteios": 3,
+          "desarmes": 20,
+          "xg_movel_5": 1.96,
+          "xga_movel_5": 1.17,
+          "xgd_movel_5": 0.79
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 2.37,
-          "ultimos_5": 2.37
+          "temporada": 1.96,
+          "ultimos_5": 1.96
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.22,
-          "ultimos_5": 1.22
+          "temporada": 1.17,
+          "ultimos_5": 1.17
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.15,
-          "ultimos_5": 1.15
+          "temporada": 0.79,
+          "ultimos_5": 0.79
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 2.37,
-        "xga_medio": 1.22,
-        "xgd_medio": 1.15
+        "jogos": 5,
+        "xg_medio": 1.96,
+        "xga_medio": 1.17,
+        "xgd_medio": 0.79
       }
     },
     "Nice": {
@@ -810,33 +870,53 @@
           "xg_movel_5": 1,
           "xga_movel_5": 1.67,
           "xgd_movel_5": -0.67
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-20T15:15:00Z",
+          "local": "Casa",
+          "adversario": "Lille",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 1.53,
+          "xga": 1.81,
+          "xgd": -0.28,
+          "posse": 42,
+          "chutes": 10,
+          "chutes_no_gol": 4,
+          "escanteios": 3,
+          "desarmes": 16,
+          "xg_movel_5": 1.11,
+          "xga_movel_5": 1.7,
+          "xgd_movel_5": -0.59
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1,
-          "ultimos_5": 1
+          "temporada": 1.11,
+          "ultimos_5": 1.11
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.67,
-          "ultimos_5": 1.67
+          "temporada": 1.7,
+          "ultimos_5": 1.7
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.67,
-          "ultimos_5": -0.67
+          "temporada": -0.59,
+          "ultimos_5": -0.59
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1,
-        "xga_medio": 1.67,
-        "xgd_medio": -0.67
+        "jogos": 5,
+        "xg_medio": 1.11,
+        "xga_medio": 1.7,
+        "xgd_medio": -0.59
       }
     },
     "Lorient": {
@@ -1707,33 +1787,53 @@
           "xg_movel_5": 1.32,
           "xga_movel_5": 1.83,
           "xgd_movel_5": -0.51
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-20T15:15:00Z",
+          "local": "Fora",
+          "adversario": "Nice",
+          "gols_pro": 1,
+          "gols_contra": 2,
+          "placar": "1 x 2",
+          "xg": 1.81,
+          "xga": 1.53,
+          "xgd": 0.28,
+          "posse": 58,
+          "chutes": 21,
+          "chutes_no_gol": 8,
+          "escanteios": 7,
+          "desarmes": 13,
+          "xg_movel_5": 1.42,
+          "xga_movel_5": 1.77,
+          "xgd_movel_5": -0.35
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.32,
-          "ultimos_5": 1.32
+          "temporada": 1.42,
+          "ultimos_5": 1.42
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.83,
-          "ultimos_5": 1.83
+          "temporada": 1.77,
+          "ultimos_5": 1.77
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.51,
-          "ultimos_5": -0.51
+          "temporada": -0.35,
+          "ultimos_5": -0.35
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.32,
-        "xga_medio": 1.83,
-        "xgd_medio": -0.51
+        "jogos": 5,
+        "xg_medio": 1.42,
+        "xga_medio": 1.77,
+        "xgd_medio": -0.35
       }
     },
     "Le Havre": {
@@ -2211,33 +2311,53 @@
           "xg_movel_5": 1.75,
           "xga_movel_5": 1,
           "xgd_movel_5": 0.75
+        },
+        {
+          "rodada": 5,
+          "data": "2026-09-20T18:45:00Z",
+          "local": "Fora",
+          "adversario": "Marseille",
+          "gols_pro": 2,
+          "gols_contra": 1,
+          "placar": "2 x 1",
+          "xg": 5.09,
+          "xga": 1.98,
+          "xgd": 3.11,
+          "posse": 61,
+          "chutes": 31,
+          "chutes_no_gol": 10,
+          "escanteios": 7,
+          "desarmes": 13,
+          "xg_movel_5": 2.41,
+          "xga_movel_5": 1.2,
+          "xgd_movel_5": 1.22
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.75,
-          "ultimos_5": 1.75
+          "temporada": 2.41,
+          "ultimos_5": 2.41
         },
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1,
-          "ultimos_5": 1
+          "temporada": 1.2,
+          "ultimos_5": 1.2
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.75,
-          "ultimos_5": 0.75
+          "temporada": 1.22,
+          "ultimos_5": 1.22
         }
       },
       "resumo": {
-        "jogos": 4,
-        "xg_medio": 1.75,
-        "xga_medio": 1,
-        "xgd_medio": 0.75
+        "jogos": 5,
+        "xg_medio": 2.41,
+        "xga_medio": 1.2,
+        "xgd_medio": 1.22
       }
     }
   }
