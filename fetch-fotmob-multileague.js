@@ -40,6 +40,7 @@ const LEAGUES = {
     suica:        { id: 69,  name: "Suíça" },
     suecia:       { id: 67,  name: "Suécia" },
     brasil:       { id: 268, name: "Brasil - Série A" },
+    brasil2:       { id: 8814, name: "Brasil - Série B" },
     mexico:       { id: 230, name: "México" }
 };
 
