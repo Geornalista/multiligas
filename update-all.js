@@ -11,7 +11,8 @@ const RAW_DIR = path.join(DATA_DIR, "raw");
 const APP_DIR = path.join(DATA_DIR, "app");
 
 const LEAGUES = {
-    brasil:      { id: 268, name: "Brasil - Série A" },    
+    brasil:      { id: 268, name: "Brasil - Série A" }, 
+    brasil2:     { id: 8814, name: "Brasil - Série B" },
     alemanha:    { id: 54,  name: "Alemanha" },
     alemanha2:   { id: 146, name: "Alemanha 2a Div" },
     espanha:     { id: 87,  name: "Espanha" },
