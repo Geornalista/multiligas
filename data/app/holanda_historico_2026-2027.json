@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-21T13:02:20.947Z",
+  "updated_at": "2026-09-22T11:52:06.819Z",
   "teams": {
     "Cambuur": {
       "team": "Cambuur",
@@ -646,44 +646,44 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "placar": "0 x 1",
-          "xg": 0.1,
-          "xga": 2.35,
-          "xgd": -2.25,
+          "xg": 0.11,
+          "xga": 2.61,
+          "xgd": -2.5,
           "posse": 38,
           "chutes": 3,
           "chutes_no_gol": 1,
           "escanteios": 2,
           "desarmes": 19,
           "xg_movel_5": 0.9,
-          "xga_movel_5": 1.95,
-          "xgd_movel_5": -1.05
+          "xga_movel_5": 2,
+          "xgd_movel_5": -1.1
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -16.8,
-          "temporada": 1.08,
+          "variacao": -16.7,
+          "temporada": 1.09,
           "ultimos_5": 0.9
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 8.8,
-          "temporada": 2.14,
-          "ultimos_5": 1.95
+          "variacao": 8,
+          "temporada": 2.18,
+          "ultimos_5": 2
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 0.7,
-          "temporada": -1.06,
-          "ultimos_5": -1.05
+          "variacao": -0.7,
+          "temporada": -1.09,
+          "ultimos_5": -1.1
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 1.08,
-        "xga_medio": 2.14,
-        "xgd_medio": -1.06
+        "xg_medio": 1.09,
+        "xga_medio": 2.18,
+        "xgd_medio": -1.09
       }
     },
     "Go Ahead Eagles": {
@@ -1159,44 +1159,44 @@
           "gols_pro": 2,
           "gols_contra": 3,
           "placar": "2 x 3",
-          "xg": 1.02,
-          "xga": 2.4,
-          "xgd": -1.38,
+          "xg": 0.84,
+          "xga": 2.16,
+          "xgd": -1.32,
           "posse": 60,
           "chutes": 11,
           "chutes_no_gol": 4,
           "escanteios": 5,
-          "desarmes": 16,
-          "xg_movel_5": 3,
-          "xga_movel_5": 1.58,
-          "xgd_movel_5": 1.42
+          "desarmes": 15,
+          "xg_movel_5": 2.97,
+          "xga_movel_5": 1.53,
+          "xgd_movel_5": 1.44
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 6.1,
-          "temporada": 2.83,
-          "ultimos_5": 3
+          "variacao": 5.8,
+          "temporada": 2.8,
+          "ultimos_5": 2.97
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -17.8,
-          "temporada": 1.34,
-          "ultimos_5": 1.58
+          "variacao": -17.2,
+          "temporada": 1.31,
+          "ultimos_5": 1.53
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": -4.4,
-          "temporada": 1.49,
-          "ultimos_5": 1.42
+          "variacao": -4.2,
+          "temporada": 1.5,
+          "ultimos_5": 1.44
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 2.83,
-        "xga_medio": 1.34,
-        "xgd_medio": 1.49
+        "xg_medio": 2.8,
+        "xga_medio": 1.31,
+        "xgd_medio": 1.5
       }
     },
     "Fortuna Sittard": {
@@ -1501,44 +1501,44 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 2.35,
-          "xga": 0.1,
-          "xgd": 2.25,
+          "xg": 2.61,
+          "xga": 0.11,
+          "xgd": 2.5,
           "posse": 62,
           "chutes": 17,
           "chutes_no_gol": 8,
           "escanteios": 5,
           "desarmes": 19,
-          "xg_movel_5": 2.69,
-          "xga_movel_5": 0.97,
-          "xgd_movel_5": 1.71
+          "xg_movel_5": 2.74,
+          "xga_movel_5": 0.98,
+          "xgd_movel_5": 1.76
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 2.9,
-          "temporada": 2.61,
-          "ultimos_5": 2.69
+          "variacao": 3.4,
+          "temporada": 2.65,
+          "ultimos_5": 2.74
         },
         "defesa": {
           "status": "Estável",
           "variacao": -2.7,
           "temporada": 0.95,
-          "ultimos_5": 0.97
+          "ultimos_5": 0.98
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 3,
-          "temporada": 1.66,
-          "ultimos_5": 1.71
+          "variacao": 3.8,
+          "temporada": 1.7,
+          "ultimos_5": 1.76
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 2.61,
+        "xg_medio": 2.65,
         "xga_medio": 0.95,
-        "xgd_medio": 1.66
+        "xgd_medio": 1.7
       }
     },
     "ADO Den Haag": {
@@ -3040,43 +3040,43 @@
           "gols_pro": 3,
           "gols_contra": 2,
           "placar": "3 x 2",
-          "xg": 2.4,
-          "xga": 1.02,
-          "xgd": 1.38,
+          "xg": 2.16,
+          "xga": 0.84,
+          "xgd": 1.32,
           "posse": 40,
-          "chutes": 21,
+          "chutes": 23,
           "chutes_no_gol": 5,
           "escanteios": 6,
-          "desarmes": 17,
-          "xg_movel_5": 2.39,
-          "xga_movel_5": 0.87,
-          "xgd_movel_5": 1.53
+          "desarmes": 16,
+          "xg_movel_5": 2.35,
+          "xga_movel_5": 0.83,
+          "xgd_movel_5": 1.51
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 4.7,
-          "temporada": 2.29,
-          "ultimos_5": 2.39
+          "variacao": 4.2,
+          "temporada": 2.25,
+          "ultimos_5": 2.35
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -9.7,
-          "temporada": 0.79,
-          "ultimos_5": 0.87
+          "variacao": -8.7,
+          "temporada": 0.77,
+          "ultimos_5": 0.83
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": 2.1,
+          "variacao": 1.9,
           "temporada": 1.49,
-          "ultimos_5": 1.53
+          "ultimos_5": 1.51
         }
       },
       "resumo": {
         "jogos": 7,
-        "xg_medio": 2.29,
-        "xga_medio": 0.79,
+        "xg_medio": 2.25,
+        "xga_medio": 0.77,
         "xgd_medio": 1.49
       }
     }

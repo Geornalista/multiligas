@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-21T13:03:19.499Z",
+  "updated_at": "2026-09-22T11:53:02.139Z",
   "teams": {
     "Galatasaray": {
       "team": "Galatasaray",
@@ -265,8 +265,8 @@
           "gols_contra": 2,
           "placar": "1 x 2",
           "xg": 1.11,
-          "xga": 1.18,
-          "xgd": -0.07,
+          "xga": 1.2,
+          "xgd": -0.09,
           "posse": 66,
           "chutes": 12,
           "chutes_no_gol": 5,
@@ -286,14 +286,14 @@
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 17.3,
+          "variacao": 17.2,
           "temporada": 1.56,
           "ultimos_5": 1.29
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 160.8,
-          "temporada": -0.25,
+          "variacao": 158.4,
+          "temporada": -0.26,
           "ultimos_5": 0.15
         }
       },
@@ -301,7 +301,7 @@
         "jogos": 6,
         "xg_medio": 1.3,
         "xga_medio": 1.56,
-        "xgd_medio": -0.25
+        "xgd_medio": -0.26
       }
     },
     "Kasımpaşa": {
@@ -1170,17 +1170,17 @@
           "gols_pro": 2,
           "gols_contra": 1,
           "placar": "2 x 1",
-          "xg": 1.18,
+          "xg": 1.2,
           "xga": 1.11,
-          "xgd": 0.07,
+          "xgd": 0.09,
           "posse": 34,
           "chutes": 9,
           "chutes_no_gol": 5,
           "escanteios": 3,
           "desarmes": 14,
-          "xg_movel_5": 1.23,
+          "xg_movel_5": 1.24,
           "xga_movel_5": 1.28,
-          "xgd_movel_5": -0.05
+          "xgd_movel_5": -0.04
         }
       ],
       "tendencia": {
@@ -1188,7 +1188,7 @@
           "status": "Estável",
           "variacao": -0.2,
           "temporada": 1.24,
-          "ultimos_5": 1.23
+          "ultimos_5": 1.24
         },
         "defesa": {
           "status": "Estável",
@@ -1197,10 +1197,10 @@
           "ultimos_5": 1.28
         },
         "equilibrio": {
-          "status": "Piorando",
-          "variacao": -6.2,
+          "status": "Estável",
+          "variacao": -5,
           "temporada": -0.04,
-          "ultimos_5": -0.05
+          "ultimos_5": -0.04
         }
       },
       "resumo": {

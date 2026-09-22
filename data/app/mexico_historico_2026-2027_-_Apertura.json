@@ -1,6 +1,6 @@
 {
   "season": "2026/2027 - Apertura",
-  "updated_at": "2026-09-21T13:08:31.491Z",
+  "updated_at": "2026-09-22T11:58:02.176Z",
   "teams": {
     "Necaxa": {
       "team": "Necaxa",
@@ -384,44 +384,44 @@
           "gols_pro": 1,
           "gols_contra": 1,
           "placar": "1 x 1",
-          "xg": 1.18,
-          "xga": 0.45,
-          "xgd": 0.73,
+          "xg": 1.73,
+          "xga": 0.66,
+          "xgd": 1.07,
           "posse": 46,
           "chutes": 21,
           "chutes_no_gol": 5,
           "escanteios": 11,
           "desarmes": 28,
-          "xg_movel_5": 1.35,
-          "xga_movel_5": 1.15,
-          "xgd_movel_5": 0.2
+          "xg_movel_5": 1.46,
+          "xga_movel_5": 1.19,
+          "xgd_movel_5": 0.27
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 9,
-          "temporada": 1.24,
-          "ultimos_5": 1.35
+          "variacao": 12.3,
+          "temporada": 1.3,
+          "ultimos_5": 1.46
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 23.3,
-          "temporada": 1.5,
-          "ultimos_5": 1.15
+          "variacao": 21.7,
+          "temporada": 1.53,
+          "ultimos_5": 1.19
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 177.7,
-          "temporada": -0.26,
-          "ultimos_5": 0.2
+          "variacao": 221.5,
+          "temporada": -0.22,
+          "ultimos_5": 0.27
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1.24,
-        "xga_medio": 1.5,
-        "xgd_medio": -0.26
+        "xg_medio": 1.3,
+        "xga_medio": 1.53,
+        "xgd_medio": -0.22
       }
     },
     "Tijuana": {
@@ -569,7 +569,7 @@
         },
         {
           "rodada": 9,
-          "data": "2026-09-21T00:00:00.000Z",
+          "data": "2026-09-21T00:00:00Z",
           "local": "Fora",
           "adversario": "Pachuca",
           "gols_pro": 2,
@@ -1413,7 +1413,7 @@
         },
         {
           "rodada": 9,
-          "data": "2026-09-21T02:10:00.000Z",
+          "data": "2026-09-21T02:10:00Z",
           "local": "Fora",
           "adversario": "Querétaro FC",
           "gols_pro": 1,
@@ -2052,44 +2052,44 @@
           "gols_pro": 1,
           "gols_contra": 1,
           "placar": "1 x 1",
-          "xg": 0.45,
-          "xga": 1.18,
-          "xgd": -0.73,
+          "xg": 0.66,
+          "xga": 1.73,
+          "xgd": -1.07,
           "posse": 54,
-          "chutes": 12,
+          "chutes": 13,
           "chutes_no_gol": 4,
           "escanteios": 6,
-          "desarmes": 19,
-          "xg_movel_5": 0.75,
-          "xga_movel_5": 1.07,
-          "xgd_movel_5": -0.32
+          "desarmes": 18,
+          "xg_movel_5": 0.79,
+          "xga_movel_5": 1.18,
+          "xgd_movel_5": -0.39
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -24.7,
-          "temporada": 1,
-          "ultimos_5": 0.75
+          "variacao": -22.4,
+          "temporada": 1.02,
+          "ultimos_5": 0.79
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 21.1,
-          "temporada": 1.36,
-          "ultimos_5": 1.07
+          "variacao": 16.8,
+          "temporada": 1.42,
+          "ultimos_5": 1.18
         },
         "equilibrio": {
-          "status": "Melhorando",
-          "variacao": 11.1,
-          "temporada": -0.36,
-          "ultimos_5": -0.32
+          "status": "Estável",
+          "variacao": 2.5,
+          "temporada": -0.4,
+          "ultimos_5": -0.39
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1,
-        "xga_medio": 1.36,
-        "xgd_medio": -0.36
+        "xg_medio": 1.02,
+        "xga_medio": 1.42,
+        "xgd_medio": -0.4
       }
     },
     "Pumas": {
@@ -2468,7 +2468,7 @@
         },
         {
           "rodada": 9,
-          "data": "2026-09-21T00:00:00.000Z",
+          "data": "2026-09-21T00:00:00Z",
           "local": "Casa",
           "adversario": "Tijuana",
           "gols_pro": 2,
@@ -2870,7 +2870,7 @@
         },
         {
           "rodada": 9,
-          "data": "2026-09-21T00:00:00.000Z",
+          "data": "2026-09-21T00:00:00Z",
           "local": "Fora",
           "adversario": "Toluca",
           "gols_pro": 3,
@@ -3087,25 +3087,25 @@
           "gols_pro": 2,
           "gols_contra": 2,
           "placar": "2 x 2",
-          "xg": 0.81,
+          "xg": 1.92,
           "xga": 0.99,
-          "xgd": -0.18,
+          "xgd": 0.93,
           "posse": 45,
           "chutes": 10,
-          "chutes_no_gol": 5,
+          "chutes_no_gol": 6,
           "escanteios": 6,
           "desarmes": 21,
-          "xg_movel_5": 1.24,
+          "xg_movel_5": 1.46,
           "xga_movel_5": 0.96,
-          "xgd_movel_5": 0.28
+          "xgd_movel_5": 0.5
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -14.1,
-          "temporada": 1.45,
-          "ultimos_5": 1.24
+          "variacao": -6.7,
+          "temporada": 1.57,
+          "ultimos_5": 1.46
         },
         "defesa": {
           "status": "Estável",
@@ -3115,16 +3115,16 @@
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -44.6,
-          "temporada": 0.5,
-          "ultimos_5": 0.28
+          "variacao": -20.1,
+          "temporada": 0.63,
+          "ultimos_5": 0.5
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1.45,
+        "xg_medio": 1.57,
         "xga_medio": 0.94,
-        "xgd_medio": 0.5
+        "xgd_medio": 0.63
       }
     },
     "Toluca": {
@@ -3292,7 +3292,7 @@
         },
         {
           "rodada": 9,
-          "data": "2026-09-21T00:00:00.000Z",
+          "data": "2026-09-21T00:00:00Z",
           "local": "Casa",
           "adversario": "Santos Laguna",
           "gols_pro": 2,
@@ -3483,7 +3483,7 @@
         },
         {
           "rodada": 9,
-          "data": "2026-09-21T02:10:00.000Z",
+          "data": "2026-09-21T02:10:00Z",
           "local": "Casa",
           "adversario": "León",
           "gols_pro": 1,
@@ -3681,16 +3681,16 @@
           "gols_contra": 2,
           "placar": "2 x 2",
           "xg": 0.99,
-          "xga": 0.81,
-          "xgd": 0.18,
+          "xga": 1.92,
+          "xgd": -0.93,
           "posse": 55,
           "chutes": 17,
           "chutes_no_gol": 4,
           "escanteios": 4,
           "desarmes": 13,
           "xg_movel_5": 1.61,
-          "xga_movel_5": 1.25,
-          "xgd_movel_5": 0.36
+          "xga_movel_5": 1.47,
+          "xgd_movel_5": 0.14
         }
       ],
       "tendencia": {
@@ -3702,22 +3702,22 @@
         },
         "defesa": {
           "status": "Estável",
-          "variacao": 2.3,
-          "temporada": 1.28,
-          "ultimos_5": 1.25
+          "variacao": -3.8,
+          "temporada": 1.42,
+          "ultimos_5": 1.47
         },
         "equilibrio": {
-          "status": "Estável",
-          "variacao": 0.7,
-          "temporada": 0.36,
-          "ultimos_5": 0.36
+          "status": "Piorando",
+          "variacao": -36.9,
+          "temporada": 0.22,
+          "ultimos_5": 0.14
         }
       },
       "resumo": {
         "jogos": 8,
         "xg_medio": 1.64,
-        "xga_medio": 1.28,
-        "xgd_medio": 0.36
+        "xga_medio": 1.42,
+        "xgd_medio": 0.22
       }
     }
   }

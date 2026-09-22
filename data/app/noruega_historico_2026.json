@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "updated_at": "2026-09-21T13:05:56.669Z",
+  "updated_at": "2026-09-22T11:55:31.850Z",
   "teams": {
     "Hamarkameratene": {
       "team": "Hamarkameratene",
@@ -2455,7 +2455,7 @@
           "chutes": 4,
           "chutes_no_gol": 0,
           "escanteios": 3,
-          "desarmes": 19,
+          "desarmes": 18,
           "xg_movel_5": 1.61,
           "xga_movel_5": 1.93,
           "xgd_movel_5": -0.32
@@ -6965,7 +6965,7 @@
           "chutes": 13,
           "chutes_no_gol": 7,
           "escanteios": 6,
-          "desarmes": 18,
+          "desarmes": 19,
           "xg_movel_5": 2.96,
           "xga_movel_5": 0.78,
           "xgd_movel_5": 2.18
