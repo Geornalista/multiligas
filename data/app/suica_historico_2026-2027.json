@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-22T11:56:00.960Z",
+  "updated_at": "2026-09-22T22:42:37.548Z",
   "teams": {
     "Lausanne": {
       "team": "Lausanne",
@@ -173,44 +173,44 @@
           "gols_pro": 0,
           "gols_contra": 4,
           "placar": "0 x 4",
-          "xg": 0.5,
-          "xga": 2.09,
-          "xgd": -1.59,
+          "xg": 0.63,
+          "xga": 2.13,
+          "xgd": -1.5,
           "posse": 29,
           "chutes": 7,
           "chutes_no_gol": 4,
           "escanteios": 1,
-          "desarmes": 11,
-          "xg_movel_5": 0.94,
-          "xga_movel_5": 1.74,
-          "xgd_movel_5": -0.8
+          "desarmes": 12,
+          "xg_movel_5": 0.97,
+          "xga_movel_5": 1.75,
+          "xgd_movel_5": -0.78
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 3.9,
-          "temporada": 0.91,
-          "ultimos_5": 0.94
+          "status": "Melhorando",
+          "variacao": 5.1,
+          "temporada": 0.92,
+          "ultimos_5": 0.97
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -16.8,
+          "variacao": -17,
           "temporada": 1.49,
-          "ultimos_5": 1.74
+          "ultimos_5": 1.75
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -36.8,
-          "temporada": -0.58,
-          "ultimos_5": -0.8
+          "variacao": -36,
+          "temporada": -0.57,
+          "ultimos_5": -0.78
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 0.91,
+        "xg_medio": 0.92,
         "xga_medio": 1.49,
-        "xgd_medio": -0.58
+        "xgd_medio": -0.57
       }
     },
     "Grasshopper": {
@@ -806,44 +806,44 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 1.22,
-          "xga": 2,
-          "xgd": -0.78,
+          "xg": 1.25,
+          "xga": 2.07,
+          "xgd": -0.82,
           "posse": 68,
           "chutes": 10,
           "chutes_no_gol": 2,
           "escanteios": 5,
           "desarmes": 14,
-          "xg_movel_5": 1.23,
-          "xga_movel_5": 1.94,
+          "xg_movel_5": 1.24,
+          "xga_movel_5": 1.95,
           "xgd_movel_5": -0.71
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -9.6,
-          "temporada": 1.36,
-          "ultimos_5": 1.23
+          "variacao": -9.3,
+          "temporada": 1.37,
+          "ultimos_5": 1.24
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -24.4,
-          "temporada": 1.56,
-          "ultimos_5": 1.94
+          "variacao": -24.7,
+          "temporada": 1.57,
+          "ultimos_5": 1.95
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -263.1,
-          "temporada": -0.19,
+          "variacao": -259,
+          "temporada": -0.2,
           "ultimos_5": -0.71
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1.36,
-        "xga_medio": 1.56,
-        "xgd_medio": -0.19
+        "xg_medio": 1.37,
+        "xga_medio": 1.57,
+        "xgd_medio": -0.2
       }
     },
     "Luzern": {
@@ -1861,44 +1861,44 @@
           "gols_pro": 4,
           "gols_contra": 0,
           "placar": "4 x 0",
-          "xg": 2.09,
-          "xga": 0.5,
-          "xgd": 1.59,
+          "xg": 2.13,
+          "xga": 0.63,
+          "xgd": 1.5,
           "posse": 71,
           "chutes": 21,
           "chutes_no_gol": 5,
           "escanteios": 6,
-          "desarmes": 19,
-          "xg_movel_5": 1.63,
-          "xga_movel_5": 1.39,
-          "xgd_movel_5": 0.24
+          "desarmes": 20,
+          "xg_movel_5": 1.64,
+          "xga_movel_5": 1.42,
+          "xgd_movel_5": 0.22
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Piorando",
-          "variacao": -5.5,
-          "temporada": 1.72,
-          "ultimos_5": 1.63
+          "variacao": -5.3,
+          "temporada": 1.73,
+          "ultimos_5": 1.64
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -12.7,
-          "temporada": 1.24,
-          "ultimos_5": 1.39
+          "variacao": -13.4,
+          "temporada": 1.25,
+          "ultimos_5": 1.42
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -51.5,
-          "temporada": 0.49,
-          "ultimos_5": 0.24
+          "variacao": -54.3,
+          "temporada": 0.48,
+          "ultimos_5": 0.22
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1.72,
-        "xga_medio": 1.24,
-        "xgd_medio": 0.49
+        "xg_medio": 1.73,
+        "xga_medio": 1.25,
+        "xgd_medio": 0.48
       }
     },
     "FC Vaduz": {
@@ -2283,44 +2283,44 @@
           "gols_pro": 3,
           "gols_contra": 1,
           "placar": "3 x 1",
-          "xg": 2,
-          "xga": 1.22,
-          "xgd": 0.78,
+          "xg": 2.07,
+          "xga": 1.25,
+          "xgd": 0.82,
           "posse": 32,
           "chutes": 24,
           "chutes_no_gol": 9,
           "escanteios": 7,
           "desarmes": 25,
-          "xg_movel_5": 1.95,
+          "xg_movel_5": 1.96,
           "xga_movel_5": 1.4,
-          "xgd_movel_5": 0.55
+          "xgd_movel_5": 0.56
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": -1.9,
+          "variacao": -1.6,
           "temporada": 1.99,
-          "ultimos_5": 1.95
+          "ultimos_5": 1.96
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 10.6,
-          "temporada": 1.56,
+          "variacao": 10.4,
+          "temporada": 1.57,
           "ultimos_5": 1.4
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 29.9,
-          "temporada": 0.42,
-          "ultimos_5": 0.55
+          "variacao": 30.4,
+          "temporada": 0.43,
+          "ultimos_5": 0.56
         }
       },
       "resumo": {
         "jogos": 9,
         "xg_medio": 1.99,
-        "xga_medio": 1.56,
-        "xgd_medio": 0.42
+        "xga_medio": 1.57,
+        "xgd_medio": 0.43
       }
     },
     "FC Zürich": {

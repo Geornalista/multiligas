@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-22T11:53:22.179Z",
+  "updated_at": "2026-09-22T22:40:45.846Z",
   "teams": {
     "AEK Athens": {
       "team": "AEK Athens",
@@ -1141,25 +1141,25 @@
           "gols_pro": 3,
           "gols_contra": 1,
           "placar": "3 x 1",
-          "xg": 2.08,
-          "xga": 0.12,
-          "xgd": 1.96,
+          "xg": 2.63,
+          "xga": 0.13,
+          "xgd": 2.5,
           "posse": 44,
           "chutes": 16,
           "chutes_no_gol": 5,
           "escanteios": 5,
           "desarmes": 10,
-          "xg_movel_5": 1.87,
+          "xg_movel_5": 1.98,
           "xga_movel_5": 1.19,
-          "xgd_movel_5": 0.68
+          "xgd_movel_5": 0.79
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.87,
-          "ultimos_5": 1.87
+          "temporada": 1.98,
+          "ultimos_5": 1.98
         },
         "defesa": {
           "status": "Estável",
@@ -1170,15 +1170,15 @@
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 0.68,
-          "ultimos_5": 0.68
+          "temporada": 0.79,
+          "ultimos_5": 0.79
         }
       },
       "resumo": {
         "jogos": 5,
-        "xg_medio": 1.87,
+        "xg_medio": 1.98,
         "xga_medio": 1.19,
-        "xgd_medio": 0.68
+        "xgd_medio": 0.79
       }
     },
     "Levadiakos": {
@@ -1403,17 +1403,17 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 0.12,
-          "xga": 2.08,
-          "xgd": -1.96,
+          "xg": 0.13,
+          "xga": 2.63,
+          "xgd": -2.5,
           "posse": 56,
           "chutes": 2,
           "chutes_no_gol": 1,
           "escanteios": 7,
           "desarmes": 11,
           "xg_movel_5": 0.99,
-          "xga_movel_5": 1.69,
-          "xgd_movel_5": -0.7
+          "xga_movel_5": 1.8,
+          "xgd_movel_5": -0.81
         }
       ],
       "tendencia": {
@@ -1426,21 +1426,21 @@
         "defesa": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": 1.69,
-          "ultimos_5": 1.69
+          "temporada": 1.8,
+          "ultimos_5": 1.8
         },
         "equilibrio": {
           "status": "Estável",
           "variacao": 0,
-          "temporada": -0.7,
-          "ultimos_5": -0.7
+          "temporada": -0.81,
+          "ultimos_5": -0.81
         }
       },
       "resumo": {
         "jogos": 5,
         "xg_medio": 0.99,
-        "xga_medio": 1.69,
-        "xgd_medio": -0.7
+        "xga_medio": 1.8,
+        "xgd_medio": -0.81
       }
     },
     "Asteras Tripolis": {
