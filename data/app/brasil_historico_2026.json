@@ -1,6 +1,6 @@
 {
   "season": "2026",
-  "updated_at": "2026-09-22T22:35:21.557Z",
+  "updated_at": "2026-09-23T11:45:11.467Z",
   "teams": {
     "Atlético-MG": {
       "team": "Atlético-MG",
@@ -4059,43 +4059,43 @@
           "gols_pro": 1,
           "gols_contra": 3,
           "placar": "1 x 3",
-          "xg": 0.59,
-          "xga": 0.95,
-          "xgd": -0.36,
+          "xg": 0.72,
+          "xga": 1.27,
+          "xgd": -0.55,
           "posse": 44,
           "chutes": 21,
           "chutes_no_gol": 8,
           "escanteios": 8,
           "desarmes": 13,
-          "xg_movel_5": 1.01,
-          "xga_movel_5": 1.85,
-          "xgd_movel_5": -0.84
+          "xg_movel_5": 1.03,
+          "xga_movel_5": 1.92,
+          "xgd_movel_5": -0.88
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": 1.1,
+          "variacao": 3.2,
           "temporada": 1,
-          "ultimos_5": 1.01
+          "ultimos_5": 1.03
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -28.3,
-          "temporada": 1.44,
-          "ultimos_5": 1.85
+          "variacao": -31.7,
+          "temporada": 1.45,
+          "ultimos_5": 1.92
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -89.2,
+          "variacao": -94.8,
           "temporada": -0.45,
-          "ultimos_5": -0.84
+          "ultimos_5": -0.88
         }
       },
       "resumo": {
         "jogos": 28,
         "xg_medio": 1,
-        "xga_medio": 1.44,
+        "xga_medio": 1.45,
         "xgd_medio": -0.45
       }
     },
@@ -11662,43 +11662,43 @@
           "gols_pro": 3,
           "gols_contra": 1,
           "placar": "3 x 1",
-          "xg": 0.95,
-          "xga": 0.59,
-          "xgd": 0.36,
+          "xg": 1.27,
+          "xga": 0.72,
+          "xgd": 0.55,
           "posse": 56,
           "chutes": 13,
           "chutes_no_gol": 5,
           "escanteios": 2,
           "desarmes": 20,
-          "xg_movel_5": 1.49,
-          "xga_movel_5": 1.82,
-          "xgd_movel_5": -0.33
+          "xg_movel_5": 1.55,
+          "xga_movel_5": 1.85,
+          "xgd_movel_5": -0.29
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 6,
-          "temporada": 1.41,
-          "ultimos_5": 1.49
+          "variacao": 9.7,
+          "temporada": 1.42,
+          "ultimos_5": 1.55
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -43.3,
-          "temporada": 1.27,
-          "ultimos_5": 1.82
+          "variacao": -44.8,
+          "temporada": 1.28,
+          "ultimos_5": 1.85
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -343.8,
+          "variacao": -305.4,
           "temporada": 0.14,
-          "ultimos_5": -0.33
+          "ultimos_5": -0.29
         }
       },
       "resumo": {
         "jogos": 28,
-        "xg_medio": 1.41,
-        "xga_medio": 1.27,
+        "xg_medio": 1.42,
+        "xga_medio": 1.28,
         "xgd_medio": 0.14
       }
     }

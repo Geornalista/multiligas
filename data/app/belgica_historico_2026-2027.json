@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-22T22:39:49.618Z",
+  "updated_at": "2026-09-23T11:51:13.786Z",
   "teams": {
     "Club Brugge": {
       "team": "Club Brugge",
@@ -304,17 +304,17 @@
           "gols_pro": 1,
           "gols_contra": 0,
           "placar": "1 x 0",
-          "xg": 2.25,
-          "xga": 0.42,
-          "xgd": 1.83,
-          "posse": 43,
+          "xg": 2.26,
+          "xga": 0.38,
+          "xgd": 1.88,
+          "posse": 44,
           "chutes": 20,
           "chutes_no_gol": 4,
           "escanteios": 2,
-          "desarmes": 17,
-          "xg_movel_5": 1.1,
-          "xga_movel_5": 1.59,
-          "xgd_movel_5": -0.49
+          "desarmes": 23,
+          "xg_movel_5": 1.11,
+          "xga_movel_5": 1.58,
+          "xgd_movel_5": -0.48
         }
       ],
       "tendencia": {
@@ -322,25 +322,25 @@
           "status": "Melhorando",
           "variacao": 9,
           "temporada": 1.01,
-          "ultimos_5": 1.1
+          "ultimos_5": 1.11
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 15.6,
-          "temporada": 1.89,
-          "ultimos_5": 1.59
+          "variacao": 15.8,
+          "temporada": 1.88,
+          "ultimos_5": 1.58
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 44.2,
+          "variacao": 44.9,
           "temporada": -0.87,
-          "ultimos_5": -0.49
+          "ultimos_5": -0.48
         }
       },
       "resumo": {
         "jogos": 7,
         "xg_medio": 1.01,
-        "xga_medio": 1.89,
+        "xga_medio": 1.88,
         "xgd_medio": -0.87
       }
     },
@@ -3040,25 +3040,25 @@
           "gols_pro": 0,
           "gols_contra": 1,
           "placar": "0 x 1",
-          "xg": 0.42,
-          "xga": 2.25,
-          "xgd": -1.83,
-          "posse": 57,
+          "xg": 0.38,
+          "xga": 2.26,
+          "xgd": -1.88,
+          "posse": 56,
           "chutes": 7,
           "chutes_no_gol": 1,
           "escanteios": 4,
-          "desarmes": 12,
-          "xg_movel_5": 1.16,
+          "desarmes": 13,
+          "xg_movel_5": 1.15,
           "xga_movel_5": 2.11,
-          "xgd_movel_5": -0.95
+          "xgd_movel_5": -0.96
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 7.3,
+          "variacao": 7.1,
           "temporada": 1.08,
-          "ultimos_5": 1.16
+          "ultimos_5": 1.15
         },
         "defesa": {
           "status": "Estável",
@@ -3068,9 +3068,9 @@
         },
         "equilibrio": {
           "status": "Estável",
-          "variacao": -2,
+          "variacao": -2.3,
           "temporada": -0.93,
-          "ultimos_5": -0.95
+          "ultimos_5": -0.96
         }
       },
       "resumo": {
