@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-24T12:05:44.091Z",
+  "updated_at": "2026-09-25T12:12:47.560Z",
   "teams": {
     "Lausanne": {
       "team": "Lausanne",
@@ -1228,44 +1228,44 @@
           "gols_pro": 2,
           "gols_contra": 1,
           "placar": "2 x 1",
-          "xg": 1.7,
-          "xga": 2.77,
-          "xgd": -1.07,
+          "xg": 2,
+          "xga": 3.33,
+          "xgd": -1.33,
           "posse": 34,
           "chutes": 15,
-          "chutes_no_gol": 6,
+          "chutes_no_gol": 5,
           "escanteios": 7,
-          "desarmes": 18,
-          "xg_movel_5": 1.63,
-          "xga_movel_5": 2.33,
-          "xgd_movel_5": -0.7
+          "desarmes": 17,
+          "xg_movel_5": 1.69,
+          "xga_movel_5": 2.44,
+          "xgd_movel_5": -0.75
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Melhorando",
-          "variacao": 6.7,
-          "temporada": 1.53,
-          "ultimos_5": 1.63
+          "variacao": 8.3,
+          "temporada": 1.56,
+          "ultimos_5": 1.69
         },
         "defesa": {
           "status": "Estável",
-          "variacao": -1.2,
-          "temporada": 2.3,
-          "ultimos_5": 2.33
+          "variacao": -3.3,
+          "temporada": 2.36,
+          "ultimos_5": 2.44
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 9.6,
-          "temporada": -0.77,
-          "ultimos_5": -0.7
+          "variacao": 6.4,
+          "temporada": -0.8,
+          "ultimos_5": -0.75
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1.53,
-        "xga_medio": 2.3,
-        "xgd_medio": -0.77
+        "xg_medio": 1.56,
+        "xga_medio": 2.36,
+        "xgd_medio": -0.8
       }
     },
     "Young Boys": {
@@ -2072,44 +2072,44 @@
           "gols_pro": 1,
           "gols_contra": 2,
           "placar": "1 x 2",
-          "xg": 2.77,
-          "xga": 1.7,
-          "xgd": 1.07,
+          "xg": 3.33,
+          "xga": 2,
+          "xgd": 1.33,
           "posse": 66,
-          "chutes": 18,
+          "chutes": 19,
           "chutes_no_gol": 3,
           "escanteios": 3,
-          "desarmes": 16,
-          "xg_movel_5": 1.87,
-          "xga_movel_5": 1.64,
-          "xgd_movel_5": 0.24
+          "desarmes": 18,
+          "xg_movel_5": 1.98,
+          "xga_movel_5": 1.7,
+          "xgd_movel_5": 0.29
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Estável",
-          "variacao": 2.9,
-          "temporada": 1.82,
-          "ultimos_5": 1.87
+          "status": "Melhorando",
+          "variacao": 5.4,
+          "temporada": 1.88,
+          "ultimos_5": 1.98
         },
         "defesa": {
           "status": "Melhorando",
-          "variacao": 15,
-          "temporada": 1.93,
-          "ultimos_5": 1.64
+          "variacao": 13.4,
+          "temporada": 1.96,
+          "ultimos_5": 1.7
         },
         "equilibrio": {
           "status": "Melhorando",
-          "variacao": 323.6,
-          "temporada": -0.11,
-          "ultimos_5": 0.24
+          "variacao": 475.7,
+          "temporada": -0.08,
+          "ultimos_5": 0.29
         }
       },
       "resumo": {
         "jogos": 9,
-        "xg_medio": 1.82,
-        "xga_medio": 1.93,
-        "xgd_medio": -0.11
+        "xg_medio": 1.88,
+        "xga_medio": 1.96,
+        "xgd_medio": -0.08
       }
     },
     "St. Gallen": {
