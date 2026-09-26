@@ -1,6 +1,6 @@
 {
   "season": "2026/2027",
-  "updated_at": "2026-09-25T12:03:08.780Z",
+  "updated_at": "2026-09-26T11:35:09.190Z",
   "teams": {
     "Real Sociedad B": {
       "team": "Real Sociedad B",
@@ -2238,33 +2238,53 @@
           "xg_movel_5": 1.23,
           "xga_movel_5": 1.67,
           "xgd_movel_5": -0.44
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-25T18:30:00Z",
+          "local": "Casa",
+          "adversario": "Albacete",
+          "gols_pro": 2,
+          "gols_contra": 0,
+          "placar": "2 x 0",
+          "xg": 1.65,
+          "xga": 2.58,
+          "xgd": -0.93,
+          "posse": 56,
+          "chutes": 18,
+          "chutes_no_gol": 3,
+          "escanteios": 3,
+          "desarmes": 25,
+          "xg_movel_5": 1.46,
+          "xga_movel_5": 1.81,
+          "xgd_movel_5": -0.35
         }
       ],
       "tendencia": {
         "ataque": {
-          "status": "Piorando",
-          "variacao": -12.1,
-          "temporada": 1.4,
-          "ultimos_5": 1.23
+          "status": "Estável",
+          "variacao": 1.8,
+          "temporada": 1.44,
+          "ultimos_5": 1.46
         },
         "defesa": {
           "status": "Piorando",
-          "variacao": -10.8,
-          "temporada": 1.51,
-          "ultimos_5": 1.67
+          "variacao": -9.3,
+          "temporada": 1.66,
+          "ultimos_5": 1.81
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -317.1,
-          "temporada": -0.1,
-          "ultimos_5": -0.44
+          "variacao": -57.1,
+          "temporada": -0.22,
+          "ultimos_5": -0.35
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.4,
-        "xga_medio": 1.51,
-        "xgd_medio": -0.1
+        "jogos": 7,
+        "xg_medio": 1.44,
+        "xga_medio": 1.66,
+        "xgd_medio": -0.22
       }
     },
     "Leganés": {
@@ -2691,33 +2711,53 @@
           "xg_movel_5": 0.99,
           "xga_movel_5": 1.73,
           "xgd_movel_5": -0.74
+        },
+        {
+          "rodada": 7,
+          "data": "2026-09-25T18:30:00Z",
+          "local": "Fora",
+          "adversario": "Girona",
+          "gols_pro": 0,
+          "gols_contra": 2,
+          "placar": "0 x 2",
+          "xg": 2.58,
+          "xga": 1.65,
+          "xgd": 0.93,
+          "posse": 44,
+          "chutes": 20,
+          "chutes_no_gol": 5,
+          "escanteios": 5,
+          "desarmes": 16,
+          "xg_movel_5": 1.24,
+          "xga_movel_5": 1.76,
+          "xgd_movel_5": -0.53
         }
       ],
       "tendencia": {
         "ataque": {
           "status": "Estável",
-          "variacao": -3.5,
-          "temporada": 1.02,
-          "ultimos_5": 0.99
+          "variacao": -0.6,
+          "temporada": 1.25,
+          "ultimos_5": 1.24
         },
         "defesa": {
           "status": "Estável",
-          "variacao": -2.5,
-          "temporada": 1.69,
-          "ultimos_5": 1.73
+          "variacao": -4.9,
+          "temporada": 1.68,
+          "ultimos_5": 1.76
         },
         "equilibrio": {
           "status": "Piorando",
-          "variacao": -11.6,
-          "temporada": -0.66,
-          "ultimos_5": -0.74
+          "variacao": -20.7,
+          "temporada": -0.44,
+          "ultimos_5": -0.53
         }
       },
       "resumo": {
-        "jogos": 6,
-        "xg_medio": 1.02,
-        "xga_medio": 1.69,
-        "xgd_medio": -0.66
+        "jogos": 7,
+        "xg_medio": 1.25,
+        "xga_medio": 1.68,
+        "xgd_medio": -0.44
       }
     },
     "Sporting Gijón": {
